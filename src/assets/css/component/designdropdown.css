@@ -1,0 +1,105 @@
+#Designdropdown {
+  font-size: 12px !important;
+}
+
+#Designdropdown input:focus-visible {
+  outline: none !important;
+}
+
+#Designdropdown .categorySelect {
+  background-color: color(white);
+  height: 56px;
+  border-radius: 40px;
+  padding: 16px 16px 16px 24px;
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  font-weight: 500;
+  color: color(neutral80);
+  cursor: pointer;
+}
+
+#Designdropdown .category-dropdown {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: color(white);
+  z-index: 1000;
+  position: fixed;
+  width: 90%;
+  margin-top: 12px;
+  -webkit-box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+          box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+}
+
+#Designdropdown .category-dropdown .fixed-block {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+#Designdropdown .category-search {
+  padding: 12px 9px 12px 17px;
+  border-top: 0.5px solid #e5e5e5;
+  border-bottom: 0.5px solid #e5e5e5;
+}
+
+#Designdropdown .category-search input {
+  border: none;
+  margin-left: 12px;
+}
+
+#Designdropdown .category-list {
+  padding-left: 17px;
+  padding-right: 9px;
+  color: color(neutral100);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Designdropdown .category-list input {
+  width: 80%;
+  border: 1px solid #e5e5e5;
+}
+
+#Designdropdown .category-list .edit-name {
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: auto;
+  height: auto;
+  padding: 6px;
+}
+
+#Designdropdown .category-list .edit-name:hover {
+  background-color: #E0E0E0;
+}
+
+#Designdropdown .category-list.selected {
+  background-color: color(neutral0);
+}
+
+#Designdropdown .category-list:hover {
+  background-color: color(neutral0);
+}
+
+#Designdropdown .category-list:hover .edit-name {
+  opacity: 1;
+}
+
+#Designdropdown .category-list.active {
+  background-color: color(neutral0);
+}
+
+#Designdropdown .category-list.active .edit-name {
+  opacity: 1;
+}
+
+#Designdropdown .categoryName {
+  padding: 8px 8px 8px 6px;
+}
+/*# sourceMappingURL=designdropdown.css.map */

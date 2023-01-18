@@ -1,0 +1,21 @@
+.draggable {
+    // will-change: transform;
+    list-style-type: none;
+    background-color: white;
+    color: #212121;
+    // line-height: 3.2;
+    // padding-left: 10px;
+    cursor: move;
+    transition: all 200ms;
+    user-select: none;
+    // margin: 10px auto;
+    position: relative;
+}
+.draggable:hover:after {
+    opacity: 1;
+    transform: translate(0);
+}
+
+.over {
+    transform: scale(1.1, 1.1);
+}

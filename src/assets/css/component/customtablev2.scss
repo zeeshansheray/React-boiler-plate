@@ -1,0 +1,126 @@
+#CustomTableV2{
+    .MuiCheckbox-colorPrimary.Mui-checked{color: color(primary50)}
+    .MuiDataGrid-root .MuiDataGrid-row:hover{
+        // box-shadow       : inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+        background-color: color(neutral0);
+        transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        width            : auto;
+        .deleteIcon{display: block;}
+    }
+    .MuiDataGrid-root .MuiDataGrid-row.Mui-selected{
+        box-shadow       : inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+        transition       : box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        width            : auto;
+        background-color : color(neutral20);
+    }
+    .MuiDataGrid-root .MuiDataGrid-columnHeaderWrapper{
+        border-top : 1px solid color(neutral20);
+    }
+    .MuiButton-textPrimary{
+        margin-right: -24px;
+    }
+    .MuiButton-textPrimary:hover{
+        background-color: white !important;
+    }
+    .MuiDataGrid-toolbarContainer{
+        height       : 56px;
+        float        : right;
+        margin-right : 20px;
+    }
+
+    .MuiDataGrid-root .MuiDataGrid-columnsContainer {
+        border-bottom: 1px solid color(neutral20) !important;
+    }
+    
+    .MuiDataGrid-overlay {
+        font-size: 24px !important;
+        font-family: "Inter" !important;
+        display: none;
+    }
+
+    .noData{
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .imageButton{
+        border-radius    : 50%;
+    }
+    .imageButton:hover{
+        box-shadow       : 0px 0px 0px 7px #F0F1F3;
+        background-color : #F0F1f3;
+        border-radius    : 50%;
+        transition       : box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .MuiDataGrid-root .MuiDataGrid-columnHeaderTitle{
+        color       : color(neutral60) !important;
+        font-size   : 13px !important;        //Link13M
+        font-weight : 500 !important;         //Link13M
+        font-family : "Inter" !important     //Link13M
+    }
+    .MuiDataGrid-root .MuiDataGrid-cell{
+        text-overflow : unset !important;
+        overflow-x    : auto !important;
+        color         : color(neutral100) !important;
+        font-size     : 13px !important;      //Link13R
+        font-weight   : 400 !important;       //Link13R
+        font-family   : "Inter" !important   //Link13R
+    }
+
+
+    .MuiDataGrid-root .MuiDataGrid-columnHeader:focus, .MuiDataGrid-root .MuiDataGrid-cell:focus{outline: none !important}
+    .MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within, .MuiDataGrid-root .MuiDataGrid-cell:focus-within{outline: none !important}
+
+    .MuiMenuItem-root{
+        color       : color(neutral60) !important;
+        font-size   : 13px !important;        //Link13R
+        font-weight : 400 !important;         //Link13R
+        font-family : "Inter" !important     //Link13R
+    }
+
+    .MuiDataGrid-root{border: none;}
+
+    .MuiTablePagination-caption{
+        color            : color(neutral60) !important;
+        font-size        : 13px !important;        //Link13R
+        font-weight      : 400 !important;         //Link13R
+        font-family      : "Inter" !important;    //Link13R
+        background-color : white !important;
+    }
+    .MuiDataGrid-root .MuiDataGrid-rowCount, .MuiDataGrid-root .MuiDataGrid-selectedRowCount{
+        color       : color(neutral60) !important;
+        font-size   : 13px !important;        //Link13R
+        font-weight : 400 !important;         //Link13R
+        font-family : "Inter" !important     //Link13R
+    }
+
+    .MuiDataGrid-root .MuiDataGrid-footerContainer{
+        position : absolute;
+        top      : 4px;
+        right    : 65px;
+    }
+
+    .MuiButton-label{
+        color       : color(neutral60) !important;
+        font-size   : 13px !important;        //Link13M
+        font-weight : 500 !important;         //Link13M
+        font-family : "Inter" !important     //Link13M
+    }
+
+
+    .MuiDataGrid-root .MuiDataGrid-columnSeparator{display: none;}
+
+    .deleteIcon{display: none;}
+    button:focus{outline: none;}
+
+    .MuiDataGrid-root .MuiDataGrid-columnHeaderTitleContainer{padding: 0;}
+    .MuiButton-textSizeSmall{min-width: unset !important; margin-left: 24px !important;}
+
+    .MuiCheckbox-root .MuiIconButton-label svg{
+        height: 20px !important;
+        width: 20px !important;
+    }
+}

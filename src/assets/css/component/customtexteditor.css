@@ -1,0 +1,72 @@
+#CustomTextEditor .card {
+  max-width: 45%;
+  padding: 8px;
+}
+
+#CustomTextEditor .divider {
+  height: inherit;
+  width: 1px;
+  background-color: color(neutral10);
+}
+
+#CustomTextEditor .editorMiddle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#CustomTextEditor .size, #CustomTextEditor line, #CustomTextEditor .spacing, #CustomTextEditor .textColor {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#CustomTextEditor .editorBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#CustomTextEditor .textArea {
+  height: 20px;
+}
+
+#CustomTextEditor .symbol {
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+#CustomTextEditor .selected {
+  background-color: color(neutral0);
+}
+
+#CustomTextEditor .symbol:hover {
+  background-color: color(neutral0);
+}
+
+#CustomTextEditor .colorBoxShow {
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  bottom: 8px;
+  right: 5%;
+}
+
+#CustomTextEditor .textArea {
+  min-height: 40px;
+  border-radius: 8px;
+  border: 1px solid color(neutral20);
+}
+
+#CustomTextEditor .textArea:focus {
+  border: 1px solid color(primary50);
+  padding: 8px;
+  color: color(neutral60);
+  font-size: s15px;
+}
+/*# sourceMappingURL=customtexteditor.css.map */

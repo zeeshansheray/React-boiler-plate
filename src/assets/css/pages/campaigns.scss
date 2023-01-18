@@ -1,0 +1,222 @@
+#Analytics{
+
+    padding: 32px;
+
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        margin-top: 24px;
+        width: 100%;
+    }
+    
+
+    .grid-item{
+        border: 1px solid color(neutral20);
+        padding: 20px 16px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .graph-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .daysSection{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 8px;
+    }
+
+    .graphComponent{
+        border: 1px solid color(neutral20);
+        margin-top: 16px;
+    }
+
+    .graphHeader{
+        padding: 16px 0px;
+        background-color: color(neutral10);
+        border-bottom: 1px solid color(neutral20);
+    }
+
+    .graphViewButtons{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .graph{
+        padding: 24px;
+    }
+
+    //OLDnewAnalytics css
+
+
+    .main-div-header{
+        align-items: center;
+    }
+    .invite-button{
+        align-self: center;
+        border: 1px solid #E1E2EA;
+        height: 40px;
+        width: max-content;
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .invite-button:hover{
+        background-color: #EDEEF2;
+    }
+
+    .DateCalander{
+        right: 0px;
+        top: 44px;
+        background-color: white;
+        z-index: 10;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    .statistics{
+        border-left: 0.5px solid #E6E6E6;
+        padding-top: 24px;
+
+    }
+}
+
+.grid-gap-16{
+    grid-gap: 16px;
+}
+
+
+#Coupons, #Analytics, #RuleBuilder{
+        .breadCrumb{padding: 20px 5px 8px 5px;}
+        .MuiBreadcrumbs-separator{display: none !important;}
+}
+
+#ProgramType{
+    .card{
+        border       : 1px solid #DFE1E6;
+        border-radius: 4px;
+        width        : 235px;
+    }
+    .cardActive{
+        border       : 1px solid #2F80ED;
+        border-radius: 4px;
+        width        : 235px;
+        color        : #2F80ED;
+        path {
+            fill: #2F80ED;
+        }
+    }
+}
+
+#DiscountValue{
+    .card{
+        border        : 1px solid #DFE1E6;
+        border-radius : 4px;
+        width         : max-content;
+        display       : flex;
+        flex-direction: row;
+        padding: 12px 8px 12px 8px;
+    }
+    .cardActive{
+        padding: 12px 8px 12px 8px;
+        border        : 1px solid #2F80ED;
+        border-radius : 4px;
+        width         : max-content;
+        display       : flex;
+        flex-direction: row;
+        color         : #2F80ED;
+        path {
+            fill: #2F80ED;
+        }
+    }
+}
+
+
+.campaign-dropdown{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: color(white);
+    z-index: 1000;
+    position: absolute;
+    width: 140%;
+    margin-top: 12px;
+    box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+    .fixed-block{
+        max-height: 220px;
+        overflow-y: scroll;
+        height: '-webkit-fill-available;';
+        // overflowY: 'scroll',
+        transition: 'overflow-y 3s ease-in';
+    }
+}
+
+.campaign-search{
+    padding: 12px 9px 12px 17px;
+    border-top: 0.5px solid #e5e5e5;
+    border-bottom: 0.5px solid #e5e5e5;
+    input{
+        border: none;
+        margin-left: 12px;
+    }
+}
+
+.campaign-list {
+    padding-left: 17px;
+    padding-right: 9px;
+    color: color(neutral100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input{
+        width: 80%;
+        border: 1px solid #e5e5e5;
+    }
+    .edit-name{
+        cursor: pointer;
+        opacity: 0;
+        transition: all 0.3s ease;
+        width: auto;
+        height: auto;
+        padding: 6px;
+        &:hover{
+            background-color: #E0E0E0;
+        }
+    }
+    &.selected{
+        background-color: color(neutral0);
+    }
+    &:hover{
+        background-color: color(neutral0);
+        .edit-name{
+            opacity: 1;
+        }
+    }
+    &.active {
+        background-color: color(neutral0);
+        .edit-name{
+            opacity: 1;
+        }
+    }
+}
+
+.campaignSelect{
+    background-color: color(white);
+    height: 56px;
+    border-radius: 40px;
+    padding: 10px 12px;
+    width: 330px !important;
+    // box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+    font-weight: 500;
+    color: color(neutral80);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid textFieldBackground;
+}

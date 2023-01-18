@@ -1,0 +1,288 @@
+#AddVenue, #AddTier{
+    .imageUploadBox, .brandColorBox{
+        height: 124px ;
+        width: 163px ;
+        border-radius: 4px ;
+        background-color: color(neutral0);
+        border: 1px solid color(neutral20) ;
+    }
+    .boxBorder{
+        border: 1px solid color(neutral20);
+        border-radius: 4px;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .singleItem{
+        color: color(neutral100);
+        cursor: pointer;
+    }
+
+    .leftSection{
+        position: fixed;
+        top: 100px;
+    }
+
+    .expandable{
+        transition: all .3s ease-in-out;
+        height: 0px;
+    }
+
+    .expand{
+        height: 160px !important;
+        overflow-y: auto;
+        transition: all .3s ease-in-out;
+    }
+
+    .expandDiscountTier{
+        overflow-y: auto;
+    }
+
+    .expandExtraPointsTier{
+        height: 30px;
+    }
+
+    .downloadLink{
+        height: 32px;
+        border-radius: 4px;
+        width: 65px;
+        background-color: color(neutral0);
+
+    }
+
+    .downloadLink:hover{
+        svg{
+            fill: color(primary60) !important;
+        }
+    }
+
+    .expandHeightCustom{
+        height: 550px !important;
+    }
+
+    .expandDeal{
+        height: 300px;
+    }
+
+    .expandSocial{
+        height: 200px;
+    }
+
+    .expandDiscount{
+        height: 300px;
+        overflow-y: scroll;
+    }
+
+    .scrollspy {
+        position: sticky;
+        left: 32px;
+        top: 16px;
+      }
+
+      ul {
+        list-style: none;
+      }
+      li{
+          padding-bottom:  20px;
+          list-style-type: none;
+          padding-left: 32px;
+          width: 190px;
+      }
+      .list{
+        padding-bottom:  0px !important;
+        list-style-type: none !important;
+        padding-left: 0px !important;
+        width: fit-content !important;
+      }
+
+      .tierBox{
+        width: 40px;
+        height: 40px;
+        border: 0.5px solid #E2E8F0;
+        border-radius: 5px;
+        position: relative;
+        background: #F8F8FA;
+        box-shadow: 0px 0px 0px 1px #dfe1e6;
+      }
+
+      .listStart{
+          padding: 0px !important;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      .isCurrent {
+        color: color(neutral100) !important;
+        transition: ease 0.3s;
+      }
+
+
+      .animateIcon{
+          transition: ease-out 0.3s ;
+      }
+      
+      .isCurrent a,
+      h2 {
+        color: color(primary50) !important;
+      }
+
+      .outline{
+        background   : #FCFCFD;
+        box-shadow   : 0px 0px 0px 1px rgba(223, 225, 230, 0.5), 0px 1px 4px rgba(223, 225, 230, 0.5);
+        border-radius: 4px;
+        width        : 100%;
+        padding      : 16px 24px 24px;
+      }
+
+      #dealCoverUploader{
+        .imageUploadBox{
+            width: 420px;
+            height: 160px;
+            padding: 16px 60px 0px 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .dealOutlineBox{
+            background: #FFFFFF;
+            border: 2.73801px solid #202124;
+            border-radius: 6px 6px 0px 0px;
+            width: 171px;
+            height: 144px;
+            border-bottom: 0px;
+            position: absolute;
+            padding: 15px;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .dealCover{
+            height: 81px;
+            width: 100%;
+            border-radius: 2px;
+        }
+
+        .belowBar{
+            height: 10px;
+            border-radius: 3px;
+            background-color: #DADCE0;
+        }
+    }
+
+      .rotate{
+        transform: rotate(90deg);
+        transition: ease-out 0.3s ;
+      }
+
+      .icon{
+        transform: rotate(-90deg);
+      }
+      
+
+    .rightSideComponent{
+        // max-height: calc(100vh - 72px);
+        margin-bottom: 300px;
+        // overflow: auto;
+    }
+
+    .circle{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+
+        .innerCircle{
+            height: 21px;
+            width : 21px;
+            border: 4px solid white;
+        }
+    }
+
+    .singleTier{
+        padding: 12px;
+        margin-left: 40px;
+    }
+
+    .selectedTier{
+        background-color: color(neutral0);
+    }
+
+
+    .boxBorder:hover .image {
+        opacity: 0.3;
+    }
+    
+    .boxBorder:hover .middleText {
+        opacity: 1;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middleText {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+    .innerBoxBorder{
+        width: 60px;
+        height: 60px;
+    }
+    .card{
+        border: 1px solid color(neutral20);
+    }
+    .selectedBorder{
+        border: 1px solid #5F9EF1
+    }
+    .btnBorder{
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+    }
+
+
+    //addd tier
+    .circleRow{
+        flex: 0 0 10.333333%;
+        max-width: 10.333333%;
+        padding-bottom: 7%;
+    }
+
+    .colorCircle{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .selectedColor{
+        transform: scale(1.4);
+        transition: ease 0.3s;
+    }
+}
+
+
+#subBrandModal{
+    .discountBox{
+        padding: 24px 16px;
+    }
+
+    .discountComponents{
+        padding: 4px 16px;
+    }
+}

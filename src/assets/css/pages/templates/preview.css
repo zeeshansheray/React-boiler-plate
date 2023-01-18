@@ -1,0 +1,56 @@
+#Preview {
+  width: calc(100% - 555px);
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px 10px;
+  overflow: auto;
+}
+
+#Preview .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  text-align: center;
+  overflow: auto;
+}
+
+#Preview .emptyBlock {
+  width: 100% !important;
+  height: 100px !important;
+}
+
+#Preview .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  color: inherit;
+  width: inherit !important;
+}
+
+#Preview .divider {
+  width: 80%;
+  height: 1px;
+  background: #cacaca;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=preview.css.map */

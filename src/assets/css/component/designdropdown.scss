@@ -1,0 +1,80 @@
+#Designdropdown{
+    input:focus-visible { outline: none !important }
+    font-size: 12px !important;
+    .categorySelect{
+        background-color: color(white);
+        height: 56px;
+        border-radius: 40px;
+        padding: 16px 16px 16px 24px;
+        box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+        font-weight: 500;
+        color: color(neutral80);
+        cursor: pointer;
+    }
+
+    .category-dropdown{
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        background-color: color(white);
+        z-index: 1000;
+        position: fixed;
+        width: 90%;
+        margin-top: 12px;
+        box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+        .fixed-block{
+            max-height: 220px;
+            overflow-y: auto;
+        }
+    }
+
+    .category-search{
+        padding: 12px 9px 12px 17px;
+        border-top: 0.5px solid #e5e5e5;
+        border-bottom: 0.5px solid #e5e5e5;
+        input{
+            border: none;
+            margin-left: 12px;
+        }
+    }
+
+    .category-list {
+        padding-left: 17px;
+        padding-right: 9px;
+        color: color(neutral100);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input{
+            width: 80%;
+            border: 1px solid #e5e5e5;
+        }
+        .edit-name{
+            cursor: pointer;
+            opacity: 0;
+            transition: all 0.3s ease;
+            width: auto;
+            height: auto;
+            padding: 6px;
+            &:hover{
+                background-color: #E0E0E0;
+            }
+        }
+        &.selected{
+            background-color: color(neutral0);
+        }
+        &:hover{
+            background-color: color(neutral0);
+            .edit-name{
+                opacity: 1;
+            }
+        }
+        &.active {
+            background-color: color(neutral0);
+            .edit-name{
+                opacity: 1;
+            }
+        }
+    }
+    .categoryName{
+        padding: 8px 8px 8px 6px;
+    }
+}

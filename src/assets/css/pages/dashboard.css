@@ -1,0 +1,352 @@
+#Dashboard #graph {
+  margin-top: 24px;
+}
+
+#Dashboard .dropDownBtn {
+  background-color: 'none' !important;
+}
+
+#Dashboard #HomeAnalytics {
+  height: calc(100vh - 72px);
+  overflow-y: scroll;
+  padding: 0px 80px 16px 80px;
+  background-color: #FCFDFD;
+}
+
+#Dashboard #HomeAnalytics .singleDetail {
+  width: 100%;
+  border: 0.5px solid color(neutral20);
+  -webkit-box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
+          box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
+  border-radius: 8px;
+  height: 116px;
+}
+
+#Dashboard #HomeAnalytics .singleDetail .boxing {
+  border-right: 0.5px solid color(neutral20);
+}
+
+#Dashboard #HomeAnalytics .backgroundImageGraph {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#Dashboard #HomeAnalytics .dateInput {
+  border-radius: 4px;
+  padding: 4px 12px;
+  width: 200px;
+  border: 1px solid color(neutral20);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: Poppins;
+}
+
+#Dashboard #HomeAnalytics .dateInput:focus {
+  border: 1px solid color(neutral50);
+}
+
+#Dashboard #HomeAnalytics .revenueGraph, #Dashboard #HomeAnalytics .memberGraph, #Dashboard #HomeAnalytics .pointGraph {
+  border: 0.5px solid color(neutral20);
+  border-radius: 8px;
+  padding: 24px;
+  -webkit-box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
+          box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
+  min-height: 380px;
+  position: relative;
+}
+
+#Dashboard #HomeAnalytics .revenueGraph .graphImage, #Dashboard #HomeAnalytics .memberGraph .graphImage, #Dashboard #HomeAnalytics .pointGraph .graphImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#Dashboard .brandBox {
+  cursor: pointer;
+  width: 96%;
+  margin: auto;
+  height: 128px;
+  -webkit-box-shadow: 0px -4px 28px rgba(0, 0, 0, 0.08), 0px 70px 100px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px -4px 28px rgba(0, 0, 0, 0.08), 0px 70px 100px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+#Dashboard .brandBox:hover {
+  background-color: color(white);
+}
+
+#Dashboard .paragraphsm {
+  text-align: center;
+}
+
+#Dashboard .brandInfo {
+  text-align: center;
+}
+
+#Dashboard .current {
+  width: 96%;
+  margin: auto;
+}
+
+#Dashboard .progressBar {
+  width: 50px;
+  height: 50px;
+  background-color: none !important;
+  margin-top: 57px;
+  margin-right: 16px;
+}
+
+#Dashboard .CircularProgressbar {
+  background-color: none !important;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 50px !important;
+}
+
+#Dashboard .progress {
+  background-color: none !important;
+}
+
+#Dashboard #Audience {
+  padding: 16px 32px;
+}
+
+.headerModal {
+  width: 100%;
+  height: 121px;
+  border-bottom: 1px solid color(neutral20);
+}
+
+.MuiInputAdornment-filled {
+  margin-top: 0px !important;
+}
+
+.modalbox {
+  height: 250px;
+  width: 250px;
+  -webkit-box-shadow: 0px 0px 30px rgba(204, 204, 204, 0.3);
+          box-shadow: 0px 0px 30px rgba(204, 204, 204, 0.3);
+}
+
+.closeModal {
+  position: fixed;
+  top: 21px;
+  right: 21px;
+  cursor: pointer;
+}
+
+#audience {
+  overflow-y: hidden;
+  height: 90vh;
+}
+
+#audience #CustomTableV2 .MuiDataGrid-columnHeader:nth-child(4) .MuiDataGrid-columnHeaderTitle {
+  color: white !important;
+}
+
+#audience #CustomTableV2 .MuiDataGrid-columnHeader:nth-child(4) .MuiDataGrid-iconButtonContainer {
+  display: none;
+}
+
+#audience #CustomTableV2 .MuiDataGrid-cell:nth-child(4) {
+  color: white !important;
+}
+
+#audience .audienceTableGrid .row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+#audience .data {
+  min-height: 65vh;
+  overflow-y: scroll;
+}
+
+#audience .dataRow {
+  height: 76px;
+  cursor: pointer;
+}
+
+#audience .dataRow .col-3 {
+  -ms-flex-item-align: center !important;
+      -ms-grid-row-align: center !important;
+      align-self: center !important;
+}
+
+#audienceModal {
+  height: 84vh !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  position: relative;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+#audienceModal .crossIcon {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  cursor: pointer;
+}
+
+#audienceModal .link {
+  cursor: pointer;
+  margin-top: 2px;
+  padding: 8px 12px 8px 12px;
+}
+
+#audienceModal .active {
+  color: #3770FB;
+  background: rgba(55, 112, 251, 0.1);
+  border-radius: 4px;
+}
+
+#audienceModal .col-10 {
+  height: 84vh;
+  overflow-y: scroll;
+}
+
+#info {
+  width: 100%;
+}
+
+#info select {
+  padding: 10.5px 13px;
+  width: 180px;
+  background-color: #F6F6F9;
+  border: 1px solid #DFE1E6;
+  border-radius: 4px;
+}
+
+#info select:focus-visible {
+  outline: none !important;
+}
+
+#info .qrBox {
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+#info .overlayBox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+}
+
+#info .downloadButtonBox, #info .overlayBox {
+  display: none;
+}
+
+#info .qrBox:hover {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#info .qrBox:hover .downloadButtonBox, #info .qrBox:hover .overlayBox {
+  display: block;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#info .downloadButtonBox {
+  z-index: 5;
+}
+
+#info .downloadBtn {
+  background: color(neutral0);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 128px;
+  z-index: 5;
+  height: 36px;
+}
+
+#info .deleteBtn {
+  position: absolute;
+  top: 20px;
+  right: 75px;
+}
+
+#info .cancelBtn {
+  position: absolute;
+  top: 20px;
+  right: 160px;
+}
+
+#info .topHeaderSection {
+  height: 52px !important;
+  border-bottom: 1px solid #DFE1E6;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+#info .edit .customButton path {
+  fill: #3770FB;
+}
+
+#info .active {
+  background: rgba(35, 201, 111, 0.1);
+  border: 1px solid #23C96F;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #23C96F;
+  width: 75px;
+}
+
+#settingComponentAudience {
+  padding: 32px 60px;
+}
+
+.growthtoolmodal select {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.growthtoolmodal:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.growthtoolmodal:focus-visible {
+  border: none !important;
+  outline: none !important;
+}
+
+#audience .item {
+  padding: 10px 15px;
+  color: color(neutral60) !important;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#audience .item a {
+  color: color(neutral60) !important;
+  text-decoration: none !important;
+}
+
+#audience .item:hover {
+  background-color: #d4d8e2;
+  color: #2f80ed;
+}
+
+#audience .line {
+  border-bottom: 0.1px solid grey;
+}
+/*# sourceMappingURL=dashboard.css.map */

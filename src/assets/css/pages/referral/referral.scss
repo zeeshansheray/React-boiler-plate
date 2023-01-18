@@ -1,0 +1,103 @@
+#createprogram{
+    margin-left: 200px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    .contentFrame{
+        margin: auto;
+        position: relative;
+    }
+
+    .card{
+        padding: 24px;
+        height: 100%;
+        box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2) !important;
+    }
+
+    .blocks{
+        display: flex;
+    }
+
+    .Body14R{
+        padding: 0px;
+    }
+
+    .detail{
+        white-space: pre-line;
+    }
+
+    .selectionText{
+        margin-top: 200px;
+    }
+    
+    .footerPart{
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        padding: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: white;
+    }
+
+    #rewardsReferral{
+        .singleReward:hover{
+           
+            border: 1px solid color(primary50);
+           
+            .rewardName{
+                background-color: color(primary50);
+                border-color: 1px solid color(primary50);
+                border-radius: 6px;
+        
+                .headline3 , .body1{
+                    color: white;
+                    
+                }
+            }
+        }
+
+        .singleReward{
+            box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+            border-radius: 8px;
+        }
+        .reward{
+            background-color: color(neutral0);
+            color: color(neutral80);
+        }
+    }
+
+    #emailReferral{
+        .singleRow{
+            margin-top: 16px;
+        }
+    }
+
+    #optionsReferral{
+        .card{
+            height: fit-content;
+        }
+
+        .bar{
+            width: 100%;
+            border: 1px solid color(neutral10);
+        }
+
+        .customInput{
+            padding: 0px;
+        }
+    }
+
+    #installationReferral{
+        .card:hover{
+            background-color: color(primary50);
+            border-color: 1px solid color(primary50);
+
+            .Heading22R , .Body14R{
+                color: white !important;
+            }
+        }
+    }
+
+}

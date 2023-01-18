@@ -1,0 +1,465 @@
+// #Dashboard{
+
+//     #graph{
+//         margin-top: 24px;
+//     }
+
+//     .dropDownBtn {
+//         background-color : 'none' !important;
+//     }
+
+//     #HomeAnalytics{
+//         height: calc(100vh - 72px);
+//         overflow-y: scroll;
+
+//         padding          : 0px 80px 16px 80px;
+//         background-color : #FCFDFD;
+
+
+
+//         .singleDetail{
+//            width         : 100%;
+//            border        : 0.5px solid color(neutral20);
+//            box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
+//            border-radius : 8px;
+//            height        : 116px;
+
+//            .boxing{
+//                 border-right: 0.5px solid color(neutral20);
+//            }
+
+//         }
+
+//         .backgroundImageGraph{
+//             position : absolute;
+//             top      : 0px;
+//             left     : 0px;
+//             width    : 100%;
+//             height   : 100%;
+//             z-index  : -1;
+//         }
+
+//         .dateInput{
+//             border-radius : 4px;
+//             padding       : 4px 12px;
+//             width         : 200px;
+//             border        : 1px solid color(neutral20);
+//             cursor        : pointer;
+//             font-size     : 14px;
+//             font-weight   : Poppins;
+//         }
+
+//         .dateInput:focus{
+//             border : 1px solid color(neutral50);
+//         }
+
+//         .revenueGraph, .memberGraph, .pointGraph{
+//             border        : 0.5px solid color(neutral20);
+//             border-radius : 8px;
+//             padding       : 24px;
+//             box-shadow    : 0px 4px 8px rgba(114, 114, 114, 0.08);
+//             min-height    : 380px;
+//             position      : relative;
+
+
+//             .graphImage{
+//                 position : absolute;
+//                 top      : 0px;
+//                 left     : 0px;
+//                 height   : 100%;
+//                 width    : 100%;
+//             }
+//         }
+//     }
+
+//     .brandBox {
+//         cursor        : pointer;
+//         width         : 96%;
+//         margin        : auto;
+//         height        : 128px;
+//         box-shadow    : 0px -4px 28px rgba(0, 0, 0, 0.08), 0px 70px 100px rgba(0, 0, 0, 0.08);
+//         border-radius : 5px;
+//     }
+//     .brandBox:hover {
+//         background-color : color(white);
+//     }
+//     .paragraphsm {
+//         text-align : center;
+//     }
+//     .brandInfo {
+//         text-align : center;
+//     }
+
+//     .current {
+//         width  : 96%;
+//         margin : auto;
+//     }
+
+//     .progressBar {
+//         width            : 50px;
+//         height           : 50px;
+//         background-color : none !important;
+//         margin-top       : 57px;
+//         margin-right     : 16px;
+//     }
+//     .CircularProgressbar {
+//         background-color : none !important;
+//         position         : absolute;
+//         right            : 10px;
+//         top              : 10px;
+//         width            : 50px !important;
+//     }
+//     .progress {
+//         background-color : none !important;
+//     }
+    
+
+//     #Audience{
+//         padding : 16px 32px;
+//     }
+// }
+
+#Dashboard{
+    height    : calc(100vh - 64px);
+    padding   : 0px 40px;
+    width     : 100%;
+    overflow-y: scroll;
+
+
+    .topSearchBox{
+        position: absolute;
+        right: 32px;
+    }
+
+    input[type=date] {
+        -webkit-text-fill-color: #000;
+    }
+
+    .statsBox{
+        background     : #FCFDFD;
+        border         : 0.5px solid #D6DAE9;
+        box-shadow     : 0px 4px 8px rgba(114, 114, 114, 0.08);
+        border-radius  : 8px;
+        padding        : 24px;
+        display        : flex;
+    }
+
+    .singleBox{
+        width: 33%;
+        border-right: 1px solid color(neutral20);
+        padding-left: 16px;
+    }
+
+    .singleBox:last-child{
+        border: 0px !important;
+    }
+
+    .singleBox:first-child{
+        padding-left: 0px !important;
+    }
+
+    .graphSection{
+        background   : #FCFDFD;
+        border       : 0.5px solid #D6DAE9;
+        box-shadow   : 0px 4px 8px rgba(114, 114, 114, 0.08);
+        border-radius: 8px;
+        padding      : 24px;
+    }
+
+    .dateField{
+        background: #FCFDFD;
+        border: 1px solid #D6DAE9;
+        border-radius: 4px;
+        padding: 10px 16px;
+    }
+    
+    .graphImage{
+        position : absolute;
+        top      : 0px;
+        left     : 0px;
+        height   : 100%;
+        width    : 100%;
+    }
+
+    .graphBox{
+        height       : 400px;
+        margin-top   : 40px;
+        margin-bottom: 40px;
+        border-radius: 8px;
+        overflow     : hidden;
+        box-shadow   : 0px 0px 30px rgba(204, 204, 204, 0.3);
+    }
+
+}
+
+
+.headerModal {
+    width         : 100%;
+    height        : 121px;
+    border-bottom : 1px solid color(neutral20);
+}
+
+.MuiInputAdornment-filled {
+    margin-top : 0px !important;
+}
+
+.modalbox {
+    height     : 250px;
+    width      : 250px;
+    box-shadow : 0px 0px 30px rgba(204, 204, 204, 0.3);
+}
+
+.closeModal {
+    position : fixed;
+    top      : 21px;
+    right    : 21px;
+    cursor   : pointer;
+}
+
+
+
+#audience{
+    #CustomTableV2{
+        .MuiDataGrid-columnHeader:nth-child(4){
+            // display: none;
+            .MuiDataGrid-columnHeaderTitle{
+                color : white !important;
+            }
+
+            .MuiDataGrid-iconButtonContainer{
+                display : none;
+            }
+        }
+        .MuiDataGrid-cell:nth-child(4){
+            // display: none;
+            color : white !important;
+        }
+    }
+
+    .audienceTableGrid {
+        // box-shadow : 0px -1px 0px #DFE1E6, 0px 1px 0px #DFE1E6;
+
+        .row {
+            margin-left  : 0px !important;
+            margin-right : 0px !important;
+        }
+
+    }
+    
+    .data{
+        height    : fit-content;
+        overflow-y: scroll;
+    }
+
+    .loadMoreBox{
+        position       : relative;
+        display        : flex;
+        justify-content: center;
+    }
+
+    .dataRow {
+        height     : 76px;
+        cursor     : pointer;
+        // box-shadow : 0px 1px 0px #DFE1E6;
+
+        .col-3 {
+            align-self : center !important;
+        }
+    }
+
+}
+
+
+
+#audienceModal {
+    height : 84vh !important;
+
+    margin-left  : 0px !important;
+    margin-right : 0px !important;
+    position     : relative;
+    transform    : translateZ(0);
+
+    .crossIcon{
+        position : absolute;
+        top      : 16px;
+        right    : 24px;
+        cursor   : pointer;
+    }
+
+    .link{
+        cursor     : pointer;
+        margin-top : 2px;
+        padding    : 8px 12px 8px 12px;
+    }
+
+    .active {
+        color         : #3770FB;
+        background    : rgba(55, 112, 251, 0.1);
+        border-radius : 4px;
+    }
+
+    .col-10 {
+        height     : 84vh;
+        overflow-y : scroll;
+    }
+}
+
+#info {
+    width : 100%;
+
+
+
+    select {
+        padding          : 10.5px 13px;
+        width            : 180px;
+        background-color : #F6F6F9;
+        border           : 1px solid #DFE1E6;
+        border-radius    : 4px;
+
+    }
+
+    select:focus-visible{
+        outline : none !important;
+    }
+
+
+    .qrBox{
+        box-shadow    : 0px 0px 8px rgba(0, 0, 0, 0.1);
+        border-radius : 4px;
+        overflow      : hidden;
+        position      : relative;
+    }
+
+    .overlayBox{
+        position   : absolute;
+        top        : 0px;
+        left       : 0px;
+        height     : 100%;
+        width      : 100%;
+        background : rgba(0, 0, 0, 0.6);
+        z-index    : 1;
+        transition : ease 1s;
+    }
+
+  
+
+
+    .downloadButtonBox, .overlayBox{
+        display : none;
+    }
+
+    .qrBox:hover{
+        transition : all 1s;
+        .downloadButtonBox, .overlayBox{
+            display    : block;
+            transition : all 1s;
+        }
+    }
+
+    .downloadButtonBox{
+        z-index : 5
+    }
+
+    .downloadBtn{
+        background    : color(neutral0);
+        border-radius : 4px;
+        cursor        : pointer;
+        width         : 128px;
+        z-index       : 5;
+        height        : 36px;
+    }
+
+    .deleteBtn {
+        position : absolute;
+        top      : 20px;
+        right    : 75px;
+    }
+
+    .cancelBtn{
+        position : absolute;
+        top      : 20px;
+        right    : 160px;
+    }
+
+    .topHeaderSection {
+        height        : 52px !important;
+        border-bottom : 1px solid #DFE1E6;
+        margin-right  : 0px !important;
+        margin-left   : 0px !important;
+
+    }
+
+    .edit {
+        .customButton path{
+            fill : #3770FB;
+        }
+    }
+    .active {
+        background    : rgba(35, 201, 111, 0.1);
+        border        : 1px solid #23C96F;
+        border-radius : 4px;
+        padding       : 8px 16px;
+        color         : #23C96F;
+        width         : 75px;
+    }
+}
+
+
+#settingComponentAudience{
+    padding : 32px 60px;
+
+    
+}
+
+
+.growthtoolmodal{
+    select{
+        width   : 100%;
+        padding : 10px 20px;
+    }
+}
+
+.growthtoolmodal:focus {
+    border  : none !important;
+    outline : none !important;
+}
+
+.growthtoolmodal:focus-visible {
+    border  : none !important;
+    outline : none !important;
+}
+#audience {
+    .search {
+        // float        : right;
+    }  
+
+    .item{
+        padding     : 10px 15px;
+        color       : color(neutral60) !important;
+        font-size   : 14px;
+        font-weight : 400;
+        cursor      : pointer;
+
+        a{
+            color           : color(neutral60) !important;
+            text-decoration : none !important;
+        }
+    }
+
+    .item:hover{
+        background-color : rgb(212, 216, 226);
+        color            : rgb(47, 128, 237);
+    }
+    
+    .line {
+        border-bottom : 0.1px solid grey;
+    }
+}
+
+
+// @media screen and (min-width: 1920px) {
+//     #audience{
+//         padding: 16px 160px 16px 160px !important;
+//     }
+    
+// }

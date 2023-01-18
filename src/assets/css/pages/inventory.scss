@@ -1,0 +1,274 @@
+#Inventory, #AddDeal{
+    #AddInventory {
+        height: calc(100vh - 84px);
+
+        .box {
+            box-shadow: 0px 0px 0px 1px rgba(223, 225, 230, 0.5), 0px 1px 4px rgba(223, 225, 230, 0.5);
+        }
+
+        .imageUploadBox{
+            height: 90px;
+            width: 163px;
+            border-radius: 4px;
+            background-color: #F7F7F7;
+            overflow: hidden;
+            border: 1px solid #DFE1E6;
+        }
+        .leftSection {
+            height: calc(100vh - 84px);
+            overflow-y: scroll;
+        }
+
+        .rightSection{
+            height: calc(100vh - 84px);
+            position: relative;
+            background-color: #fcfcfc;
+        }
+        
+
+        .searchBox{
+            padding: 24px;
+            position: absolute;
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0px 1px 0px #DFE1E6;
+        }
+
+        .itemBoxBottom{
+            position: absolute;
+            left    : 0px;
+            bottom  : 0px;
+            width: 100%;
+            // padding: 24px;
+            // height: 72px;
+            background-color: color(white);
+            overflow: hidden;
+            box-shadow      : 0px -1px 4px 0px rgba(4, 16, 39, 0.12);
+        }
+
+        .removeBtnBox{
+            padding: 4px 8px 4px 12px;
+            z-index: 100;
+            background-color: white;
+        }
+
+        .selectBtn {
+            height          : 40px;
+            width           : 40px;
+            color           : black !important;
+            font-size       : 18px !important;
+            min-width       : 40px !important;
+            background-color: white;
+            padding         : 0px !important;
+            border-radius   : 50%;
+            box-shadow      : 0px 0px 0px 1px #DFE1E6;
+
+        }
+        .row {
+            margin-left: 0px !important;
+        }
+
+        .activeselectBtn {
+            height          : 40px;
+            width           : 40px;
+            padding         : 0px !important;
+            color           : black !important;
+            font-size       : 18px !important;
+            min-width       : 40px !important;
+            border-radius   : 50%;
+            box-shadow      : 0px 0px 0px 1px #DFE1E6;
+            background-color: #3770FB;
+        }
+
+        .listedItems{
+            overflow-y: scroll;
+            position: absolute;
+            bottom: 72px;
+            left: 0px;
+            right: 8px;
+            top: 120px;
+            background-color: white;
+
+        }
+
+        .rowListed {
+            box-shadow: 0px 1px 0px #DFE1E6;
+            margin-left: 10px !important;
+        }
+      
+
+        .leftListedItem{
+            padding: 18px 12px;
+        }
+
+        .productImage{
+            border-radius: 4px;
+            border: 0.5px solid color(neutral20);
+        }
+
+        .removeBtn{
+            color: color(danger30);
+            background-color: white;
+            border: 0px;
+        }
+        .removeBtn:hover, .removeBtn:focus{
+            outline: 0px;
+        }
+    }
+}
+
+
+#GiftCard {
+    .imageUploadBox{
+        height: 90px;
+        width: 163px;
+        background-color: #F7F7F7;
+        overflow: hidden;
+        outline: 1px solid #DFE1E6;
+        border-radius: 4px;
+    }
+    
+    .imageUploadBox img{
+        height: inherit;
+        width: 160px;
+        border-radius: 0px !important;
+    }
+
+    .rightSection{
+        margin-top: -16px;
+        margin-bottom: -16px;
+        position: relative;
+        background-color: #fcfcfc;
+    }
+    
+
+    .searchBox{
+        padding: 24px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        background-color: white;
+        box-shadow      : 0px 1px 4px 0px rgba(4, 16, 39, 0.12);
+
+    }
+
+    .itemBoxBottom{
+        position: absolute;
+        left    : 0px;
+        bottom  : 0px;
+        width: 100%;
+        padding: 16px;
+        height: 72px;
+        background-color: color(white);
+        overflow: hidden;
+        box-shadow      : 0px -1px 4px 0px rgba(4, 16, 39, 0.12);
+    }
+
+    .removeBtnBox{
+        padding: 4px 8px 4px 12px;
+        z-index: 100;
+        background-color: #fcfcfc;
+
+    }
+
+    .listedItems{
+        overflow-y: scroll;
+        position: absolute;
+        bottom: 72px;
+        left: 16px;
+        right: 8px;
+        top: 120px;
+        background-color: #fcfcfc;
+
+    }
+    
+
+    .leftListedItem{
+        padding: 18px 12px;
+    }
+
+    .productImage{
+        border-radius: 4px;
+        border: 0.5px solid color(neutral20);
+    }
+
+    .removeBtn{
+        color: color(danger30);
+        background-color: #fcfcfc;
+
+        border: 0px;
+    }
+    .removeBtn:hover, .removeBtn:focus{
+        outline: 0px;
+    }
+}
+
+
+#SingleGiftCard{
+    .giftcardTopTitleBox{
+        padding : 16px 16px 16px 32px;
+    }
+
+    .tableHeaderRow{
+        padding : 12px 0px 12px 32px;
+        box-shadow: 0px -1px 0px #E5E5E5, 0px 1px 0px #E5E5E5;
+
+    }
+
+    .singleHeading, .singleData{
+        flex-basis: 25%;
+        flex-grow: 0;
+    }
+
+    .singleDataRow{
+        box-shadow: 0px 1px 0px #E5E5E5;
+        padding: 12px 0px 12px 32px;
+    }
+
+
+    .singleData{
+        flex-direction : column;
+        display        : flex;
+        justify-content: center;
+    }
+
+    .redeemBox{
+        border-radius: 32px;
+        height       : 32px;
+        padding      : 8px 16px;
+        box-sizing   : border-box;
+        width        : fit-content;
+        border-radius: 32px;
+    }
+
+    .active{
+        background   : #EFFFCC;
+        border       : 1px solid #456600;
+    }
+
+    .notActive{
+        background   : #EFFFCC;
+        border       : 1px solid #456600;
+    }
+}
+
+#AddDeal{
+    padding: 0px 0px 0px 40px;
+    .imageUploadBox{
+        height: 120px !important;
+        width: 120px !important;
+        border-radius: 4px;
+        background-color: #F7F7F7;
+        overflow: hidden;
+        border: 1px solid #DFE1E6;
+    }
+    .imageCover{
+        height: 110px !important;
+        width: 120px !important;
+    }
+}

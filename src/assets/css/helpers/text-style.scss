@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+$types:(
+  "Heading":"DM Sans",
+  "Body":"Inter",
+  "Caption":"Inter",
+  "Link":"Inter",
+  "U":"Inter",
+
+);
+
+$sizes:(
+  "32":32px,
+  "28":28px,
+  "24":24px,
+  "22":22px,
+  "20":20px,
+  "18":18px,
+  "16":16px,
+  "15":15px,
+  "14":14px,
+  "13":13px,
+  "12":12px,
+  "11":11px,
+  "10":10px,
+);
+
+
+$weights:(
+  "R":400,
+  "M":500,
+  "B":700,
+);
+
+//Heading18M, Heading18R
+
+
+@each $tname,$type in $types {
+@each $sname,$size in $sizes {
+@each $wname,$weight in $weights {
+    .#{$tname}#{$sname}#{$wname} {
+      font-family: $type,sans-serif !important;
+      font-size:#{$size} !important;
+      font-weight:$weight !important;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+    }
+    }
+    }
+}

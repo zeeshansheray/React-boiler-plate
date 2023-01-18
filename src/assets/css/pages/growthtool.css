@@ -1,0 +1,1118 @@
+#growthtools .component {
+  height: calc(100vh - 60px);
+}
+
+#growthtools .btnConnect:hover {
+  background: rgba(55, 112, 251, 0.1) !important;
+  border-radius: 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#growthtools .btnConnect {
+  background-color: #FCFCFD;
+  margin-left: -10px;
+}
+
+#growthtools .middleComponent {
+  padding-left: 0px !important;
+}
+
+#growthtools .middleComponent .row {
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+#growthtools .middleComponent .col-2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+  max-width: 22%;
+  padding-left: 0px !important;
+}
+
+#growthtools .middleComponent .col-10 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 78%;
+          flex: 0 0 78%;
+  padding: 0px 32px 0px 32px;
+  max-width: 78%;
+}
+
+#growthtools .middleComponent .col-10 .col-3 {
+  padding-left: 0px !important;
+}
+
+#growthtools .middleComponent .col-10 .col-3 .Body14R {
+  word-break: break-word;
+}
+
+#growthtools .padding-fix {
+  margin: 0 -20px 0px -24px;
+}
+
+#growthtools .headerLeftStick {
+  left: 0px !important;
+}
+
+#growthtools .publish-btn {
+  width: calc(100% - 580px);
+  padding-bottom: 12px;
+  height: 42px;
+  position: absolute;
+  background-color: white;
+  top: 0px;
+  padding-top: 8px;
+  left: 280px;
+  z-index: 2;
+  border-bottom: 0.5px solid color(neutral20);
+}
+
+#growthtools .setting-menu {
+  width: 40px;
+  text-align: center;
+  border-right: 0.5px solid color(neutral20);
+}
+
+#growthtools .setting-menu > div {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid color(neutral20);
+  cursor: pointer;
+  background-color: white;
+  color: color(neutral50);
+}
+
+#growthtools .setting-menu > div.active {
+  background-color: color(primary50);
+}
+
+#growthtools .setting-menu > div svg path {
+  fill: color(neutral50) !important;
+}
+
+#growthtools .setting-menu > div .connection path {
+  fill: none !important;
+  stroke: color(neutral50) !important;
+}
+
+#growthtools .setting-menu > div.active svg path {
+  fill: color(white) !important;
+}
+
+#growthtools .setting-menu > div.active .connection path {
+  fill: color(white) !important;
+  stroke: color(white) !important;
+}
+
+#growthtools .setting-menu > div:hover {
+  color: color(white);
+  background-color: color(primary50);
+}
+
+#growthtools .setting-menu > div:hover svg path {
+  fill: color(white) !important;
+}
+
+#growthtools .setting-menu > div:hover .connection path {
+  fill: color(white) !important;
+  stroke: color(white) !important;
+}
+
+#growthtools .setting-menu:first-child() {
+  background-color: color(white);
+}
+
+#growthtools .setting-details {
+  width: 320px;
+  border-left: 0.5px solid color(neutral20);
+  height: 42px;
+}
+
+#growthtools .setting-details .setting-details-heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  border-right: 0.5px solid color(neutral20);
+  border-bottom: 0.5px solid color(neutral20);
+}
+
+#growthtools #growthtoolmain {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#growthtools #growthtoolmain .growthToolName {
+  height: 38px;
+  text-align: center;
+  border: 0.3px solid color(neutral20);
+}
+
+#growthtools #growthtoolmain .filterIcon {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-top: 5px;
+}
+
+#growthtools #growthtoolmain .actionSelect {
+  border-radius: 16px;
+  color: color(neutral50);
+  background-color: color(neutral0);
+  border: 1px solid color(neutral0);
+  font-weight: 500;
+  padding: 4px 0px 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#growthtools #growthtoolmain .filtersBtn {
+  color: color(neutral60);
+  background: #FCFDFD;
+  border-radius: 6px;
+  padding: 8px 16px;
+}
+
+#growthtools #growthtoolmain .audienceTableGrid .row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+#growthtools #growthtoolmain .data {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+#growthtools #growthtoolmain .dataRow {
+  height: 76px;
+  cursor: pointer;
+}
+
+#growthtools #growthtoolmain .dataRow .col-3 {
+  -ms-flex-item-align: center !important;
+      -ms-grid-row-align: center !important;
+      align-self: center !important;
+}
+
+#growthtools #createTool {
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 0px 32px 32px 32px;
+}
+
+#growthtools #createTool .create-btn {
+  position: fixed;
+  background: white;
+  width: 110%;
+  text-align: center;
+  left: 0;
+  bottom: 0%;
+  border-top: 1px solid color(neutral20);
+}
+
+#growthtools #createTool .closeIcon {
+  right: 30px;
+}
+
+#growthtools #createTool .singleToolBox {
+  padding: 24px 24px 32px;
+  border: 1px solid color(neutral20);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 13px;
+  max-height: 270px;
+}
+
+#growthtools #createTool .singleToolBox:hover {
+  background-color: color(white);
+}
+
+#growthtools #createTool .imageBox {
+  border-radius: 50px;
+  background-color: color(white);
+  width: 48px;
+  padding: 10px;
+  text-align: center;
+  height: 48px;
+}
+
+#growthtools #createTool .toolTitle {
+  white-space: nowrap;
+}
+
+#growthtools #createTool .toolDetail {
+  text-align: left;
+  word-break: break-word;
+  margin-top: 16px;
+}
+
+#growthtools #newToolCreate .arrowIcon {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#growthtools #Qrcode .titleRow, #growthtools #QrcodeSettings .titleRow, #growthtools #QrcodeStyle .titleRow {
+  padding: 12px;
+  height: 54px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  background-color: color(white);
+  border: 0.5px solid color(neutral20);
+}
+
+#growthtools #Qrcode .titleHeaderPreiew, #growthtools #QrcodeSettings .titleHeaderPreiew, #growthtools #QrcodeStyle .titleHeaderPreiew {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#growthtools #Qrcode .viewIconBox, #growthtools #QrcodeSettings .viewIconBox, #growthtools #QrcodeStyle .viewIconBox {
+  height: inherit;
+  width: 30px;
+  text-align: center;
+}
+
+#growthtools #Qrcode .viewColumn, #growthtools #QrcodeSettings .viewColumn, #growthtools #QrcodeStyle .viewColumn {
+  border-right: 0.5px solid color(neutral20);
+  background-color: color(neutral0);
+}
+
+#growthtools #Qrcode .styleColumn, #growthtools #QrcodeSettings .styleColumn, #growthtools #QrcodeStyle .styleColumn {
+  border-bottom: 0.5px solid color(neutral20);
+  padding: 0px 8px 4px 8px;
+}
+
+#growthtools #Qrcode .qrCodeDisplayBox, #growthtools #QrcodeSettings .qrCodeDisplayBox, #growthtools #QrcodeStyle .qrCodeDisplayBox {
+  width: inherit;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#growthtools #Qrcode .qrCode, #growthtools #QrcodeSettings .qrCode, #growthtools #QrcodeStyle .qrCode {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  background-color: color(white);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0px 0px 0px 1.16786px rgba(240, 241, 245, 0.2);
+          box-shadow: inset 0px 0px 0px 1.16786px rgba(240, 241, 245, 0.2);
+  -webkit-filter: drop-shadow(-4.76877px -4.76877px 14.3063px #F0F1F5), drop-shadow(7.15316px 7.15316px 14.3063px rgba(174, 174, 192, 0.4));
+          filter: drop-shadow(-4.76877px -4.76877px 14.3063px #F0F1F5), drop-shadow(7.15316px 7.15316px 14.3063px rgba(174, 174, 192, 0.4));
+}
+
+#growthtools #Qrcode .qrCodeImage, #growthtools #QrcodeSettings .qrCodeImage, #growthtools #QrcodeStyle .qrCodeImage {
+  width: 100%;
+}
+
+#growthtools #Qrcode .textArea, #growthtools #QrcodeSettings .textArea, #growthtools #QrcodeStyle .textArea {
+  padding: 14px;
+}
+
+#growthtools #Qrcode .pallette, #growthtools #QrcodeSettings .pallette, #growthtools #QrcodeStyle .pallette {
+  position: absolute;
+  margin-top: 25px;
+  z-index: 100;
+}
+
+#growthtools #Qrcode .qrCodeStyleBox, #growthtools #QrcodeSettings .qrCodeStyleBox, #growthtools #QrcodeStyle .qrCodeStyleBox {
+  padding: 24px;
+}
+
+#growthtools #Qrcode .colorBox, #growthtools #QrcodeSettings .colorBox, #growthtools #QrcodeStyle .colorBox {
+  width: 22px;
+  height: 22px;
+  border: 0.5px solid color(neutral20);
+}
+
+#growthtools #Qrcode .topButtons, #growthtools #QrcodeSettings .topButtons, #growthtools #QrcodeStyle .topButtons {
+  right: 8px;
+}
+
+#growthtools #Qrcode .qrCodeTypes, #growthtools #QrcodeSettings .qrCodeTypes, #growthtools #QrcodeStyle .qrCodeTypes {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#growthtools #Qrcode .singleType, #growthtools #QrcodeSettings .singleType, #growthtools #QrcodeStyle .singleType {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px 10px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#growthtools #Qrcode .displayBlock, #growthtools #QrcodeSettings .displayBlock, #growthtools #QrcodeStyle .displayBlock {
+  max-height: 100vh;
+}
+
+#growthtools #Qrcode #Previewcard, #growthtools #QrcodeSettings #Previewcard, #growthtools #QrcodeStyle #Previewcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+#growthtools #Qrcode #Previewcard .card, #growthtools #QrcodeSettings #Previewcard .card, #growthtools #QrcodeStyle #Previewcard .card {
+  width: 420px;
+  height: 507px;
+  border: none;
+  background: linear-gradient(124.23deg, #FAFAFA 50.05%, #FFFFFF 83.33%);
+}
+
+#growthtools #Qrcode #Previewcard .insideBorder, #growthtools #QrcodeSettings #Previewcard .insideBorder, #growthtools #QrcodeStyle #Previewcard .insideBorder {
+  width: 95%;
+  height: 95%;
+  opacity: 0.1;
+  border: 1px solid red;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#growthtools #Qrcode #Previewcard .qrCodeText, #growthtools #QrcodeSettings #Previewcard .qrCodeText, #growthtools #QrcodeStyle #Previewcard .qrCodeText {
+  padding: 24px;
+}
+
+#growthtools #Widget {
+  height: calc(100vh - 72px) !important;
+}
+
+#growthtools #Userdashboard, #growthtools #Widget, #growthtools #WidgetSettings, #growthtools #UserdashboardStyle {
+  height: 100vh;
+}
+
+#growthtools #Userdashboard .titleRow, #growthtools #Widget .titleRow, #growthtools #WidgetSettings .titleRow, #growthtools #UserdashboardStyle .titleRow {
+  padding: 12px;
+  height: 54px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  background-color: color(white);
+  border: 0.5px solid color(neutral20);
+}
+
+#growthtools #Userdashboard .titleHeaderPreiew, #growthtools #Widget .titleHeaderPreiew, #growthtools #WidgetSettings .titleHeaderPreiew, #growthtools #UserdashboardStyle .titleHeaderPreiew {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#growthtools #Userdashboard .topButtons, #growthtools #Widget .topButtons, #growthtools #WidgetSettings .topButtons, #growthtools #UserdashboardStyle .topButtons {
+  right: 8px;
+}
+
+#growthtools #Userdashboard .qrCodeDisplayBox, #growthtools #Widget .qrCodeDisplayBox, #growthtools #WidgetSettings .qrCodeDisplayBox, #growthtools #UserdashboardStyle .qrCodeDisplayBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+#growthtools #Userdashboard .viewIcons, #growthtools #Widget .viewIcons, #growthtools #WidgetSettings .viewIcons, #growthtools #UserdashboardStyle .viewIcons {
+  width: 40px;
+  height: 40px;
+}
+
+#growthtools #Userdashboard .styleColumn, #growthtools #Widget .styleColumn, #growthtools #WidgetSettings .styleColumn, #growthtools #UserdashboardStyle .styleColumn {
+  padding: 6px 6px 6px 8px;
+}
+
+#growthtools #Userdashboard .qrCodeStyleBox, #growthtools #Widget .qrCodeStyleBox, #growthtools #WidgetSettings .qrCodeStyleBox, #growthtools #UserdashboardStyle .qrCodeStyleBox {
+  padding: 24px;
+}
+
+#growthtools #Userdashboard .checkBox, #growthtools #Widget .checkBox, #growthtools #WidgetSettings .checkBox, #growthtools #UserdashboardStyle .checkBox {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  margin-right: 10px;
+}
+
+#growthtools #Userdashboard .upload-btn-wrapper, #growthtools #Widget .upload-btn-wrapper, #growthtools #WidgetSettings .upload-btn-wrapper, #growthtools #UserdashboardStyle .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#growthtools #Userdashboard .uploadBtn, #growthtools #Widget .uploadBtn, #growthtools #WidgetSettings .uploadBtn, #growthtools #UserdashboardStyle .uploadBtn {
+  width: 100%;
+  background-color: color(white);
+  border: 1px dashed color(neutral80);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  padding: 12px 8px;
+}
+
+#growthtools #Userdashboard .upload-btn-wrapper input[type=file], #growthtools #Widget .upload-btn-wrapper input[type=file], #growthtools #WidgetSettings .upload-btn-wrapper input[type=file], #growthtools #UserdashboardStyle .upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#growthtools #Userdashboard .colorDisplayCircle, #growthtools #Widget .colorDisplayCircle, #growthtools #WidgetSettings .colorDisplayCircle, #growthtools #UserdashboardStyle .colorDisplayCircle {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  top: 32px;
+  left: 5%;
+  border: 0.5px solid color(neutral20);
+}
+
+#growthtools #Userdashboard .widgetRightBox, #growthtools #Widget .widgetRightBox, #growthtools #WidgetSettings .widgetRightBox, #growthtools #UserdashboardStyle .widgetRightBox {
+  padding: 8px 12px 12px 12px;
+}
+
+#growthtools #Userdashboard .textInput, #growthtools #Widget .textInput, #growthtools #WidgetSettings .textInput, #growthtools #UserdashboardStyle .textInput {
+  border-bottom: 1px solid color(primary50);
+}
+
+#growthtools #Userdashboard .rotateDropDownIcon, #growthtools #Widget .rotateDropDownIcon, #growthtools #WidgetSettings .rotateDropDownIcon, #growthtools #UserdashboardStyle .rotateDropDownIcon {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+#growthtools #Userdashboard .dashboardView, #growthtools #Widget .dashboardView, #growthtools #WidgetSettings .dashboardView, #growthtools #UserdashboardStyle .dashboardView {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#growthtools #Userdashboard .dashboardView .card, #growthtools #Widget .dashboardView .card, #growthtools #WidgetSettings .dashboardView .card, #growthtools #UserdashboardStyle .dashboardView .card {
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  width: 520px;
+  border-radius: 24px;
+  height: 613px;
+}
+
+#growthtools #Userdashboard .dashboardView .card .userImageBox, #growthtools #Widget .dashboardView .card .userImageBox, #growthtools #WidgetSettings .dashboardView .card .userImageBox, #growthtools #UserdashboardStyle .dashboardView .card .userImageBox {
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+#growthtools #Userdashboard .dashboardView .card .userImage, #growthtools #Widget .dashboardView .card .userImage, #growthtools #WidgetSettings .dashboardView .card .userImage, #growthtools #UserdashboardStyle .dashboardView .card .userImage {
+  z-index: 100;
+  border-radius: 50%;
+}
+
+#growthtools #Userdashboard .dashboardView .card .progressBarBack, #growthtools #Widget .dashboardView .card .progressBarBack, #growthtools #WidgetSettings .dashboardView .card .progressBarBack, #growthtools #UserdashboardStyle .dashboardView .card .progressBarBack {
+  background-color: color(neutral0);
+  height: 9px;
+  border-radius: 24px;
+}
+
+#growthtools #Userdashboard .dashboardView .card .progressBarGrowth, #growthtools #Widget .dashboardView .card .progressBarGrowth, #growthtools #WidgetSettings .dashboardView .card .progressBarGrowth, #growthtools #UserdashboardStyle .dashboardView .card .progressBarGrowth {
+  background: -webkit-gradient(linear, left top, right top, from(#FFE259), to(#FFA751));
+  background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+  border-radius: 24px;
+  height: 9px;
+  -webkit-animation-name: progressAnimation;
+          animation-name: progressAnimation;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes progressAnimation {
+  0% {
+    width: 25%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 25%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+#growthtools #Userdashboard .dashboardView .card .historyTable, #growthtools #Widget .dashboardView .card .historyTable, #growthtools #WidgetSettings .dashboardView .card .historyTable, #growthtools #UserdashboardStyle .dashboardView .card .historyTable {
+  width: 100%;
+}
+
+#growthtools #Userdashboard .dashboardView .card .table, #growthtools #Widget .dashboardView .card .table, #growthtools #WidgetSettings .dashboardView .card .table, #growthtools #UserdashboardStyle .dashboardView .card .table {
+  margin-top: 16px;
+  text-align: center;
+  width: 100%;
+  max-height: 276px;
+  overflow-y: scroll;
+}
+
+#growthtools #Userdashboard .dashboardView .card .closeIcon, #growthtools #Widget .dashboardView .card .closeIcon, #growthtools #WidgetSettings .dashboardView .card .closeIcon, #growthtools #UserdashboardStyle .dashboardView .card .closeIcon {
+  position: absolute;
+  right: 0px;
+  z-index: 3;
+  border: none;
+  background-color: inherit;
+}
+
+#growthtools #Userdashboard .dashboardView .card .closeIcon:focus, #growthtools #Widget .dashboardView .card .closeIcon:focus, #growthtools #WidgetSettings .dashboardView .card .closeIcon:focus, #growthtools #UserdashboardStyle .dashboardView .card .closeIcon:focus {
+  outline: 0px;
+}
+
+#growthtools #Userdashboard .dashboardView .card .statusScreen .singleLevel, #growthtools #Widget .dashboardView .card .statusScreen .singleLevel, #growthtools #WidgetSettings .dashboardView .card .statusScreen .singleLevel, #growthtools #UserdashboardStyle .dashboardView .card .statusScreen .singleLevel {
+  -webkit-box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+  padding: 24px 32px;
+  width: 140px;
+  height: 199px;
+  border-radius: 16px 16px 0px 40px;
+  position: relative;
+}
+
+#growthtools #Userdashboard .dashboardView .card .statusScreen .selectCircle, #growthtools #Widget .dashboardView .card .statusScreen .selectCircle, #growthtools #WidgetSettings .dashboardView .card .statusScreen .selectCircle, #growthtools #UserdashboardStyle .dashboardView .card .statusScreen .selectCircle {
+  position: absolute;
+  bottom: -15px;
+  background-color: color(white);
+  right: -15px;
+  width: 36px;
+  height: 36px;
+  -webkit-box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#growthtools #Userdashboard .dashboardView .card .statusScreen .locked, #growthtools #Userdashboard .dashboardView .card .statusScreen .completed, #growthtools #Widget .dashboardView .card .statusScreen .locked, #growthtools #Widget .dashboardView .card .statusScreen .completed, #growthtools #WidgetSettings .dashboardView .card .statusScreen .locked, #growthtools #WidgetSettings .dashboardView .card .statusScreen .completed, #growthtools #UserdashboardStyle .dashboardView .card .statusScreen .locked, #growthtools #UserdashboardStyle .dashboardView .card .statusScreen .completed {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  top: 0px;
+  left: 0px;
+  border-radius: 16px 16px 0px 40px;
+}
+
+#growthtools #Userdashboard .dashboardView .card .statusScreen .completed, #growthtools #Widget .dashboardView .card .statusScreen .completed, #growthtools #WidgetSettings .dashboardView .card .statusScreen .completed, #growthtools #UserdashboardStyle .dashboardView .card .statusScreen .completed {
+  background: rgba(255, 155, 80, 0.5);
+}
+
+#growthtools #Userdashboard .dashboardView .card .statusScreen .locked, #growthtools #Widget .dashboardView .card .statusScreen .locked, #growthtools #WidgetSettings .dashboardView .card .statusScreen .locked, #growthtools #UserdashboardStyle .dashboardView .card .statusScreen .locked {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#growthtools #Userdashboard .dashboardView .card .statusScreen .statusText, #growthtools #Widget .dashboardView .card .statusScreen .statusText, #growthtools #WidgetSettings .dashboardView .card .statusScreen .statusText, #growthtools #UserdashboardStyle .dashboardView .card .statusScreen .statusText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+#growthtools #Userdashboard .dashboardView .card .pointScreen, #growthtools #Widget .dashboardView .card .pointScreen, #growthtools #WidgetSettings .dashboardView .card .pointScreen, #growthtools #UserdashboardStyle .dashboardView .card .pointScreen {
+  max-height: 276px;
+  overflow-y: scroll;
+}
+
+#growthtools #Userdashboard .dashboardView .card .pointScreen .activitiesList, #growthtools #Widget .dashboardView .card .pointScreen .activitiesList, #growthtools #WidgetSettings .dashboardView .card .pointScreen .activitiesList, #growthtools #UserdashboardStyle .dashboardView .card .pointScreen .activitiesList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#growthtools #Userdashboard .dashboardView .card .pointScreen .singleActivity, #growthtools #Widget .dashboardView .card .pointScreen .singleActivity, #growthtools #WidgetSettings .dashboardView .card .pointScreen .singleActivity, #growthtools #UserdashboardStyle .dashboardView .card .pointScreen .singleActivity {
+  min-height: 180px;
+  padding: 24px;
+  background-color: color(white);
+  width: 140px;
+  border-radius: 16px;
+  position: relative;
+  word-break: break-word !important;
+  margin-bottom: 24px;
+  margin-right: 8px;
+}
+
+#growthtools #Userdashboard .dashboardView .card .pointScreen .singleActivity .pointsBox, #growthtools #Widget .dashboardView .card .pointScreen .singleActivity .pointsBox, #growthtools #WidgetSettings .dashboardView .card .pointScreen .singleActivity .pointsBox, #growthtools #UserdashboardStyle .dashboardView .card .pointScreen .singleActivity .pointsBox {
+  padding: 8px 16px;
+  width: inherit;
+  height: 40px;
+  background-color: color(neutral90);
+  color: color(white);
+  border-radius: 8px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#growthtools #Userdashboard .dashboardView .card .pointScreen .singleActivity .imageCircle, #growthtools #Widget .dashboardView .card .pointScreen .singleActivity .imageCircle, #growthtools #WidgetSettings .dashboardView .card .pointScreen .singleActivity .imageCircle, #growthtools #UserdashboardStyle .dashboardView .card .pointScreen .singleActivity .imageCircle {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#growthtools #Userdashboard .dashboardView .card .pointScreen .singleActivity .activityDetails, #growthtools #Widget .dashboardView .card .pointScreen .singleActivity .activityDetails, #growthtools #WidgetSettings .dashboardView .card .pointScreen .singleActivity .activityDetails, #growthtools #UserdashboardStyle .dashboardView .card .pointScreen .singleActivity .activityDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#growthtools #Userdashboard .dashboardView .card .pointScreen .singleActivity .description, #growthtools #Widget .dashboardView .card .pointScreen .singleActivity .description, #growthtools #WidgetSettings .dashboardView .card .pointScreen .singleActivity .description, #growthtools #UserdashboardStyle .dashboardView .card .pointScreen .singleActivity .description {
+  word-break: break-all;
+}
+
+#growthtools #Userdashboard #WidgetButton .card, #growthtools #Widget #WidgetButton .card, #growthtools #WidgetSettings #WidgetButton .card, #growthtools #UserdashboardStyle #WidgetButton .card {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 32px;
+  border: 1px solid color(neutral80);
+}
+
+#growthtools #Userdashboard #WidgetButton .card.desktop, #growthtools #Widget #WidgetButton .card.desktop, #growthtools #WidgetSettings #WidgetButton .card.desktop, #growthtools #UserdashboardStyle #WidgetButton .card.desktop {
+  width: 600px;
+  height: 400px;
+}
+
+#growthtools #Userdashboard #WidgetButton .card.mobile, #growthtools #Widget #WidgetButton .card.mobile, #growthtools #WidgetSettings #WidgetButton .card.mobile, #growthtools #UserdashboardStyle #WidgetButton .card.mobile {
+  width: 350px;
+  height: 633px;
+}
+
+#growthtools #Userdashboard #WidgetButton .customButton, #growthtools #Widget #WidgetButton .customButton, #growthtools #WidgetSettings #WidgetButton .customButton, #growthtools #UserdashboardStyle #WidgetButton .customButton {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+#growthtools #manyChatGrowthTool, #growthtools #landingPageGrowthTool {
+  height: calc(100vh - 60px);
+}
+
+#growthtools #manyChatGrowthTool #FitContentInput, #growthtools #landingPageGrowthTool #FitContentInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#growthtools #manyChatGrowthTool .insideComponent, #growthtools #landingPageGrowthTool .insideComponent {
+  height: 100%;
+}
+
+#growthtools #manyChatGrowthTool .flowSection, #growthtools #landingPageGrowthTool .flowSection {
+  overflow-y: scroll;
+}
+
+#growthtools #manyChatGrowthTool .leftHeaderItems, #growthtools #landingPageGrowthTool .leftHeaderItems {
+  right: 32px;
+  top: -4px;
+  position: absolute;
+}
+
+#growthtools #manyChatGrowthTool .singleIconBox, #growthtools #landingPageGrowthTool .singleIconBox {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#growthtools #manyChatGrowthTool .activeIcon, #growthtools #landingPageGrowthTool .activeIcon {
+  background-color: color(white);
+}
+
+#growthtools #manyChatGrowthTool .activeIcon svg, #growthtools #landingPageGrowthTool .activeIcon svg {
+  fill: color(primary50);
+}
+
+#growthtools #manyChatGrowthTool .activeIcon svg path, #growthtools #landingPageGrowthTool .activeIcon svg path {
+  fill: color(primary50);
+}
+
+#growthtools #manyChatGrowthTool .manyChatIcon, #growthtools #landingPageGrowthTool .manyChatIcon {
+  background: #FFFFFF;
+  border: 2px solid #2F80ED;
+  height: 122px;
+  width: 122px;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(47, 128, 237, 0.1);
+          box-shadow: 0px 0px 0px 4px rgba(47, 128, 237, 0.1);
+}
+
+#growthtools #manyChatGrowthTool .fieldBox, #growthtools #landingPageGrowthTool .fieldBox {
+  background: #F8FAFB;
+  border: 1px solid #2E3F52;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  width: 132px;
+  padding: 8px;
+  margin-bottom: 24px;
+  height: 39px;
+}
+
+#growthtools #manyChatGrowthTool .leftIconsPane, #growthtools #landingPageGrowthTool .leftIconsPane {
+  height: calc(100vh - 72px);
+}
+
+#growthtools #manyChatGrowthTool .rightDetailsPane, #growthtools #landingPageGrowthTool .rightDetailsPane {
+  border-left: 1px solid color(neutral20);
+  height: calc(100vh - 72px);
+}
+
+#growthtools #manyChatGrowthTool .headerBar, #growthtools #landingPageGrowthTool .headerBar {
+  height: 40px;
+  border-bottom: 0.5px solid color(neutral20);
+  padding-top: 14px;
+  padding-left: 24px;
+}
+
+#growthtools #manyChatGrowthTool .flowSection, #growthtools #landingPageGrowthTool .flowSection {
+  background-color: color(neutral0);
+}
+
+#growthtools #manyChatGrowthTool .belowHeaderContent, #growthtools #landingPageGrowthTool .belowHeaderContent {
+  padding: 24px;
+  height: calc(100% - 112px);
+}
+
+#growthtools #manyChatGrowthTool .leftSectionWidget, #growthtools #landingPageGrowthTool .leftSectionWidget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 16px;
+}
+
+#growthtools #manyChatGrowthTool .panelLabel, #growthtools #landingPageGrowthTool .panelLabel {
+  color: color(neutral70);
+  width: 30%;
+}
+
+#growthtools #manyChatGrowthTool .panelDropdown, #growthtools #landingPageGrowthTool .panelDropdown {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: inherit;
+  outline: 0px;
+  color: color(neutral90);
+}
+
+#growthtools #manyChatGrowthTool .panelSelect, #growthtools #landingPageGrowthTool .panelSelect {
+  background-position-x: 96% !important;
+  background-position-y: 50% !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS4xMzggNi4xOTUyNkMxMS4zOTgzIDYuNDU1NjEgMTEuMzk4MyA2Ljg3NzcyIDExLjEzOCA3LjEzODA3TDguNDcxMzIgOS44MDQ3NEM4LjIxMDk3IDEwLjA2NTEgNy43ODg4NiAxMC4wNjUxIDcuNTI4NTEgOS44MDQ3NEw0Ljg2MTg1IDcuMTM4MDdDNC42MDE1IDYuODc3NzIgNC42MDE1IDYuNDU1NjEgNC44NjE4NSA2LjE5NTI2QzUuMTIyMiA1LjkzNDkxIDUuNTQ0MzEgNS45MzQ5MSA1LjgwNDY2IDYuMTk1MjZMNy45OTk5MiA4LjM5MDUyTDEwLjE5NTIgNi4xOTUyNkMxMC40NTU1IDUuOTM0OTEgMTAuODc3NiA1LjkzNDkxIDExLjEzOCA2LjE5NTI2WiIgZmlsbD0iIzg0ODg5QiIvPgo8L3N2Zz4K") !important;
+  background-repeat: no-repeat !important;
+}
+
+#growthtools #manyChatGrowthTool .panelDropdown:hover, #growthtools #landingPageGrowthTool .panelDropdown:hover {
+  background-color: color(primary0);
+}
+
+#growthtools #manyChatGrowthTool .colorIcon, #growthtools #landingPageGrowthTool .colorIcon {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 0.5px solid color(neutral20);
+}
+
+#growthtools #manyChatGrowthTool .pallette, #growthtools #landingPageGrowthTool .pallette {
+  top: 20px;
+  left: 0px;
+}
+
+#growthtools #manyChatGrowthTool .tabButton, #growthtools #landingPageGrowthTool .tabButton {
+  padding: 6px 16px;
+  border-radius: 6px;
+  color: color(neutral90);
+}
+
+#growthtools #manyChatGrowthTool .selectedTabButton, #growthtools #landingPageGrowthTool .selectedTabButton {
+  background: color(primary0);
+  color: color(primary50);
+}
+
+#growthtools #manyChatGrowthTool .descriptionBox, #growthtools #landingPageGrowthTool .descriptionBox {
+  resize: none;
+}
+
+#growthtools #manyChatGrowthTool .widgetUrl, #growthtools #landingPageGrowthTool .widgetUrl {
+  padding: 8px;
+  border-radius: 6px;
+  background-color: inherit;
+  width: 100%;
+}
+
+#growthtools #manyChatGrowthTool .topBox, #growthtools #landingPageGrowthTool .topBox {
+  width: 28.125vw;
+  height: 15.625vw;
+  padding: 24px 24px 32px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+#growthtools #manyChatGrowthTool .topBoxOverlay, #growthtools #landingPageGrowthTool .topBoxOverlay {
+  position: absolute;
+  width: 28.125vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(141.86deg, rgba(0, 0, 0, 0) 21.99%, #000000 205.74%);
+}
+
+#growthtools #manyChatGrowthTool .widgetLogo, #growthtools #landingPageGrowthTool .widgetLogo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+#growthtools #manyChatGrowthTool .widgetBox, #growthtools #landingPageGrowthTool .widgetBox {
+  width: 28.125vw;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  border-radius: 4px;
+}
+
+#growthtools #manyChatGrowthTool .landingPageBox, #growthtools #landingPageGrowthTool .landingPageBox {
+  width: 28.125vw;
+  border-radius: 4px;
+  margin: auto;
+}
+
+#growthtools #manyChatGrowthTool .landingPageBottomBox, #growthtools #landingPageGrowthTool .landingPageBottomBox {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding: 40px 24px 40px 24px;
+}
+
+#growthtools #manyChatGrowthTool .upperBox, #growthtools #landingPageGrowthTool .upperBox {
+  background: #F5F5F5;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: -42px;
+}
+
+#growthtools #manyChatGrowthTool .joinBtn, #growthtools #landingPageGrowthTool .joinBtn {
+  border-radius: 6px;
+  padding: 16px 24px;
+  color: white;
+  margin-top: 8px;
+}
+
+#growthtools #manyChatGrowthTool .crossIcon, #growthtools #landingPageGrowthTool .crossIcon {
+  top: 24px;
+  right: 24px;
+}
+
+#growthtools #manyChatGrowthTool .lowerBox, #growthtools #landingPageGrowthTool .lowerBox {
+  padding: 20px;
+  margin-top: 16px;
+  background: #F5F5F5;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+#growthtools #manyChatGrowthTool .imageUploadBox, #growthtools #landingPageGrowthTool .imageUploadBox {
+  height: 140px;
+  border-radius: 4px;
+  background-color: #f5f7fc;
+  border: 0.3px solid #d6dae9;
+}
+
+#growthtools #Connections {
+  background-color: #F2F2F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 60px);
+}
+
+#growthtools #Connections #Block {
+  background-color: color(white);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+#growthtools #Connections #Block.campaign {
+  border: 2px solid #DD3BB0;
+}
+
+#growthtools #Connections #Block.growthtool {
+  border: 2px solid #23C96F;
+}
+
+#growthtools #Connections #Block .icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#growthtools #Connections #Block .icon.campaign {
+  background-color: #DD3BB0;
+}
+
+#growthtools #Connections #Block .icon.growthtool {
+  background-color: color(primary50);
+}
+
+#growthtools #Connections #Block .details {
+  padding: 12px 16px;
+  margin-top: 24px;
+  border-radius: 8px;
+  width: 245px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#growthtools #Connections #Block .details.campaign {
+  background-color: #FDF2FA;
+}
+
+#growthtools #Connections #Block .details.growthtool {
+  background-color: #E2FAEC;
+}
+
+#growthtools #landingPageGrowthTool .flowSection {
+  padding: 24px 0px;
+  overflow-y: auto;
+}
+
+#growthtools #landingPageGrowthTool .insideComponent {
+  height: calc(100vh - 118px);
+  overflow-y: auto;
+}
+/*# sourceMappingURL=growthtool.css.map */

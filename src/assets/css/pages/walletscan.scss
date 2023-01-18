@@ -1,0 +1,305 @@
+#WalletScan{
+        .component {
+            padding: 27px 20px 24px 24px;
+            width  : 100%;
+            height : 100%;
+        }
+
+
+    #barcode{
+
+        .fullWidth{
+            width: calc(100vw - 56px);
+        }
+        .barcodeDiv{
+            width        : max-content;
+            padding      : 32px;
+            box-shadow   : -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+            border-radius: 10.5974px;
+            margin       : auto;
+            width        : 33.82%;
+            height       : 49%;
+            max-width    : 450px;
+            max-height   : 450px;
+            margin-top   : 76px;
+        }
+        .qr-code-div{
+            width      : max-content;
+            // margin     : auto;
+            width      : 576px;
+
+            .passDiv { 
+                margin-left: 15%;
+                padding    : 16px 32px 16px 32px;
+            }
+            .addAudienceIcon{
+                position        : absolute;
+                top             : 10px;
+                right           : 24px;
+            
+            }
+
+            .customerIcon, .cameraIcon{
+                border-radius   : 50%;
+                height          : 30px;
+                width           : 30px;
+            }
+
+            .customerIcon:hover ,.cameraIcon:hover, .customerIcon:focus, .cameraIcon:focus{
+                background-color: color(neutral0);
+                transition: ease 0.5s;
+            }
+        }
+
+    }   
+    
+        .qr-div{
+            display        : flex;
+            justify-content: center;
+        }
+    
+    #codeinput {
+        .codeinputDiv{
+            max-width    : 720px;
+            min-width    : 640px;
+            height       : 56%;
+            max-height   : 442px;
+            box-shadow   : -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+            border-radius: 10.5974px;
+            margin       : auto;
+            padding      : 72px 50px;
+        }
+        .boxes {
+            box-shadow     : -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+            border-radius  : 10px;
+            height         : 100px;
+            display        : flex;
+            flex-direction : column;
+            justify-content: center;
+    
+            .paragraphsm {
+                font-size  : 14px;
+                color      : color(neutral90);
+                font-weight: normal;
+            }
+        }
+        .col-2 {
+            flex     : 0 0 17%;
+            max-width: 17%;
+        }
+        .row{
+            grid-gap  : 15px;
+            text-align: center;
+        }
+        .code {
+            width: 100%;
+        }
+    
+        .boxes:hover{
+            box-shadow   : inset -4.08333px -4.08333px 4.08333px rgba(255, 255, 255, 0.7), inset 6.125px 6.125px 4.08333px rgba(174, 174, 192, 0.2);
+            border-radius: 10px;
+            cursor       : pointer;
+        }
+        .active{
+            box-shadow   : -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+            border-radius: 10px;
+            border       : 1px solid #1AC4D1;
+        }
+    }
+    
+    .invite{
+        border         : 0.5px solid #BDBDBD;
+        border-radius  : 24px;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        color          : #4F4F4F;
+        padding        : 4px 8px 4px 8px;
+    }
+    
+    #business-users{
+        .main-div-header{
+            align-items: center;
+        }
+        .invite-button{
+            align-self     : center;
+            border         : 1px solid #E1E2EA;
+            height         : 40px;
+            width          : 97px;
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+        }
+    }
+    
+    #Redemption{
+        
+            .loader {
+                z-index: 1;
+                
+            }
+
+            .redemptionCard{
+                padding        : 40px 40px 48px 40px;
+                width          : 518px;
+                border-radius  : 4px;
+                justify-content: flex-start;
+            }
+
+            .cardDisplay{
+                padding        : 16px 16px 16px 24px;
+                border-radius  : 4px;
+                width          : 336px;
+                height         : 180px;
+                display        : flex;
+                flex-direction : column;
+                justify-content: space-between;
+            }
+
+            .close-btn{
+                width           : 35px;
+                height          : 35px;
+                background-color: #E1E2EA;
+                border-radius   : 50%;
+                color           : white;
+                text-align      : center;
+                margin-left     : auto;
+                font-weight     : 600;
+                cursor          : pointer;
+            }
+
+            .dealListLeftSide{
+                position: fixed;
+                top: 59px;
+                right: 0px;
+                background-color: #F7F7F7;
+                z-index: 1002;
+                padding: 24px;
+                width: 40%;
+                max-height: calc(100vh - 59px);
+                overflow-y: scroll;
+            }
+
+            .coupon{
+                background: linear-gradient(90deg, #556270 0%, #FF6B6B 100%);
+                box-shadow: 0px 12px 24px -14px #F1B1B2;
+            }
+
+            .loyaltyCard{
+                background: linear-gradient(76.8deg, #FEAC5E 0%, #C779D0 54.3%, #4BC0C8 108.6%);
+                box-shadow: 0px 12px 24px -14px #B797D7;
+            }
+
+            .stampCard{
+                background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
+                box-shadow: 0px 12px 24px -14px #70B1FF;
+            }
+
+            .ticket{
+                background: linear-gradient(90deg, #F85032 0%, #E73827 100%);
+                box-shadow: 0px 12px 24px -14px #F5897A;
+            }
+
+            .pointBox{
+                display        : flex;
+                justify-content: flex-start;
+                align-items    : center;
+            }
+
+            .dollarIcon{
+                position: absolute;
+                top     : 44px;
+                left    : 16px;
+            }
+
+            .availComponent{
+                border         : 1px solid color(neutral20);
+                box-sizing     : border-box;
+                padding        : 16px 24px;
+                justify-content: space-between;
+                border-radius  : 4px;
+                margin-top     : 16px;
+            }
+
+            .availBtn{
+                height          : 20px;
+                background-color: color(neutral100);
+                color           : white;
+                font-size       : 10px;
+                font-size       : 12px;
+                border-radius   : 32px;
+                border          : 0px;
+                padding         : 2px 8px;
+            }
+
+            .availBtn:hover , .availBtn:focus{
+                background-color: color(neutral100);
+                outline         : 0px;
+            }
+
+            .dealDescription{
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .activeDeal {
+               outline: 2px solid color(primary50);
+               transition: ease 0.3s;
+            }
+
+            .availComponent:hover{
+               outline: 1px solid color(primary50);
+               transition: ease 0.3s;
+            }
+
+            .availImage{
+                object-fit: cover;
+                height    : 102px;
+                width     : 102px;
+            }
+
+    }
+}
+
+
+#customModal{
+    .campaign-dropdown{
+        position     : relative;
+        width        : 30%;
+        padding      : 9px 12px;
+        border-radius: 8px;
+        .category-dropdown{
+            width        : 140%;
+            border-radius: 8px;
+            left         : 0;
+        }
+    }
+}
+
+
+.subscriber-dropdown{
+    max-height: 200px;
+    overflow-y: auto;
+
+    .singleSubscriber{
+        padding: 8px 16px 8px 16px;
+    }
+    .singleSubscriber:hover{
+        background-color: color(neutral0);
+    }
+}
+
+
+.transactionCol {
+    height: calc(100vh - 60px);
+    // border-left: 1px solid black;
+    overflow: scroll;
+    position: fixed;
+    width: inherit;
+    padding: 24px 32px;
+    background-color: white;
+    z-index: 100;
+}

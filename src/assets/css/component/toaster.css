@@ -1,0 +1,153 @@
+#Toaster .notification-container {
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  z-index: 1;
+}
+
+#Toaster .top-right {
+  top: 40px;
+  right: 12px;
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+  -webkit-animation: toast-in-right .7s;
+          animation: toast-in-right .7s;
+}
+
+#Toaster .bottom-right {
+  bottom: 12px;
+  right: 12px;
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+  -webkit-animation: toast-in-right .7s;
+          animation: toast-in-right .7s;
+}
+
+#Toaster .top-left {
+  top: 12px;
+  left: 12px;
+  -webkit-transition: -webkit-transform .6s ease-in;
+  transition: -webkit-transform .6s ease-in;
+  transition: transform .6s ease-in;
+  transition: transform .6s ease-in, -webkit-transform .6s ease-in;
+  -webkit-animation: toast-in-left .7s;
+          animation: toast-in-left .7s;
+}
+
+#Toaster .bottom-left {
+  bottom: 12px;
+  left: 12px;
+  -webkit-transition: -webkit-transform .6s ease-in;
+  transition: -webkit-transform .6s ease-in;
+  transition: transform .6s ease-in;
+  transition: transform .6s ease-in, -webkit-transform .6s ease-in;
+  -webkit-animation: toast-in-left .7s;
+          animation: toast-in-left .7s;
+}
+
+#Toaster .notification {
+  background-color: color(neutral0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  position: relative;
+  pointer-events: auto;
+  overflow: hidden;
+  margin: 0 0 6px;
+  padding: 16px;
+  margin-bottom: 15px;
+  width: 300px;
+  max-height: 100px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 12px rgba(128, 128, 128, 0.24);
+          box-shadow: 0px 0px 12px rgba(128, 128, 128, 0.24);
+  color: #000;
+  opacity: .9;
+  background-position: 15px;
+  background-repeat: no-repeat;
+}
+
+#Toaster .notification:hover {
+  -webkit-box-shadow: 0 0 12px #fff;
+          box-shadow: 0 0 12px #fff;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#Toaster .notification-title {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 6px;
+  width: 300px;
+  height: 18px;
+  color: inherit;
+}
+
+#Toaster .notification-message {
+  margin: 0;
+  text-align: left;
+  margin-left: -1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: inherit;
+}
+
+#Toaster .notification-image {
+  float: left;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+#Toaster .notification-image img {
+  width: 30px;
+  height: 30px;
+}
+
+#Toaster .toast {
+  min-height: 50px;
+  width: 324px;
+  color: #fff;
+  padding: 16px;
+}
+
+#Toaster .notification-container button {
+  font-weight: 700;
+  color: inherit;
+  outline: none;
+  border: none;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .8;
+  line-height: 1;
+  font-size: 16px;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+}
+
+#Toaster .error {
+  color: #F25053;
+}
+
+#Toaster .warning {
+  color: #F2A750;
+}
+
+#Toaster .info {
+  color: #3456E8;
+}
+
+#Toaster .success {
+  color: #30be64;
+}
+
+#Toaster .notification-message {
+  color: #45526B;
+}
+/*# sourceMappingURL=toaster.css.map */

@@ -1,0 +1,286 @@
+#Analytics {
+  padding: 32px;
+}
+
+#Analytics .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+#Analytics .grid-item {
+  border: 1px solid color(neutral20);
+  padding: 20px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Analytics .graph-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+#Analytics .daysSection {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 8px;
+}
+
+#Analytics .graphComponent {
+  border: 1px solid color(neutral20);
+  margin-top: 16px;
+}
+
+#Analytics .graphHeader {
+  padding: 16px 0px;
+  background-color: color(neutral10);
+  border-bottom: 1px solid color(neutral20);
+}
+
+#Analytics .graphViewButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#Analytics .graph {
+  padding: 24px;
+}
+
+#Analytics .main-div-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Analytics .invite-button {
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: 1px solid #E1E2EA;
+  height: 40px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Analytics .invite-button:hover {
+  background-color: #EDEEF2;
+}
+
+#Analytics .DateCalander {
+  right: 0px;
+  top: 44px;
+  background-color: white;
+  z-index: 10;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Analytics .statistics {
+  border-left: 0.5px solid #E6E6E6;
+  padding-top: 24px;
+}
+
+.grid-gap-16 {
+  grid-gap: 16px;
+}
+
+#Coupons .breadCrumb, #Analytics .breadCrumb, #RuleBuilder .breadCrumb {
+  padding: 20px 5px 8px 5px;
+}
+
+#Coupons .MuiBreadcrumbs-separator, #Analytics .MuiBreadcrumbs-separator, #RuleBuilder .MuiBreadcrumbs-separator {
+  display: none !important;
+}
+
+#ProgramType .card {
+  border: 1px solid #DFE1E6;
+  border-radius: 4px;
+  width: 235px;
+}
+
+#ProgramType .cardActive {
+  border: 1px solid #2F80ED;
+  border-radius: 4px;
+  width: 235px;
+  color: #2F80ED;
+}
+
+#ProgramType .cardActive path {
+  fill: #2F80ED;
+}
+
+#DiscountValue .card {
+  border: 1px solid #DFE1E6;
+  border-radius: 4px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 12px 8px 12px 8px;
+}
+
+#DiscountValue .cardActive {
+  padding: 12px 8px 12px 8px;
+  border: 1px solid #2F80ED;
+  border-radius: 4px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #2F80ED;
+}
+
+#DiscountValue .cardActive path {
+  fill: #2F80ED;
+}
+
+.campaign-dropdown {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: color(white);
+  z-index: 1000;
+  position: absolute;
+  width: 140%;
+  margin-top: 12px;
+  -webkit-box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+          box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+}
+
+.campaign-dropdown .fixed-block {
+  max-height: 220px;
+  overflow-y: scroll;
+  height: '-webkit-fill-available;';
+  -webkit-transition: 'overflow-y 3s ease-in';
+  transition: 'overflow-y 3s ease-in';
+}
+
+.campaign-search {
+  padding: 12px 9px 12px 17px;
+  border-top: 0.5px solid #e5e5e5;
+  border-bottom: 0.5px solid #e5e5e5;
+}
+
+.campaign-search input {
+  border: none;
+  margin-left: 12px;
+}
+
+.campaign-list {
+  padding-left: 17px;
+  padding-right: 9px;
+  color: color(neutral100);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.campaign-list input {
+  width: 80%;
+  border: 1px solid #e5e5e5;
+}
+
+.campaign-list .edit-name {
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: auto;
+  height: auto;
+  padding: 6px;
+}
+
+.campaign-list .edit-name:hover {
+  background-color: #E0E0E0;
+}
+
+.campaign-list.selected {
+  background-color: color(neutral0);
+}
+
+.campaign-list:hover {
+  background-color: color(neutral0);
+}
+
+.campaign-list:hover .edit-name {
+  opacity: 1;
+}
+
+.campaign-list.active {
+  background-color: color(neutral0);
+}
+
+.campaign-list.active .edit-name {
+  opacity: 1;
+}
+
+.campaignSelect {
+  background-color: color(white);
+  height: 56px;
+  border-radius: 40px;
+  padding: 10px 12px;
+  width: 330px !important;
+  font-weight: 500;
+  color: color(neutral80);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid textFieldBackground;
+}
+/*# sourceMappingURL=campaigns.css.map */

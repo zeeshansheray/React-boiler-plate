@@ -1,0 +1,150 @@
+#CardRedeem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .PKTextAlignmentLeft{
+      text-align: left;
+    }
+
+    .PKTextAlignmentRight{
+      text-align: right;
+    }
+      
+      
+      .redeemedCoupon{
+          width: 340px;
+          background-color: red;
+          border-radius: 12px;
+          box-shadow: '10px 12px 12px rgb(0 0 0 / 30%)';
+      }
+      
+      .topLeftSection{
+        display: flex;
+        align-items: center;
+      }
+      
+      .topRightSection{
+        text-align: right;
+        padding-top: 8px;
+      }
+      
+      .brandName{
+        margin-left: 8px;
+      }
+      
+      .daysLeft , .daysLeftLabel, .discountLabel, .amount{
+        width: 100%;
+        text-align: right;
+      }
+      
+      .customerLabel, .customer{
+        width      : 100%;
+        text-align : left;
+        overflow   : hidden;
+        word-break : break-word;
+      }
+      
+      .coupon{
+        margin: 0px;
+        padding: 8px;
+        border-radius: 4px;
+        background-color: white;
+        height: 138px;
+        width: 138px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4px;
+        flex-direction: column;
+      }
+      
+      .logoIcon{
+          border-radius: 50%;
+      }
+
+      .couponBox{
+        display: flex;
+        justify-content: center;
+      }
+      
+      
+      
+      //flipcard style
+      .cardCreated {
+        width: 340px;
+        height: 450px;
+        position: relative;
+      }
+      
+      .cardFront,
+      .cardBack {
+        width: inherit;
+        position: absolute;
+        backface-visibility: hidden;
+        transition: transform 0.5s ease;
+        padding: 16px;
+      }
+
+      .cardFront{
+        height: fit-content;
+      }
+      
+      .cardBack {
+        transform: perspective(600px) rotateY(180deg);
+        padding: 0px 16px;
+        height: inherit;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      }
+      
+      .cardBack.flipped {
+        transform: perspective(600px) rotateY(0deg);
+      }
+      
+      .cardFront {
+        transform: perspective(600px) rotateY(0deg);
+        padding: 16px;
+      }
+      
+      .cardFront.flipped {
+        transform: perspective(600px) rotateY(-180deg);
+      }
+      
+    //   .cardBack{
+    //     // overflow-y: scroll;
+    // }
+
+}
+
+.text-inherit{
+  text-align: inherit !important;
+  color: inherit !important;
+}
+
+.couponBefore{
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 100%;
+    height: 10px;
+    background-size: 20px 40px !important;
+  }
+  
+  .couponAfter{
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    width: 100%;
+    height: 10px;
+    background-size: 20px 40px !important;
+    transform: rotate(180deg)
+  }
+
+  .store{
+      border-radius: 14px;
+  }

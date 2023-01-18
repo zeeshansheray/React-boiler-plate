@@ -1,0 +1,1562 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+.Heading32R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading32M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading32B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading28R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading28M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading28B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading24R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading24M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading24B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading22R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading22M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading22B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading20R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading20M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading20B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading18R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading18M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading18B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading16R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading16M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading16B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading15R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading15M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading15B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading14R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading14M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading14B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading13R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading13M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading13B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading12R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading12M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading12B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading11R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading11M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading11B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading10R {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading10M {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Heading10B {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body32R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body32M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body32B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body28R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body28M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body28B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body24R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body24M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body24B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body22R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body22M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body22B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body20R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body20M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body20B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body18R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body18M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body18B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body16R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body16M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body16B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body15R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body15M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body15B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body14R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body14M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body14B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body13R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body13M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body13B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body12R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body12M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body12B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body11R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body11M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body11B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body10R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body10M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Body10B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption32R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption32M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption32B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption28R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption28M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption28B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption24R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption24M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption24B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption22R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption22M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption22B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption20R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption20M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption20B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption18R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption18M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption18B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption16R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption16M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption16B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption15R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption15M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption15B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption14R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption14M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption14B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption13R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption13M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption13B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption12R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption12M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption12B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption11R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption11M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption11B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption10R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption10M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Caption10B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link32R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link32M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link32B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link28R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link28M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link28B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link24R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link24M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link24B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link22R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link22M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link22B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link20R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link20M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link20B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link18R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link18M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link18B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link16R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link16M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link16B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link15R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link15M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link15B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link14R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link14M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link14B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link13R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link13M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link13B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link12R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link12M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link12B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link11R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link11M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link11B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link10R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link10M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Link10B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U32R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U32M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U32B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U28R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U28M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U28B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U24R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U24M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U24B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U22R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U22M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U22B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U20R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U20M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U20B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U18R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U18M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U18B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U16R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U16M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U16B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U15R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U15M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U15B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U14R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U14M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U14B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U13R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U13M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U13B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U12R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U12M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U12B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U11R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U11M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U11B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U10R {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U10M {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.U10B {
+  font-family: "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+/*# sourceMappingURL=text-style.css.map */

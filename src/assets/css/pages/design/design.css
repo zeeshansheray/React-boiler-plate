@@ -1,0 +1,568 @@
+#Design {
+  padding: 24px;
+}
+
+#Design .customCardsBox {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#emptyPassesScreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#Editpass {
+  position: absolute;
+  z-index: 9999;
+  width: calc(100% - 5vw);
+  height: calc(100vh - 64px);
+  overflow: scroll;
+}
+
+#Editpass .placeholder {
+  color: #a7a7a7;
+}
+
+#Editpass .qr-placeholder {
+  background: transparent !important;
+  width: 150px !important;
+  height: 150px;
+}
+
+#Editpass #TopHeader .designName {
+  border: 1px solid black;
+  border-radius: 6px;
+  background: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 10px;
+}
+
+#Editpass #LeftPane #BackField .addBtn {
+  text-align: center;
+  border: 1px dashed #bdbdbd;
+  border-radius: 8px;
+  padding: 6px 44px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  color: #bdbdbb;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#Editpass .outline-active {
+  outline: 1px solid color(primary50);
+}
+
+#Editpass .outline-active:hover {
+  outline: 1px solid color(primary50) !important;
+}
+
+#Editpass #Apple .PKTextAlignmentRight {
+  text-align: right !important;
+}
+
+#Editpass #Apple .PKTextAlignmentLeft {
+  text-align: left !important;
+}
+
+#Editpass #Apple .logo, #Editpass #Apple .logoText, #Editpass #Apple .headerFields, #Editpass #Apple .cover, #Editpass #Apple .secondaryFields, #Editpass #Apple .secondaryField, #Editpass #Apple .auxiliaryField, #Editpass #Apple .qrCode, #Editpass #Apple .backFields {
+  -webkit-transition: outline 0.1s ease-out;
+  transition: outline 0.1s ease-out;
+}
+
+#Editpass #Apple .logo.error-outline, #Editpass #Apple .logoText.error-outline, #Editpass #Apple .headerFields.error-outline, #Editpass #Apple .cover.error-outline, #Editpass #Apple .secondaryFields.error-outline, #Editpass #Apple .secondaryField.error-outline, #Editpass #Apple .auxiliaryField.error-outline, #Editpass #Apple .qrCode.error-outline, #Editpass #Apple .backFields.error-outline {
+  outline: 1px solid color(danger10) !important;
+}
+
+#Editpass #Apple .logo:hover, #Editpass #Apple .logoText:hover, #Editpass #Apple .headerFields:hover, #Editpass #Apple .cover:hover, #Editpass #Apple .secondaryFields:hover, #Editpass #Apple .secondaryField:hover, #Editpass #Apple .auxiliaryField:hover, #Editpass #Apple .qrCode:hover, #Editpass #Apple .backFields:hover {
+  outline: 2px solid color(primary50);
+}
+
+#Editpass #Apple .logo.preview:hover, #Editpass #Apple .logoText.preview:hover, #Editpass #Apple .headerFields.preview:hover, #Editpass #Apple .cover.preview:hover, #Editpass #Apple .secondaryFields.preview:hover, #Editpass #Apple .secondaryField.preview:hover, #Editpass #Apple .auxiliaryField.preview:hover, #Editpass #Apple .qrCode.preview:hover, #Editpass #Apple .backFields.preview:hover {
+  outline: none !important;
+}
+
+#Editpass #Apple .placeholder {
+  color: #a7a7a7;
+  text-decoration: underline;
+}
+
+#Editpass #Apple .addBtn {
+  width: 125px;
+  height: 28px;
+  background-color: color(primary50);
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 62.5px);
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: ease-out 0.3s all;
+  transition: ease-out 0.3s all;
+}
+
+#Editpass #Apple .addBtn.add {
+  opacity: 1;
+}
+
+#Editpass .passTitle {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 24px;
+  border-bottom: 0.5px solid color(neutral10) !important;
+}
+
+#Editpass .rightTopColumn {
+  border-left: 0px;
+}
+
+#Editpass .cardComponent {
+  height: 100vh;
+}
+
+#Editpass .middleColumn {
+  padding-top: 5%;
+}
+
+#Editpass .bottomBorder {
+  border-bottom: 0.5px solid color(neutral10) !important;
+}
+
+#Editpass .leftsideBtn {
+  padding: 8px;
+  font-size: 12px;
+  border-right: 0.5px solid color(neutral10) !important;
+}
+
+#Editpass .leftBorder {
+  border-left: 0.5px solid color(neutral10) !important;
+}
+
+#Editpass .middlebtn {
+  padding: 8px;
+  font-size: 12px;
+  border-left: 0.5px solid color(neutral10) !important;
+}
+
+#Editpass .viewIcon {
+  width: 30px;
+  border-right: 0.5px solid color(neutral10) !important;
+  padding: 4px;
+  left: 0px;
+}
+
+#Editpass .frontBackBtns {
+  right: 0px;
+  height: 100%;
+}
+
+#Editpass .frontFields:hover {
+  background-color: rgba(29, 59, 86, 0.05);
+}
+
+#Editpass .passesIcons {
+  margin: auto;
+  height: 100%;
+}
+
+#Editpass .passesIcons > img {
+  height: inherit;
+}
+
+#Editpass .stylePanel {
+  padding: 8px;
+  border-left: 0.5px solid color(neutral10) !important;
+}
+
+#Editpass .passTypes {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Editpass .saveChanges {
+  right: 24px;
+}
+
+#Editpass .navigatorBox {
+  padding: 0px 6px 6px 8px;
+}
+
+#Editpass .cardContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+#Editpass .qrCode {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  background: white;
+  border-radius: 12px;
+}
+
+#Editpass .cardTopCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: color(neutral0);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -38px;
+  z-index: 1000;
+}
+
+#Editpass .flip-card {
+  background-color: transparent;
+  width: 375px;
+  height: 480px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  margin: auto;
+}
+
+#Editpass .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 580px;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#Editpass .flipped .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#Editpass .cardTopBorder, #Editpass .cardBottomBorder {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#Editpass .flipped .flip-card-front {
+  z-index: -1;
+}
+
+#Editpass .flip-card-front, #Editpass .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#Editpass .flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+#Editpass .flip-card-back {
+  background-color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#Editpass .cards {
+  width: 375px;
+  height: 100vh;
+  margin: auto;
+  padding-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Editpass .contents {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 4s;
+  transition: -webkit-transform 4s;
+  transition: transform 4s;
+  transition: transform 4s, -webkit-transform 4s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+#Editpass .cardActive {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: -webkit-transform 4s;
+  transition: -webkit-transform 4s;
+  transition: transform 4s;
+  transition: transform 4s, -webkit-transform 4s;
+}
+
+#Editpass .front,
+#Editpass .back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#Editpass .back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#Editpass .item {
+  padding: 8px 8px;
+}
+
+#Editpass .subItem {
+  padding: 2px 0px 4px 30px;
+}
+
+#Editpass .active {
+  background-color: color(neutral0);
+}
+
+#Editpass .rotate {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+#Editpass .innerPadding {
+  padding: 8px 4px 8px 0px;
+}
+
+#Editpass .changeBrandLogo {
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: color(neutral0);
+  height: 32px;
+}
+
+#Editpass .backgroundColorBox {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid color(neutral0);
+}
+
+#Editpass .colorCircle {
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  border: 1px solid color(neutral0);
+}
+
+#Editpass .descriptionField {
+  border-bottom: 1px solid color(primary50);
+}
+
+#Editpass .fieldDetailBox {
+  border-radius: 8px;
+  border: 1px solid #F0F0F0;
+  padding: 8px 8px 8px 16px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#Editpass .noneSelectedBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 130px;
+  background-color: color(neutral0);
+  padding: 24px 16px 24px 16px;
+}
+
+#Editpass #customPass {
+  margin: auto;
+}
+
+#Editpass #customPass .singleCardEdit {
+  width: 375px;
+  height: 580px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 16px;
+  overflow-y: scroll;
+  position: absolute;
+  word-break: break-all;
+}
+
+#Editpass #customPass .cardTopEdit {
+  padding: 8px;
+}
+
+#Editpass #customPass .cardLogo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+#Editpass #customPass .cardCover, #Editpass #customPass .stampImageCover {
+  max-height: 150px;
+  max-width: 100%;
+}
+
+#Editpass #customPass .stampImageCover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 150px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#Editpass #customPass .singleRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#Editpass #customPass .inputText, #Editpass #customPass .frontInputText {
+  background-color: inherit;
+  border: none;
+  text-align: inherit;
+}
+
+#Editpass #customPass input::-webkit-input-placeholder {
+  color: color(neutral80) !important;
+}
+
+#Editpass #customPass input:-ms-input-placeholder {
+  color: color(neutral80) !important;
+}
+
+#Editpass #customPass input::-ms-input-placeholder {
+  color: color(neutral80) !important;
+}
+
+#Editpass #customPass input::placeholder {
+  color: color(neutral80) !important;
+}
+
+#Editpass #customPass .frontInputText::-webkit-input-placeholder {
+  color: inherit !important;
+}
+
+#Editpass #customPass .frontInputText:-ms-input-placeholder {
+  color: inherit !important;
+}
+
+#Editpass #customPass .frontInputText::-ms-input-placeholder {
+  color: inherit !important;
+}
+
+#Editpass #customPass .frontInputText::placeholder {
+  color: inherit !important;
+}
+
+#Editpass #customPass ::-webkit-input-placeholder {
+  color: color(neutral60);
+}
+
+#Editpass #customPass :-ms-input-placeholder {
+  color: color(neutral60);
+}
+
+#Editpass #customPass ::-ms-input-placeholder {
+  color: color(neutral60);
+}
+
+#Editpass #customPass ::placeholder {
+  color: color(neutral60);
+}
+
+#Editpass #customPass .underline {
+  text-decoration: underline;
+}
+
+#Editpass #customPass .cardContentEdit {
+  padding: 8px;
+  width: 50%;
+}
+
+#Editpass #customPass .cardLogo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+#Editpass #customPass .singlePassRow {
+  padding: 0px 16px;
+}
+
+#Editpass #customPass .textArea {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#Editpass #customPass .middleBox {
+  height: 40px;
+  background-color: #EFEFF4;
+}
+
+#Editpass #customPass .resize-none {
+  resize: none;
+}
+/*# sourceMappingURL=design.css.map */

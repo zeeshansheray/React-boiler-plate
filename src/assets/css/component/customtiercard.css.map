@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,SADK,CACL,KAAK,CAAA;EACD,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,kBAAkB;EACjC,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,mBAAmB;CAC/C",
+    "sources": [
+        "customtiercard.scss"
+    ],
+    "names": [],
+    "file": "customtiercard.css"
+}

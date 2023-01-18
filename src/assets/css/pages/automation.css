@@ -1,0 +1,82 @@
+#CreateRule {
+  padding: 16px 40px;
+}
+
+#CreateRule select {
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+}
+
+#CreateRule select:focus-visible {
+  outline: none !important;
+}
+
+#CreateRule .triggerBox, #CreateRule .actionBox {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  height: 56px;
+  margin-top: 13px;
+  width: 100%;
+}
+
+#CreateRule .triggerBox:hover {
+  background-color: #E8EFF7;
+  border: 1px dashed #2F80ED;
+}
+
+#CreateRule .triggerBox {
+  color: color(primary50);
+  border: 1px dashed #2F80ED;
+}
+
+#CreateRule .triggerBox .addIcon svg path {
+  fill: color(primary50);
+  stroke: color(primary50);
+}
+
+#CreateRule .triggerBox .addIcon svg {
+  margin-top: -4px;
+}
+
+#CreateRule .actionBox {
+  color: #EDB72F;
+  border: 1px dashed #EDB72F;
+}
+
+#CreateRule .actionBox .addIcon svg path {
+  fill: #EDB72F;
+  stroke: #EDB72F;
+}
+
+#CreateRule .actionBox .addIcon svg {
+  margin-top: -4px;
+}
+
+#CreateRule .actionBox:hover {
+  background-color: #FDF7E8;
+  border: 1px dashed #EDB72F;
+}
+
+#CreateRule .triggerBoxDropdown {
+  position: absolute;
+  left: 0px;
+  top: 70px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 12px rgba(128, 128, 128, 0.24);
+          box-shadow: 0px 0px 12px rgba(128, 128, 128, 0.24);
+  border-radius: 6px;
+  width: 100%;
+}
+
+#CreateRule .singleRowDetail {
+  padding: 10px 12px 10px 12px;
+}
+
+#CreateRule .singleRowDetail :hover {
+  color: color(primary50);
+}
+/*# sourceMappingURL=automation.css.map */

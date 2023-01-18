@@ -1,0 +1,359 @@
+#WalletScan .component {
+  padding: 27px 20px 24px 24px;
+  width: 100%;
+  height: 100%;
+}
+
+#WalletScan #barcode .fullWidth {
+  width: calc(100vw - 56px);
+}
+
+#WalletScan #barcode .barcodeDiv {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 32px;
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  border-radius: 10.5974px;
+  margin: auto;
+  width: 33.82%;
+  height: 49%;
+  max-width: 450px;
+  max-height: 450px;
+  margin-top: 76px;
+}
+
+#WalletScan #barcode .qr-code-div {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  width: 576px;
+}
+
+#WalletScan #barcode .qr-code-div .passDiv {
+  margin-left: 15%;
+  padding: 16px 32px 16px 32px;
+}
+
+#WalletScan #barcode .qr-code-div .addAudienceIcon {
+  position: absolute;
+  top: 10px;
+  right: 24px;
+}
+
+#WalletScan #barcode .qr-code-div .customerIcon, #WalletScan #barcode .qr-code-div .cameraIcon {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+#WalletScan #barcode .qr-code-div .customerIcon:hover, #WalletScan #barcode .qr-code-div .cameraIcon:hover, #WalletScan #barcode .qr-code-div .customerIcon:focus, #WalletScan #barcode .qr-code-div .cameraIcon:focus {
+  background-color: color(neutral0);
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+#WalletScan .qr-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#WalletScan #codeinput .codeinputDiv {
+  max-width: 720px;
+  min-width: 640px;
+  height: 56%;
+  max-height: 442px;
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  border-radius: 10.5974px;
+  margin: auto;
+  padding: 72px 50px;
+}
+
+#WalletScan #codeinput .boxes {
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  border-radius: 10px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#WalletScan #codeinput .boxes .paragraphsm {
+  font-size: 14px;
+  color: color(neutral90);
+  font-weight: normal;
+}
+
+#WalletScan #codeinput .col-2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 17%;
+          flex: 0 0 17%;
+  max-width: 17%;
+}
+
+#WalletScan #codeinput .row {
+  grid-gap: 15px;
+  text-align: center;
+}
+
+#WalletScan #codeinput .code {
+  width: 100%;
+}
+
+#WalletScan #codeinput .boxes:hover {
+  -webkit-box-shadow: inset -4.08333px -4.08333px 4.08333px rgba(255, 255, 255, 0.7), inset 6.125px 6.125px 4.08333px rgba(174, 174, 192, 0.2);
+          box-shadow: inset -4.08333px -4.08333px 4.08333px rgba(255, 255, 255, 0.7), inset 6.125px 6.125px 4.08333px rgba(174, 174, 192, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#WalletScan #codeinput .active {
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  border-radius: 10px;
+  border: 1px solid #1AC4D1;
+}
+
+#WalletScan .invite {
+  border: 0.5px solid #BDBDBD;
+  border-radius: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4F4F4F;
+  padding: 4px 8px 4px 8px;
+}
+
+#WalletScan #business-users .main-div-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#WalletScan #business-users .invite-button {
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: 1px solid #E1E2EA;
+  height: 40px;
+  width: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#WalletScan #Redemption .loader {
+  z-index: 1;
+}
+
+#WalletScan #Redemption .redemptionCard {
+  padding: 40px 40px 48px 40px;
+  width: 518px;
+  border-radius: 4px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#WalletScan #Redemption .cardDisplay {
+  padding: 16px 16px 16px 24px;
+  border-radius: 4px;
+  width: 336px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#WalletScan #Redemption .close-btn {
+  width: 35px;
+  height: 35px;
+  background-color: #E1E2EA;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#WalletScan #Redemption .dealListLeftSide {
+  position: fixed;
+  top: 59px;
+  right: 0px;
+  background-color: #F7F7F7;
+  z-index: 1002;
+  padding: 24px;
+  width: 40%;
+  max-height: calc(100vh - 59px);
+  overflow-y: scroll;
+}
+
+#WalletScan #Redemption .coupon {
+  background: -webkit-gradient(linear, left top, right top, from(#556270), to(#FF6B6B));
+  background: linear-gradient(90deg, #556270 0%, #FF6B6B 100%);
+  -webkit-box-shadow: 0px 12px 24px -14px #F1B1B2;
+          box-shadow: 0px 12px 24px -14px #F1B1B2;
+}
+
+#WalletScan #Redemption .loyaltyCard {
+  background: linear-gradient(76.8deg, #FEAC5E 0%, #C779D0 54.3%, #4BC0C8 108.6%);
+  -webkit-box-shadow: 0px 12px 24px -14px #B797D7;
+          box-shadow: 0px 12px 24px -14px #B797D7;
+}
+
+#WalletScan #Redemption .stampCard {
+  background: -webkit-gradient(linear, left top, right top, from(#00C6FF), to(#0072FF));
+  background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
+  -webkit-box-shadow: 0px 12px 24px -14px #70B1FF;
+          box-shadow: 0px 12px 24px -14px #70B1FF;
+}
+
+#WalletScan #Redemption .ticket {
+  background: -webkit-gradient(linear, left top, right top, from(#F85032), to(#E73827));
+  background: linear-gradient(90deg, #F85032 0%, #E73827 100%);
+  -webkit-box-shadow: 0px 12px 24px -14px #F5897A;
+          box-shadow: 0px 12px 24px -14px #F5897A;
+}
+
+#WalletScan #Redemption .pointBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#WalletScan #Redemption .dollarIcon {
+  position: absolute;
+  top: 44px;
+  left: 16px;
+}
+
+#WalletScan #Redemption .availComponent {
+  border: 1px solid color(neutral20);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px 24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+#WalletScan #Redemption .availBtn {
+  height: 20px;
+  background-color: color(neutral100);
+  color: white;
+  font-size: 10px;
+  font-size: 12px;
+  border-radius: 32px;
+  border: 0px;
+  padding: 2px 8px;
+}
+
+#WalletScan #Redemption .availBtn:hover, #WalletScan #Redemption .availBtn:focus {
+  background-color: color(neutral100);
+  outline: 0px;
+}
+
+#WalletScan #Redemption .dealDescription {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#WalletScan #Redemption .activeDeal {
+  outline: 2px solid color(primary50);
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+#WalletScan #Redemption .availComponent:hover {
+  outline: 1px solid color(primary50);
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+#WalletScan #Redemption .availImage {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 102px;
+  width: 102px;
+}
+
+#customModal .campaign-dropdown {
+  position: relative;
+  width: 30%;
+  padding: 9px 12px;
+  border-radius: 8px;
+}
+
+#customModal .campaign-dropdown .category-dropdown {
+  width: 140%;
+  border-radius: 8px;
+  left: 0;
+}
+
+.subscriber-dropdown {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.subscriber-dropdown .singleSubscriber {
+  padding: 8px 16px 8px 16px;
+}
+
+.subscriber-dropdown .singleSubscriber:hover {
+  background-color: color(neutral0);
+}
+
+.transactionCol {
+  height: calc(100vh - 60px);
+  overflow: scroll;
+  position: fixed;
+  width: inherit;
+  padding: 24px 32px;
+  background-color: white;
+  z-index: 100;
+}
+/*# sourceMappingURL=walletscan.css.map */

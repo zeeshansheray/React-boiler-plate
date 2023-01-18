@@ -1,0 +1,11 @@
+#Redemption .addredemptionbtn {
+  color: color(neutral100);
+  font-size: 14px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 45px;
+  text-align: center;
+  padding: 12px 16px 12px 16px;
+}
+/*# sourceMappingURL=redemption-create.css.map */

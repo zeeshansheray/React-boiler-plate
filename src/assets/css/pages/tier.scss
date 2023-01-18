@@ -1,0 +1,154 @@
+.tierDisableButton{
+    cursor : no-drop !important;
+}
+
+#Tier{
+    margin: 0px 32px 0px 32px;
+
+    .updatedCard{
+        /* Light Secondary BG */
+
+        background: #F8F8FA;
+        /* Border All Side */
+
+        box-shadow: 0px 0px 0px 1px #DFE1E6;
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        padding: 8px;
+    }
+    .updatedList{
+        padding: 16px;
+
+        /* General/White */
+
+        background: #FCFCFD;
+        /* Border Bottom */
+
+        // box-shadow: 0px 1px 0px #dfe1e6;
+
+        margin: 1px 0px;
+    }
+
+    .updatedList:hover {
+        background-color: #F8F8FA;
+        transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .deleteIcon{
+        display: none;
+    }
+    .cardNew{width: 287px;}
+    @media(min-width: 1400px){
+        .cardNew{width: 340px !important;}
+    }
+    @media(min-width: 1900px){
+        .cardNew{width: 365px !important;}
+    }
+    .cardNew:hover{
+        box-shadow: 0px 6px 18px 1px rgba(0, 0, 0, 0.16);
+        transition: box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        .deleteIcon{
+            transition      : box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius   : 50%;
+            display         : block;
+            display         : flex;
+            flex-direction  : column;
+            justify-content : center;
+            align-items     : center;
+            height          : 15px;
+            width           : 15px;
+        }
+    }
+    .deleteIcon{height: 15px;width: 15px;border-radius : 50%;}
+    .deleteIcon:hover{
+        box-shadow       : 0px 0px 0px 7px #F0F1F3;
+        background-color : #F0F1F3;
+        border-radius    : 50%;
+        display          : flex;
+        flex-direction   : column;
+        justify-content  : center;
+        align-items      : center;
+        height           : 15px;
+        width            : 15px;
+    }
+    .cardDiv{
+        border        : 1px solid #DFE1E6;
+        padding       : 16px;
+        height        : fit-content;
+        width         : 300px;
+        box-shadow    : 0px 4px 16px rgba(0, 0, 0, 0.08);
+        margin-right  : 24px;
+        margin-bottom : 24px;
+    }
+
+    .inputField:focus{
+        outline: 0px;
+    }
+    @media(min-width: 1600px){
+        .cardDiv{
+            border        : 1px solid #DFE1E6;
+            padding       : 16px;
+            height        : fit-content;
+            width         : 340px;
+            box-shadow    : 0px 4px 16px rgba(0, 0, 0, 0.08);
+            margin-right  : 24px;
+            margin-bottom : 24px;
+        }
+    }
+    .cardDiv:last-child{
+        margin-right: 0;
+    }
+    .colorDiv{
+        height : 65px;
+        width  : 52px;
+    }
+
+    .copyIcon{
+        position: absolute;
+        right: 12px;
+        top: 4px;
+    }
+
+    .viewMoreIcon{
+        // top: 0px;
+        right: 10px;
+        transform: rotate(90deg);
+    }
+
+    .gridGaping {
+        grid-gap: 48px;
+    }
+    #viewDetailComponent{
+        position: absolute;
+        right: 16px;
+        top: -10px;
+        box-shadow: 0px 3px 5px rgba(9, 30, 66, 0.2), 0px 0px 1px rgba(9, 30, 66, 0.31);
+        border-radius: 4px;  
+        color: black;   
+        width: 200px;
+    }
+
+    #viewDetailComponent{
+        .container:nth-child(3){
+            .dropdownBody{
+                margin-left: 4px;
+            }
+
+            .iconPart{
+                // margin-left: 6px;
+            }
+        }
+        .container:last-child{
+            .dropdownBody{
+                margin-left: 0px;
+            }
+            .iconPart{
+                // margin-left: 4px;
+            }
+        }
+    }
+
+}
+

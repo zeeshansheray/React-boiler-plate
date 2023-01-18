@@ -1,0 +1,310 @@
+#AddVenue .imageUploadBox, #AddVenue .brandColorBox, #AddTier .imageUploadBox, #AddTier .brandColorBox {
+  height: 124px;
+  width: 163px;
+  border-radius: 4px;
+  background-color: color(neutral0);
+  border: 1px solid color(neutral20);
+}
+
+#AddVenue .boxBorder, #AddTier .boxBorder {
+  border: 1px solid color(neutral20);
+  border-radius: 4px;
+  width: 90px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#AddVenue .singleItem, #AddTier .singleItem {
+  color: color(neutral100);
+  cursor: pointer;
+}
+
+#AddVenue .leftSection, #AddTier .leftSection {
+  position: fixed;
+  top: 100px;
+}
+
+#AddVenue .expandable, #AddTier .expandable {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  height: 0px;
+}
+
+#AddVenue .expand, #AddTier .expand {
+  height: 160px !important;
+  overflow-y: auto;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#AddVenue .expandDiscountTier, #AddTier .expandDiscountTier {
+  overflow-y: auto;
+}
+
+#AddVenue .expandExtraPointsTier, #AddTier .expandExtraPointsTier {
+  height: 30px;
+}
+
+#AddVenue .downloadLink, #AddTier .downloadLink {
+  height: 32px;
+  border-radius: 4px;
+  width: 65px;
+  background-color: color(neutral0);
+}
+
+#AddVenue .downloadLink:hover svg, #AddTier .downloadLink:hover svg {
+  fill: color(primary60) !important;
+}
+
+#AddVenue .expandHeightCustom, #AddTier .expandHeightCustom {
+  height: 550px !important;
+}
+
+#AddVenue .expandDeal, #AddTier .expandDeal {
+  height: 300px;
+}
+
+#AddVenue .expandSocial, #AddTier .expandSocial {
+  height: 200px;
+}
+
+#AddVenue .expandDiscount, #AddTier .expandDiscount {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#AddVenue .scrollspy, #AddTier .scrollspy {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 32px;
+  top: 16px;
+}
+
+#AddVenue ul, #AddTier ul {
+  list-style: none;
+}
+
+#AddVenue li, #AddTier li {
+  padding-bottom: 20px;
+  list-style-type: none;
+  padding-left: 32px;
+  width: 190px;
+}
+
+#AddVenue .list, #AddTier .list {
+  padding-bottom: 0px !important;
+  list-style-type: none !important;
+  padding-left: 0px !important;
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+
+#AddVenue .tierBox, #AddTier .tierBox {
+  width: 40px;
+  height: 40px;
+  border: 0.5px solid #E2E8F0;
+  border-radius: 5px;
+  position: relative;
+  background: #F8F8FA;
+  -webkit-box-shadow: 0px 0px 0px 1px #dfe1e6;
+          box-shadow: 0px 0px 0px 1px #dfe1e6;
+}
+
+#AddVenue .listStart, #AddTier .listStart {
+  padding: 0px !important;
+}
+
+#AddVenue a, #AddTier a {
+  text-decoration: none;
+}
+
+#AddVenue .isCurrent, #AddTier .isCurrent {
+  color: color(neutral100) !important;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+#AddVenue .animateIcon, #AddTier .animateIcon {
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+#AddVenue .isCurrent a,
+#AddVenue h2, #AddTier .isCurrent a,
+#AddTier h2 {
+  color: color(primary50) !important;
+}
+
+#AddVenue .outline, #AddTier .outline {
+  background: #FCFCFD;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(223, 225, 230, 0.5), 0px 1px 4px rgba(223, 225, 230, 0.5);
+          box-shadow: 0px 0px 0px 1px rgba(223, 225, 230, 0.5), 0px 1px 4px rgba(223, 225, 230, 0.5);
+  border-radius: 4px;
+  width: 100%;
+  padding: 16px 24px 24px;
+}
+
+#AddVenue #dealCoverUploader .imageUploadBox, #AddTier #dealCoverUploader .imageUploadBox {
+  width: 420px;
+  height: 160px;
+  padding: 16px 60px 0px 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+#AddVenue #dealCoverUploader .dealOutlineBox, #AddTier #dealCoverUploader .dealOutlineBox {
+  background: #FFFFFF;
+  border: 2.73801px solid #202124;
+  border-radius: 6px 6px 0px 0px;
+  width: 171px;
+  height: 144px;
+  border-bottom: 0px;
+  position: absolute;
+  padding: 15px;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#AddVenue #dealCoverUploader .dealCover, #AddTier #dealCoverUploader .dealCover {
+  height: 81px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+#AddVenue #dealCoverUploader .belowBar, #AddTier #dealCoverUploader .belowBar {
+  height: 10px;
+  border-radius: 3px;
+  background-color: #DADCE0;
+}
+
+#AddVenue .rotate, #AddTier .rotate {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+#AddVenue .icon, #AddTier .icon {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#AddVenue .rightSideComponent, #AddTier .rightSideComponent {
+  margin-bottom: 300px;
+}
+
+#AddVenue .circle, #AddTier .circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+#AddVenue .circle .innerCircle, #AddTier .circle .innerCircle {
+  height: 21px;
+  width: 21px;
+  border: 4px solid white;
+}
+
+#AddVenue .singleTier, #AddTier .singleTier {
+  padding: 12px;
+  margin-left: 40px;
+}
+
+#AddVenue .selectedTier, #AddTier .selectedTier {
+  background-color: color(neutral0);
+}
+
+#AddVenue .boxBorder:hover .image, #AddTier .boxBorder:hover .image {
+  opacity: 0.3;
+}
+
+#AddVenue .boxBorder:hover .middleText, #AddTier .boxBorder:hover .middleText {
+  opacity: 1;
+}
+
+#AddVenue .image, #AddTier .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#AddVenue .middleText, #AddTier .middleText {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#AddVenue .innerBoxBorder, #AddTier .innerBoxBorder {
+  width: 60px;
+  height: 60px;
+}
+
+#AddVenue .card, #AddTier .card {
+  border: 1px solid color(neutral20);
+}
+
+#AddVenue .selectedBorder, #AddTier .selectedBorder {
+  border: 1px solid #5F9EF1;
+}
+
+#AddVenue .btnBorder, #AddTier .btnBorder {
+  border: 1px solid #DFE1E6;
+  border-radius: 4px;
+}
+
+#AddVenue .circleRow, #AddTier .circleRow {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10.333333%;
+          flex: 0 0 10.333333%;
+  max-width: 10.333333%;
+  padding-bottom: 7%;
+}
+
+#AddVenue .colorCircle, #AddTier .colorCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#AddVenue .selectedColor, #AddTier .selectedColor {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+#subBrandModal .discountBox {
+  padding: 24px 16px;
+}
+
+#subBrandModal .discountComponents {
+  padding: 4px 16px;
+}
+/*# sourceMappingURL=venue.css.map */

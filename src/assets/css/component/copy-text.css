@@ -1,0 +1,27 @@
+#CopyText .text-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 200px;
+}
+
+#CopyText .text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#CopyText .hideText {
+  position: absolute;
+  z-index: -1;
+  color: transparent;
+}
+/*# sourceMappingURL=copy-text.css.map */

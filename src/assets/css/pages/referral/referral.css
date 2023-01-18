@@ -1,0 +1,100 @@
+#createprogram {
+  margin-left: 200px;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+#createprogram .contentFrame {
+  margin: auto;
+  position: relative;
+}
+
+#createprogram .card {
+  padding: 24px;
+  height: 100%;
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2) !important;
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2) !important;
+}
+
+#createprogram .blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#createprogram .Body14R {
+  padding: 0px;
+}
+
+#createprogram .detail {
+  white-space: pre-line;
+}
+
+#createprogram .selectionText {
+  margin-top: 200px;
+}
+
+#createprogram .footerPart {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  padding: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: white;
+}
+
+#createprogram #rewardsReferral .singleReward:hover {
+  border: 1px solid color(primary50);
+}
+
+#createprogram #rewardsReferral .singleReward:hover .rewardName {
+  background-color: color(primary50);
+  border-color: 1px solid color(primary50);
+  border-radius: 6px;
+}
+
+#createprogram #rewardsReferral .singleReward:hover .rewardName .headline3, #createprogram #rewardsReferral .singleReward:hover .rewardName .body1 {
+  color: white;
+}
+
+#createprogram #rewardsReferral .singleReward {
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  border-radius: 8px;
+}
+
+#createprogram #rewardsReferral .reward {
+  background-color: color(neutral0);
+  color: color(neutral80);
+}
+
+#createprogram #emailReferral .singleRow {
+  margin-top: 16px;
+}
+
+#createprogram #optionsReferral .card {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#createprogram #optionsReferral .bar {
+  width: 100%;
+  border: 1px solid color(neutral10);
+}
+
+#createprogram #optionsReferral .customInput {
+  padding: 0px;
+}
+
+#createprogram #installationReferral .card:hover {
+  background-color: color(primary50);
+  border-color: 1px solid color(primary50);
+}
+
+#createprogram #installationReferral .card:hover .Heading3, #createprogram #installationReferral .card:hover .Body14R {
+  color: white !important;
+}
+/*# sourceMappingURL=referral.css.map */

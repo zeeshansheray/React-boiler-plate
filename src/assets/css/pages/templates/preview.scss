@@ -1,0 +1,45 @@
+#Preview{
+    width: calc(100% - 555px);
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px 10px;
+    overflow: auto;
+
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-color: #FFF;
+        text-align: center;
+        overflow: auto;
+    }
+
+    .emptyBlock{
+        width: 100% !important;
+        height: 100px !important;
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        background-repeat: no-repeat;
+        transition: all 0.1s ease;
+        color: inherit;
+        width: inherit !important;
+    }
+
+    .divider{
+        width: 80%;
+        height: 1px;
+        background: #cacaca;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}

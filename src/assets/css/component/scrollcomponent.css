@@ -1,0 +1,58 @@
+#ScrollComponent .top-spacer {
+  height: 50vh;
+}
+
+#ScrollComponent .bottom-spacer {
+  height: 110vh;
+}
+
+#ScrollComponent .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+#ScrollComponent .headerTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+
+#ScrollComponent .header_text {
+  padding: 20px;
+  color: #314d4a;
+  font-weight: bold;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+#ScrollComponent .selected {
+  border-bottom: 3px solid #11bb9a;
+  color: #11bb9a;
+}
+
+#ScrollComponent .section {
+  height: 40vh;
+}
+
+#ScrollComponent #red {
+  background-color: red;
+}
+
+#ScrollComponent #green {
+  background-color: green;
+}
+
+#ScrollComponent #blue {
+  background-color: blue;
+}
+/*# sourceMappingURL=scrollcomponent.css.map */

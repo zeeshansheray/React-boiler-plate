@@ -1,0 +1,13 @@
+#BusinessComponent {
+  padding: 24px;
+  height: 100vh;
+}
+
+#BusinessComponent .brandLogo {
+  border-radius: 50%;
+}
+
+#BusinessComponent .verticalEllipses {
+  -webkit-line-clamp: 4 !important;
+}
+/*# sourceMappingURL=publicpages.css.map */

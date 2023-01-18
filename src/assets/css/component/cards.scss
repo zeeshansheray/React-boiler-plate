@@ -1,0 +1,34 @@
+#cards{
+    .cardsRow {
+        width: 96%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .ImgRow{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        height: 193px;
+    }
+
+    .actionIcon{
+        position: absolute;
+        right: 5px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 24px;
+        height: 26px;
+        width: 26px;
+        text-align: center;
+        top: 8px;
+    }
+
+    .card {
+        cursor: pointer;
+        position: relative;
+        // border-radius: 12px;
+        height: 376px;
+        box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+        // box-shadow: 0px 12px 44px -15px rgba(105, 71, 71, 0.7);
+        border-radius: 8px;
+        border: 0px;
+    }
+}

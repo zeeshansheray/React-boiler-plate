@@ -1,0 +1,51 @@
+#TemplateDesign {
+  background-color: color(neutral0);
+  position: relative;
+  width: 100%;
+}
+
+#TemplateDesign .saveBtn {
+  position: fixed;
+  top: 10px;
+  left: 63.5%;
+}
+
+#TemplateDesign .backPage {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+}
+
+#TemplateDesign .viewandDownloadButtons {
+  position: fixed;
+  top: 10px;
+  left: 20%;
+}
+
+#TemplateDesign .widgetTitle {
+  position: fixed;
+  top: 12px;
+  left: 40%;
+}
+
+#TemplateDesign .editIcon {
+  vertical-align: text-bottom;
+}
+
+#TemplateDesign .full-height {
+  height: calc(100vh - 72px);
+}
+
+#TemplateDesign .element-referer {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: color(primary50);
+  color: white;
+  padding: 4px 8px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  position: absolute;
+  font-size: 10px;
+}
+/*# sourceMappingURL=templateDesign.css.map */

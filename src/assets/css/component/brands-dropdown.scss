@@ -1,0 +1,42 @@
+::-webkit-scrollbar {
+  display: none;
+}
+#brandDropdown {
+  @include flex-layout(column);
+  @include border("",$radius:4px);
+  box-shadow: $shadow-custom-dropdown;
+  min-width: 280px;
+  max-height: 360px;
+  padding: 4px;
+  position: absolute;
+  z-index: 9;
+  top: 60px;
+  left: 16px;
+  overflow-y: scroll;
+  background-color: color(white);
+  
+  .hoverstate :hover {
+    background: color(neutral10);
+    
+  }
+  .dropdownItem{
+  margin          : 0;
+  border-radius   : 4px;
+  background-color: #ffffff;
+  align-items     : center;
+
+}
+.dropdownItem-lg{
+  @extend .dropdownItem;
+  padding:12px 12px;
+}
+
+.dropdownItem-sm{
+    @extend .dropdownItem;
+    padding:12px 8px;
+  }
+
+
+}
+
+

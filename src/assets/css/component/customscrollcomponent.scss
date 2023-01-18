@@ -1,0 +1,52 @@
+#CustomScrollComponent{
+    padding: 16px 0px;
+    position: relative;
+
+      .leftSection{
+        position: fixed;
+        top: 76px;
+        width: 13%;
+      }
+
+      ul {
+        list-style: none;
+      }
+      li{
+          list-style-type: none;
+      }
+      .topSpaceDiv{
+        height: 56px;
+        width: 100%;
+        margin-top: -60px;
+      }
+
+      .bottomSpaceDiv{
+        height: 56px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .scrollspy{
+        position: sticky;
+        left: 32px;
+        top: 16px;
+      }
+
+      .isCurrent {
+        color: color(neutral100) !important;
+        transition: ease 0.3s;
+
+      }
+
+      .animateIcon{
+          transition: ease-out 0.3s ;
+      }
+      
+      .isCurrent a,
+      h2 {
+        color: color(primary50) !important;
+      }
+
+}

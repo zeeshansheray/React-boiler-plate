@@ -1,0 +1,190 @@
+.tierDisableButton {
+  cursor: no-drop !important;
+}
+
+#Tier {
+  margin: 0px 32px 0px 32px;
+}
+
+#Tier .updatedCard {
+  /* Light Secondary BG */
+  background: #F8F8FA;
+  /* Border All Side */
+  -webkit-box-shadow: 0px 0px 0px 1px #DFE1E6;
+          box-shadow: 0px 0px 0px 1px #DFE1E6;
+  border-radius: 4px;
+  /* Inside auto layout */
+  padding: 8px;
+}
+
+#Tier .updatedList {
+  padding: 16px;
+  /* General/White */
+  background: #FCFCFD;
+  /* Border Bottom */
+  margin: 1px 0px;
+}
+
+#Tier .updatedList:hover {
+  background-color: #F8F8FA;
+  -webkit-transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#Tier .deleteIcon {
+  display: none;
+}
+
+#Tier .cardNew {
+  width: 287px;
+}
+
+@media (min-width: 1400px) {
+  #Tier .cardNew {
+    width: 340px !important;
+  }
+}
+
+@media (min-width: 1900px) {
+  #Tier .cardNew {
+    width: 365px !important;
+  }
+}
+
+#Tier .cardNew:hover {
+  -webkit-box-shadow: 0px 6px 18px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 6px 18px 1px rgba(0, 0, 0, 0.16);
+  -webkit-transition: -webkit-box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#Tier .cardNew:hover .deleteIcon {
+  -webkit-transition: -webkit-box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15px;
+  width: 15px;
+}
+
+#Tier .deleteIcon {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#Tier .deleteIcon:hover {
+  -webkit-box-shadow: 0px 0px 0px 7px #F0F1F3;
+          box-shadow: 0px 0px 0px 7px #F0F1F3;
+  background-color: #F0F1F3;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15px;
+  width: 15px;
+}
+
+#Tier .cardDiv {
+  border: 1px solid #DFE1E6;
+  padding: 16px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 300px;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+#Tier .inputField:focus {
+  outline: 0px;
+}
+
+@media (min-width: 1600px) {
+  #Tier .cardDiv {
+    border: 1px solid #DFE1E6;
+    padding: 16px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 340px;
+    -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+#Tier .cardDiv:last-child {
+  margin-right: 0;
+}
+
+#Tier .colorDiv {
+  height: 65px;
+  width: 52px;
+}
+
+#Tier .copyIcon {
+  position: absolute;
+  right: 12px;
+  top: 4px;
+}
+
+#Tier .viewMoreIcon {
+  right: 10px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#Tier .gridGaping {
+  grid-gap: 48px;
+}
+
+#Tier #viewDetailComponent {
+  position: absolute;
+  right: 16px;
+  top: -10px;
+  -webkit-box-shadow: 0px 3px 5px rgba(9, 30, 66, 0.2), 0px 0px 1px rgba(9, 30, 66, 0.31);
+          box-shadow: 0px 3px 5px rgba(9, 30, 66, 0.2), 0px 0px 1px rgba(9, 30, 66, 0.31);
+  border-radius: 4px;
+  color: black;
+  width: 200px;
+}
+
+#Tier #viewDetailComponent .container:nth-child(3) .dropdownBody {
+  margin-left: 4px;
+}
+
+#Tier #viewDetailComponent .container:last-child .dropdownBody {
+  margin-left: 0px;
+}
+/*# sourceMappingURL=tier.css.map */

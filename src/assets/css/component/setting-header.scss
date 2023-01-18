@@ -1,0 +1,44 @@
+#settingHeader {
+  z-index: 1000;
+  background-color: #FCFDFD;
+  position: sticky;
+  top: 0px;
+  height: 60px;
+  transition: all ease-in 0.1s;
+
+  .headerItems {
+    margin: 0px 16px;
+  }
+
+  .brand {
+    border: 0px;
+  }
+
+  .backTitlesRow:last-child {
+    .backIcon {
+      display: none !important;
+    }
+  }
+
+  .active-role {
+    align-self: center;
+    border: 1px solid color(neutral10);
+    border-radius: 20px;
+    padding: 4px 12px;
+    background-color: color(neutral0);
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+
+  @media (max-width: 767px) {
+    .headerItems {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.box-shadow-header {
+  box-shadow: $shadow-top-header;
+}

@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+#communication {
+    #communicationList{
+        height: calc(100vh - 60px);
+        padding: 16px 40px;
+        overflow: auto;
+    }
+
+    .disableCommunication{
+        padding        : 8px;
+        display        : flex;
+        background     : #F5F7FC;
+        box-shadow     : 0px 2px 6px rgba(0, 0, 0, 0.1);
+        border-radius  : 6px;
+        justify-content: space-between;
+        align-items    : center;
+        height         : 48px;
+        padding        : 8px 18px 8px 8px;
+    }
+
+    .grid {
+        display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 24px;
+        align-items: stretch;
+        // height: calc(100vh - 72px);
+        // overflow-y: scroll;
+      }
+      .grid > div {
+        border: 0.5px solid #d6dae9;
+        box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.06);
+        border-radius: 4px;
+        padding: 20px;
+        background: #FCFDFD;
+      }
+      
+    .tag{
+        padding: 6px 12px;
+        // width: 87px;
+        font-size: 13px;
+        height: 32px;
+        background-color: color(primary0);
+        border-radius: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoTag {
+        cursor        : pointer;
+        position      : absolute;
+        bottom        : -28px;
+        right         : 24px;
+        color         : #6A778A;
+        font-size     : 16px;
+        font-weight   : 400;
+        padding       : 6px 12px;
+        background    : #242426;
+        border-radius : 4px;
+    }
+
+    .smsInfo {
+        width         : 320px;
+        height        : 240px;
+        position      : absolute;
+        top           : 112%;
+        right         : -25%;
+        background    : #FCFCFD;
+        box-shadow    : 0px 4px 12px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+        border-radius : 4px;
+    }
+
+    .component{
+        // padding: 24px 20px 24px 24px;
+
+        #SMSDetailScreen{
+            overflow: hidden;
+
+            #viewDetailComponent{
+                width: 150px !important;
+            }
+
+            .radiotop{
+                .MuiRadio-root{
+                    margin-top: -85px;
+                }
+            }
+
+            .btncolorsms{
+                .customButton path{
+                    // color : color(primary50) !important;
+                    fill  : color(primary50) !important;
+                }
+
+                .viewdetail{
+                    width: 100px;
+                }
+            }
+
+            .iphoneBox {
+                box-shadow   : 1px 2px 8px 1px rgba(0, 0, 0, 0.06);
+                border-radius: 4px;
+                border       : 0.5px solid #D6DAE9;
+                width        : 368px;
+                height       : 600px;
+                margin-top   : 16px;
+
+                .topSection{
+                    background : #F2F6FF;
+                    height     : 13.19vh
+                }
+            }
+
+            .imageBG{
+                background-color: #F0F0F0;
+                width: fit-content;
+            }
+            .imageUpload{
+                width: 91px;
+                height: 55px;
+            }
+
+            .leftSection{
+                background-color: color(white);
+                height          : calc(100vh - 64px);
+                border-top      : 1px solid color(neutral20);
+                border-right    : 1px solid color(neutral20);
+                margin-top      : -5px;
+                margin-left     : -16px;
+            }
+
+
+            #myTextarea{
+                width: 100%;
+                height: 150px !important;
+                // border: 1px solid #E3E2E2;
+                border-radius: 4px;
+            }
+
+            .messageDiv{
+                background    : #F2F6FF;
+                width         : 80% !important;
+                border-radius : 4px;
+                padding       : 12px 12px 12px 16px;
+                overflow-wrap : break-word;
+                max-height    : fit-content;
+                white-space   : break-spaces;
+                color         : black;
+                // position: absolute;
+                // bottom: 25%;
+            }
+
+            .sendImage{
+                width : 70% !important;
+                height: 170px;
+                object-fit: cover;
+                margin-top: 16px;
+            }
+
+
+            .messageDivParent{
+                max-height: 64vh;
+                overflow-y: scroll;
+                padding: 32px 16px;
+                // position: relative;
+            }
+
+            .rightPhoneBox{
+                display: flex;
+                justify-content: flex-end;
+                position: relative;
+            }
+
+            .whiteBackground{
+                position: absolute;
+                bottom: 0;
+                height: 555px;
+                width: 100%;
+                padding: 32px 32px 100px 32px;
+                display: flex;
+                flex-direction: column;
+                overflow-y: scroll;
+                justify-content: flex-end;
+            }
+
+            .brandLogo{
+                height: 40px; 
+                width: 40px; 
+                border-radius: 50%;
+            }
+            .brandDetail{
+                position: absolute; 
+                top: 60px;
+                width: inherit;      
+                
+            }
+            .mobileImage{
+                z-index: -1; 
+                height: 700px; 
+                width: 370px; 
+                position: relative;
+                background-size: cover;
+            }
+
+
+
+            .saveButtons{
+                min-width: 110px;
+             }
+
+            //  .custom-dropdown > div{
+            //     max-height: 300px;
+            //     border: 2px solid pink;
+            //     overflow: auto;
+            //   }
+
+              .custom-dropdown {
+                max-height: 300px;
+                border: 2px solid pink;
+                overflow: auto;
+                top: -30% !important;
+                left: 73% !important;
+              }
+
+            .message-box, .message-textarea {
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                vertical-align: bottom;
+                text-align: inherit;
+                text-overflow: inherit;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                font-weight: inherit;
+                font-size: inherit;
+                line-height: inherit;
+                text-rendering: optimizeLegibility;
+            }
+
+            .message-box{
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                pointer-events: none;
+            }
+
+            .message-textarea{
+                position: relative;
+                width: 100%;
+                outline: none;
+                border: none;
+                background: none;
+                color: transparent;
+                resize: none;
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                caret-color: #232b39;
+            }
+
+             .textAreaMessage{
+                min-height: 100px;
+                border: 0.5px solid color(neutral10) !important;
+                border-radius: 8px;
+                padding : 8px;
+                color: color(neutral80);
+             }
+             
+        }
+    }
+    #SMS , #Notification{
+        .SmsTable{
+            padding: 16px;
+            margin-top: 32px;
+        }
+
+        ::placeholder{
+            color: color(neutral50);
+        }
+        
+    }
+
+
+    #audienceGraph{
+        .card{
+            box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+            border-radius: 4px;
+            border: 0px;
+            padding: 8px;
+        }
+
+        .audienceTable{
+            padding: 16px;
+            margin-top: 16px;
+        }
+
+        .success{
+            background-color: #FCE4E5;
+            font-weight: 600 !important;
+            color: red !important; 
+            padding: 4px;
+            width: fit-content;
+        }
+        
+        .unsuccessful{
+            background-color: #EBF7DE;
+            font-weight: 600 !important;
+            color : #6FB02B !important;
+            padding: 4px;
+            width: fit-content;
+            
+        }
+
+        .toolIconComponent{
+            .toolIcon{
+                border-radius: 50%;
+                background-color: color(neutral0);
+                text-align: center;
+                
+            }
+            
+            .toolName{
+                align-self: center;
+                margin-left: 8px;
+                white-space: nowrap;
+            }
+
+        }
+    }
+
+    #Notifications{
+        // margin-top: -25px;
+        // margin-left: -10px;
+        .colDivScroll{
+            height: calc(100vh - 84px);
+            overflow-y: scroll;
+            padding: 16px 0px;
+        }
+        .colDiv{
+            border-right: 1px solid #DFE1E6;
+        }
+        .CustomTextarea{
+            border: 1px solid #DFE1E6;
+            height: 127px;
+        }
+        .colorpicker{
+            box-shadow: none !important;
+        }
+        .border{
+            border: 1px solid #DFE1E6;
+        }
+        .mobView{
+            // height: 60vh;
+            border: 1px solid #DFE1E6;
+            overflow: hidden;
+            width: 331px;
+            z-index: 1;
+            padding: 14px;
+            height: 716px;
+        }
+
+        @media screen 
+        and (min-device-width: 700px) 
+        and (max-device-width: 1280px) {
+                .mobView{
+                    height: 600px;
+                }
+          }
+    
+
+        .description{
+            margin: 0px -14px;
+        }
+
+        .CustomTextarea{
+            max-height: 150px;
+            overflow-y: auto !important;
+        }
+
+        .backgroundImage{
+            position: absolute;
+            // height: auto;
+            // width: auto;
+            z-index: -1;
+            top: 0px;
+            right: 0px;
+        }
+
+        .circle{
+            border-radius: 50%;
+            height: 24px;
+            width: 24px;
+        }
+        .description{
+            height: 60vh;
+            font-family: 'Roboto';
+            font-size: 24px !important;
+        }
+
+        .activeColor{
+            transition: ease 0.4s;
+            outline: 4px solid color(primary50);
+        }
+
+        .notiDiv{
+            height: 70vh;
+        }
+        .notiDivWidth{
+            width: 336px;
+            padding: 12px 16px;
+        }
+
+        .backgroundColorBox{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            gap: 10px;
+        }
+
+        .arrowColor{
+            background-color: #F0F0F0;
+            height: 40px;
+            width: 40px;
+        }
+        .imageBG{
+            background-color: #F0F0F0;
+            width: fit-content;
+        }
+        .imageUpload{
+            width: 91px;
+            height: 55px;
+        }
+        .imageMobView{
+            width: 100%;
+            height: auto;
+            // width: inherit;
+            // height: inherit;
+        }
+        .overlayCustom{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 100%;
+            background-color: rgba(0,0,0,0.8);
+            min-height: 40px;
+        }
+
+        .bellIcon{
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+        }
+
+        .rightDiv{
+            height: calc(100vh - 82px);
+        }
+
+        .leftHeaderPart{
+            box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.12);
+            margin: -20px 0px 0px 0px;
+            padding: 10px 16px 8px 8px;
+            height: 62px;
+        }
+
+
+        .buttonBox{
+            height: 70px;
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+            padding-right: 16px;
+            background-color: white;
+            box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        .autocomplete{
+            .css-yk16xz-control{
+                border: none;
+            }
+            .css-1pahdxg-control{
+                border: none;
+                box-shadow: none;
+            }
+            .css-1pahdxg-control :hover{
+                border: none;
+            }
+            .css-1mrhc1i-control{
+                border: none;
+                box-shadow: none;
+            }
+            .css-1hb7zxy-IndicatorsContainer{
+                display: none;
+            }
+        }
+
+    }
+    #NotificationListing{
+        padding: 16px 40px 16px 40px;
+        .listTable{
+            max-height: 75vh;
+            overflow-y: scroll;
+        }
+    }
+
+    
+}
+
+#FromModal{
+    .crossicon{
+        height           : 26px;
+        width            : 26px;
+        border-radius    : 50%;
+        background-color : #E3E3E3;
+    }
+    .listicon{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+    }
+}
+
+#customerEmail{
+    
+    .topHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .customerData {
+        padding: 24px 9px;
+        border-bottom: 1px solid color(neutral90);
+        margin: 0px -24px;
+    }
+
+    // .customerData:last-child{
+    //     border: none;
+    // }
+
+    .checkBox{
+        margin-top: -5px;
+    }
+
+    .image{
+        height: 65px;
+        width : 52px;
+    }
+    
+    .nameDetails{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .actionBox{
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        justify-content: center;
+    }
+}
+
+#CreateEmail{
+
+    margin: -41px -12px -42px -24px;
+    
+
+    .publish-btn{
+        width: calc(100% - 534px);
+        // margin-left: -26px;
+        padding-bottom: 12px;
+        height: 42px;
+        position: absolute;
+        background-color: white;
+        top: 0px;
+        padding-top: 8px;
+        left: 245px;
+        z-index: 2;
+        border-bottom: 0.5px solid color(neutral20);
+    }
+
+    .headerLeftStick{
+        left: 0px;
+    }
+
+    .properties{
+        border-right: 0px;
+    }
+}
+

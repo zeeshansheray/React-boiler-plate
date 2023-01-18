@@ -1,0 +1,497 @@
+#Design{
+    padding: 24px;
+
+    .customCardsBox{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+#emptyPassesScreen{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+#Editpass{
+    position : absolute;
+    z-index  : 9999;
+    width    : calc(100% - 5vw);
+    height   : calc(100vh - 64px);
+    overflow : scroll;
+    
+
+    .placeholder {
+        color: #a7a7a7;
+    }
+
+    .qr-placeholder{
+        background: transparent !important;
+        width: 150px !important;
+        height: 150px;
+    }
+
+    #TopHeader{
+        .designName{
+            border: 1px solid black;
+            border-radius: 6px;
+            background: white;
+            width: fit-content;
+            min-width: 10px;
+        }
+    }
+
+    #LeftPane{
+        #BackField{
+            .addBtn{
+                text-align: center;
+                border: 1px dashed #bdbdbd;
+                border-radius: 8px;
+                padding: 6px 44px;
+                width: fit-content;
+                margin: auto;
+                color: #bdbdbb;
+                font-weight: 500;
+                font-size: 14px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .outline-active{
+        outline: 1px solid color(primary50);
+        &:hover{
+            outline: 1px solid color(primary50) !important;
+        }
+    }
+
+    #Apple{
+        .PKTextAlignmentRight{
+            text-align: right !important;
+        }
+        .PKTextAlignmentLeft{
+            text-align: left !important;
+        }
+
+        .logo, .logoText, .headerFields, .cover, .secondaryFields, .secondaryField, .auxiliaryField, .qrCode, .backFields{
+            transition: outline 0.1s ease-out;
+            &.error-outline{
+                outline: 1px solid color(danger10) !important;
+            }
+            &:hover{
+                outline: 2px solid color(primary50);
+            }
+            &.preview:hover{
+                outline: none !important;
+            }
+        }
+
+        .placeholder {
+            color: #a7a7a7;
+            text-decoration: underline;
+        }
+
+        .addBtn {
+            width: 125px;
+            height: 28px;
+            background-color: color(primary50);
+            margin: auto;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 100%;
+            left: calc(50% - 62.5px);
+            cursor: pointer;
+            opacity: 0;
+            transition: ease-out 0.3s all;
+            &.add{
+                opacity: 1;
+            }
+        }
+    }
+
+
+    .passTitle{
+        justify-content: center;
+        padding: 15px 24px;
+        border-bottom: 0.5px solid color(neutral10) !important;
+    }
+
+    .rightTopColumn{
+        border-left: 0px;
+    }
+
+    .cardComponent{
+        height: 100vh;
+    }    
+
+    .middleColumn{
+        padding-top: 5%;
+    }
+
+    .bottomBorder{
+        border-bottom: 0.5px solid color(neutral10) !important;
+    }
+
+    .leftsideBtn{
+        padding: 8px;
+        font-size: 12px;
+        border-right: 0.5px solid color(neutral10) !important;
+    }
+
+    .leftBorder{
+        border-left:  0.5px solid color(neutral10) !important;
+    }
+    
+
+    .middlebtn{
+        padding: 8px;
+        font-size: 12px;
+        border-left: 0.5px solid color(neutral10) !important;
+    }
+
+    .viewIcon{
+        width: 30px;
+        border-right: 0.5px solid color(neutral10) !important;
+        padding: 4px;
+        left: 0px;
+    }
+
+    .frontBackBtns{
+        right: 0px;
+        height: 100%;
+    }
+
+    .frontFields:hover {
+        background-color: rgba(29, 59, 86, 0.05);
+    }
+
+    .passesIcons{
+        margin: auto;
+        height: 100%;
+    }
+
+    .passesIcons >img{
+        height: inherit;
+    }
+
+    .stylePanel{
+        padding: 8px;
+        border-left: 0.5px solid color(neutral10) !important;
+    }
+
+    .passTypes{
+        justify-content: center;
+    }
+
+    .saveChanges{
+        right: 24px;
+    }
+
+    .navigatorBox{
+        padding: 0px 6px 6px 8px;
+    }
+
+    .cardContainer{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .qrCode{
+        width: fit-content;
+        margin: auto;
+        padding: 10px;
+        background: white;
+        border-radius: 12px;
+    }
+
+//new Css 
+
+
+.cardTopCircle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: color(neutral0);
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: -38px;
+    z-index: 1000;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 375px;
+    height: 480px;
+    perspective: 1000px;
+    margin: auto;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+  }
+
+  .flipped .flip-card-inner{
+    transform: rotateY(180deg);
+  }
+  
+  .cardTopBorder , .cardBottomBorder{
+    transform: rotateY(180deg);
+  }
+  
+  .flipped .flip-card-front{
+      z-index: -1;
+  }
+
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+//New css end
+
+
+
+.cards{
+    width: 375px;
+    height: 100vh;
+    margin: auto;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contents {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 4s;
+    transform-style: preserve-3d;
+  }
+  
+  .cardActive {
+    transform: rotateY( 180deg ) ;
+    transition: transform 4s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .back {
+    transform: rotateY( 180deg );
+  }
+
+    .item{
+        padding: 8px 8px;
+    }
+
+    .subItem{
+        padding: 2px 0px 4px 30px;
+    }
+
+    // .subItem:hover{
+    //    color: color(primary50) !important;
+    // }
+
+    .active{
+        background-color: color(neutral0);
+    }
+
+    .rotate{
+        transform: rotate(270deg);
+    }
+
+    .innerPadding{
+        padding: 8px 4px 8px 0px;
+    }
+
+    .changeBrandLogo{
+        padding: 4px 8px;
+        border-radius: 8px;
+        background-color: color(neutral0);
+        height: 32px;
+    }
+
+    .backgroundColorBox{
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid color(neutral0);
+    }
+
+    .colorCircle{
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        border: 1px solid color(neutral0);
+    }
+
+
+    .descriptionField{
+        border-bottom: 1px solid color(primary50);
+    }
+
+    .fieldDetailBox{
+        border-radius: 8px;
+        border: 1px solid #F0F0F0;
+        padding: 8px 8px 8px 16px;
+        height: fit-content;
+    }
+
+    .noneSelectedBox{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 130px;
+        background-color: color(neutral0);
+        padding : 24px 16px 24px 16px;
+    }
+
+    #customPass{
+        margin: auto;
+
+        //zigzag class
+
+        // zigzag classes end
+
+        .singleCardEdit{
+            width: 375px;
+            height: 580px;
+            box-sizing: border-box;
+            // border: 0.5px solid #E0E0E0;
+            padding-bottom: 16px;
+            overflow-y: scroll;
+            position: absolute;
+           
+            word-break: break-all;
+        }   
+
+        .cardTopEdit{
+            padding: 8px;
+        }
+    
+        .cardLogo{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+    
+        .cardCover , .stampImageCover{
+            max-height: 150px;
+            max-width: 100%;
+        }
+
+        .stampImageCover{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            height: 150px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            // z-index: -1;
+        }
+
+        .singleRow{
+            display: flex;
+            justify-content: space-evenly;
+            flex-basis: 0;
+            flex-grow: 1;
+        }
+
+        .inputText , .frontInputText{
+            background-color: inherit;
+            border: none;
+            text-align: inherit;
+        }
+
+        input::placeholder{
+            color:  color(neutral80) !important;
+        }
+
+        .frontInputText::placeholder{
+            color: inherit !important;
+        }
+
+        ::placeholder{
+            color: color(neutral60);
+        }
+
+        .underline{
+            text-decoration: underline;
+        }
+
+        .cardContentEdit{
+            padding: 8px;
+            width: 50%;
+        }
+        
+        .cardLogo{
+            width: 35px; 
+            height: 35px;
+            border-radius: 50%;
+        }
+
+        .singlePassRow{
+            padding: 0px 16px;
+        }
+
+        .textArea{
+            height: fit-content;
+        }
+
+        .middleBox{
+            height: 40px;
+            background-color:#EFEFF4;
+        }
+
+        .resize-none{
+            resize: none;
+        }
+
+    }
+
+    
+}

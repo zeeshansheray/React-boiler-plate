@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,OAAO,EAAE,IAAI;CAiBhB;;AAlBD,AAGI,eAHW,CAGX,aAAa,CAAA;EACT,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,YAAY;EAC9B,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,gBAAgB;EACvB,SAAS,EAAE,IAAI;CAClB;;AARL,AASI,eATW,CASX,kBAAkB,CAAA;EACd,KAAK,EAAE,gBAAgB;EACvB,gBAAgB,EAAE,gBAAgB;CACrC;;AAZL,AAcI,eAdW,CAcX,SAAS,CAAA;EACL,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "participations.scss"
+    ],
+    "names": [],
+    "file": "participations.css"
+}

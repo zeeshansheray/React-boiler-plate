@@ -1,0 +1,64 @@
+#CustomTextEditor{
+    .card{
+        max-width: 45%;
+        padding: 8px;
+    }
+
+    .divider{
+        height: inherit;
+        width: 1px;
+        background-color: color(neutral10);
+    }
+    
+    .editorMiddle{
+        display: flex;
+        justify-content: space-between;
+    }
+    .size, line , .spacing, .textColor{
+        align-self: flex-end;
+    }
+
+    .editorBottom{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .textArea{
+        height: 20px;
+    }
+
+    .symbol{
+        padding: 2px 8px;
+        border-radius: 4px;
+    }
+
+    .selected{
+        background-color: color(neutral0);
+    }
+
+    .symbol:hover{
+        background-color: color(neutral0);
+    }
+
+    .colorBoxShow{
+        height: 30px;
+        width: 30px;
+        border-radius: 8px;
+        bottom: 8px;
+        right: 5%;  
+    }
+
+    .textArea{
+        min-height: 40px;
+        border-radius: 8px;
+        border: 1px solid color(neutral20);
+    }
+
+    .textArea:focus{
+        border: 1px solid color(primary50);
+        padding: 8px;
+        color: color(neutral60);
+        font-size: s15px,
+    }
+}
+

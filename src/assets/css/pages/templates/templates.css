@@ -1,0 +1,755 @@
+#TemplateDesign {
+  background-color: color(neutral0);
+  position: relative;
+  width: 100%;
+}
+
+#TemplateDesign .saveBtn {
+  position: fixed;
+  top: 10px;
+  left: 63.5%;
+}
+
+#TemplateDesign .backPage {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+}
+
+#TemplateDesign .viewandDownloadButtons {
+  position: fixed;
+  top: 10px;
+  left: 20%;
+}
+
+#TemplateDesign .widgetTitle {
+  position: fixed;
+  top: 12px;
+  left: 40%;
+}
+
+#TemplateDesign .editIcon {
+  vertical-align: text-bottom;
+}
+
+#TemplateDesign .full-height {
+  height: calc(100vh - 72px);
+}
+
+#TemplateDesign .element-referer {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: color(primary50);
+  color: white;
+  padding: 4px 8px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  position: absolute;
+  font-size: 10px;
+}
+
+#LeftPane {
+  width: 245px;
+  background-color: color(white);
+  height: calc(100vh - 72px);
+  overflow-y: scroll;
+  border-left: 0.5px solid color(neutral20);
+  border-right: 0.5px solid color(neutral20);
+}
+
+#LeftPane .copy {
+  display: none;
+}
+
+#LeftPane .navigatorText {
+  padding: 6px 0px 6px 16px;
+  font-size: 11px;
+  color: color(neutral10);
+  opacity: 1;
+  border-bottom: 1px solid color(neutral10);
+}
+
+#LeftPane .hover .copy {
+  display: block;
+}
+
+#LeftPane .navigator {
+  color: color(neutral80);
+  border-bottom: 0.5px solid color(neutral20);
+  padding: 6px 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  color: #7A869A;
+}
+
+#LeftPane .navigator > div {
+  cursor: pointer;
+}
+
+#LeftPane .navigator .active {
+  color: color(neutral80);
+  font-weight: 500;
+}
+
+#LeftPane .properties {
+  color: color(neutral90);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: color(white);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 500;
+  z-index: 10;
+  line-height: 16px;
+  height: 42px;
+  padding: 2px 2px;
+  border-bottom: 0.5px solid color(neutral20);
+  border-right: 0.5px solid color(neutral20);
+}
+
+#LeftPane .properties .properties-options {
+  width: 135px;
+  color: color(neutral90);
+  height: 38px;
+  text-align: center;
+  background-color: color(white);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#LeftPane .properties .properties-options.active {
+  background-color: color(primary50);
+  color: color(white);
+}
+
+#LeftPane .elements {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+}
+
+#LeftPane .elements .body, #LeftPane .elements .block {
+  height: 32px;
+  line-height: 16px;
+  margin: 0px 1px;
+  color: color(neutral70);
+}
+
+#LeftPane .elements .body svg, #LeftPane .elements .block svg {
+  fill: color(neutral70);
+}
+
+#LeftPane .elements .body {
+  padding: 8px 8px;
+}
+
+#LeftPane .elements .block {
+  padding: 8px 12px;
+}
+
+#LeftPane .elements .block:hover, #LeftPane .elements .body:hover {
+  outline: 0.5px solid color(primary50);
+  margin: 0px 1px;
+  color: color(primary50);
+}
+
+#LeftPane .elements .block.focused, #LeftPane .elements .body.focused {
+  background-color: color(primary50);
+  color: color(white);
+}
+
+#LeftPane .elements .block.focused svg, #LeftPane .elements .body.focused svg {
+  fill: white !important;
+}
+
+#LeftPane .elements .block:hover svg {
+  fill: color(primary50);
+}
+
+#LeftPane .elements .body:hover svg {
+  fill: color(primary50);
+}
+
+#NavigationComp .contentBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#NavigationComp .singleBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: calc(100%/3);
+  height: 92.5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  text-transform: capitalize;
+  border: 0.5px solid color(neutral10);
+  cursor: pointer;
+}
+
+#RightPane {
+  width: 295px;
+  margin-left: auto;
+  background-color: color(white);
+  height: calc(100vh - 72px);
+  overflow: auto;
+  cursor: default;
+  overflow-x: hidden;
+}
+
+#RightPane .customfield-block {
+  border-radius: 4px;
+  border: 0.5px solid color(neutral20);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 32px;
+  padding: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#RightPane .properties {
+  color: color(neutral80);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: color(neutral10);
+  padding: 2px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 42px;
+  left: 0;
+  right: 0px;
+  z-index: 10;
+  width: 295px;
+  border-bottom: 0.5px solid color(neutral20);
+}
+
+#RightPane .properties .properties-options {
+  width: 50%;
+  height: 38px;
+  text-align: center;
+  background-color: color(white);
+  border-radius: 4px;
+  cursor: pointer;
+  color: color(neutral90);
+  padding: 2px;
+}
+
+#RightPane .properties .properties-options.active {
+  background-color: color(primary50);
+  color: color(white);
+}
+
+#RightPane .topBarItems {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+#RightPane .property-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -16px;
+  padding: 8px 16px;
+  border-bottom: 1px solid color(neutral10);
+  font-size: 13px;
+  cursor: pointer;
+  background-color: color(neutral90);
+}
+
+#RightPane .selectItems {
+  padding: 2px;
+  border: 1px solid color(neutral10);
+  border-radius: 4px;
+}
+
+#RightPane .divider {
+  margin: 16px -16px;
+  height: 0.5px;
+  background-color: color(neutral10);
+}
+
+#RightPane .property-name-divider {
+  margin: 0px -16px;
+  height: 1px;
+  background-color: color(neutral10);
+}
+
+#RightPane .Tag {
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  font-size: 12px;
+  color: color(neutral40);
+}
+
+#RightPane .dropdown-input-box {
+  border: 0.5px solid color(neutral20);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  height: 32px;
+}
+
+#RightPane .dropdown-input-box > div {
+  overflow: hidden;
+  height: 100%;
+  padding-right: 10px;
+}
+
+#RightPane .dropdown-input-box > input {
+  height: 100%;
+}
+
+#RightPane .dropdown-input-box:hover {
+  border-color: color(primary50);
+}
+
+#RightPane .sizeInputField::-webkit-input-placeholder {
+  opacity: 1;
+  font-size: '12px';
+  color: color(neutral40);
+}
+
+#RightPane .sizeInputField:-ms-input-placeholder {
+  opacity: 1;
+  font-size: '12px';
+  color: color(neutral40);
+}
+
+#RightPane .sizeInputField::-ms-input-placeholder {
+  opacity: 1;
+  font-size: '12px';
+  color: color(neutral40);
+}
+
+#RightPane .sizeInputField::placeholder {
+  opacity: 1;
+  font-size: '12px';
+  color: color(neutral40);
+}
+
+#RightPane .sizeInputField {
+  font-size: 12px;
+}
+
+#RightPane .predefine-dropdown {
+  background: #fff;
+  border: 1px solid color(neutral20);
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  -webkit-transition: opacity ease .7s;
+  transition: opacity ease .7s;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+}
+
+#RightPane .predefine-dropdown > div {
+  border-bottom: 0.5px solid color(neutral20);
+  padding: 4px 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#RightPane .predefine-dropdown > div:last-child {
+  border-bottom: none;
+}
+
+#RightPane .predefine-dropdown > div:hover, #RightPane .predefine-dropdown > div.selected {
+  background-color: color(neutral10);
+}
+
+#RightPane #PickColor .backgroundColorBox {
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid color(neutral10);
+  height: 32px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: color(neutral10);
+}
+
+#RightPane #PickColor .colorCircle {
+  height: 24px;
+  min-width: 24px;
+  border-radius: 32px;
+  border: 1px solid color(neutral0);
+  margin-right: 6px;
+  background-color: white;
+}
+
+#RightPane #PickColor .pallette {
+  position: absolute;
+  margin-top: 6px;
+  margin-left: -50px;
+  z-index: 100;
+}
+
+#RightPane #UploadImage .upload-block {
+  border: 1px dashed #DBDBDB;
+  border-radius: 4px;
+  padding: 4px 6px;
+  text-align: center;
+  height: 32px;
+}
+
+#RightPane #UploadImage .upload-block > div {
+  height: -webkit-fill-available;
+  overflow: hidden;
+}
+
+#RightPane #Fonts .text-alignment > div, #RightPane #Fonts .text-style > div {
+  width: 100%;
+  height: 32px;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#RightPane #Fonts .text-alignment > div.selected, #RightPane #Fonts .text-style > div.selected {
+  background: white;
+  -webkit-box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+          box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+  border-radius: 4px;
+}
+
+#RightPane #Margin .horizontalAlignment, #RightPane #Direction .horizontalAlignment, #RightPane #Align .horizontalAlignment, #RightPane #Justify .horizontalAlignment {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: auto;
+  border: 1px solid color(neutral10);
+  border-radius: 4px;
+  background-color: color(neutral10);
+  padding: 2px;
+  height: 36px;
+}
+
+#RightPane #Margin .horizontalAlignment > div, #RightPane #Direction .horizontalAlignment > div, #RightPane #Align .horizontalAlignment > div, #RightPane #Justify .horizontalAlignment > div {
+  width: 100%;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#RightPane #Margin .horizontalAlignment > div.selected, #RightPane #Direction .horizontalAlignment > div.selected, #RightPane #Align .horizontalAlignment > div.selected, #RightPane #Justify .horizontalAlignment > div.selected {
+  background: white;
+  -webkit-box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+          box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+  border-radius: 4px;
+  border-radius: 4px;
+}
+
+#RightPane #BackgroundProperties .background-size-options {
+  height: 36px;
+  padding: 2px;
+  border: 1px solid color(neutral10);
+}
+
+#RightPane #BackgroundProperties .background-size-options > div {
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: color(neutral80);
+  cursor: pointer;
+}
+
+#RightPane #BackgroundProperties .background-size-options > div:hover {
+  background-color: color(neutral10);
+}
+
+#RightPane #BackgroundProperties .background-size-options > div.active {
+  background-color: color(white);
+  -webkit-box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+          box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+  color: color(primary50) !important;
+}
+
+#RightPane #Padding .indSpacing, #RightPane #Margin .indSpacing {
+  position: relative;
+  width: 19px;
+  height: 19px;
+}
+
+#RightPane #Padding .indSpacing .top, #RightPane #Padding .indSpacing .right, #RightPane #Padding .indSpacing .bottom, #RightPane #Padding .indSpacing .left, #RightPane #Margin .indSpacing .top, #RightPane #Margin .indSpacing .right, #RightPane #Margin .indSpacing .bottom, #RightPane #Margin .indSpacing .left {
+  background-color: color(neutral20);
+}
+
+#RightPane #Padding .indSpacing .top, #RightPane #Margin .indSpacing .top {
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  top: -1;
+  left: 2px;
+}
+
+#RightPane #Padding .indSpacing .right, #RightPane #Margin .indSpacing .right {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  right: 0;
+  top: 1px;
+}
+
+#RightPane #Padding .indSpacing .bottom, #RightPane #Margin .indSpacing .bottom {
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  bottom: 0;
+  left: 2px;
+}
+
+#RightPane #Padding .indSpacing .left, #RightPane #Margin .indSpacing .left {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  left: 0;
+  top: 1px;
+}
+
+#RightPane #Padding .indSpacing .active, #RightPane #Margin .indSpacing .active {
+  background-color: color(neutral60);
+}
+
+#EditorPane, #Preview {
+  width: calc(100% - 543px);
+  height: calc(100vh - 72px);
+  margin: 0 auto;
+  padding: 44px 8px 0px 8px;
+  overflow: auto;
+}
+
+#EditorPane.preview .hover, #EditorPane.preview .focused, #Preview.preview .hover, #Preview.preview .focused {
+  outline: none !important;
+}
+
+#EditorPane .body.dragover, #Preview .body.dragover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+#EditorPane .dragover, #Preview .dragover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  outline: 2px solid color(primary50);
+  outline-offset: -2px;
+}
+
+#EditorPane .body, #Preview .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  height: 100%;
+  text-align: center;
+  overflow: auto;
+}
+
+#EditorPane .body.hover, #EditorPane .body.focused, #Preview .body.hover, #Preview .body.focused {
+  outline: 2px solid color(primary50);
+}
+
+#EditorPane .body.focused, #Preview .body.focused {
+  cursor: auto;
+}
+
+#EditorPane .block, #Preview .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  color: inherit;
+}
+
+#EditorPane .block.hover, #EditorPane .block.focused, #Preview .block.hover, #Preview .block.focused {
+  outline: 2px solid color(primary50);
+  outline-offset: -2px;
+}
+
+#EditorPane .block.focused, #Preview .block.focused {
+  cursor: auto;
+}
+
+#EditorPane .emptyBlock, #Preview .emptyBlock {
+  width: 100%;
+  height: 100px;
+}
+
+#EditorPane .element, #Preview .element {
+  white-space: pre-wrap;
+}
+
+#EditorPane .element.hover, #EditorPane .element.focused, #Preview .element.hover, #Preview .element.focused {
+  outline: 2px solid color(primary50);
+  outline-offset: -2px;
+}
+
+#EditorPane .element.focused, #Preview .element.focused {
+  cursor: auto;
+}
+
+#EditorPane .divider, #Preview .divider {
+  width: 80%;
+  height: 1px;
+  background: #cacaca;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#TemplateList .tempales {
+  padding: 32px;
+}
+
+#TemplateList .singleTempalteBox {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#TemplateList .singleTempalteBox:first-child {
+  margin-left: 0;
+}
+
+#TemplateList .singleTempalteBox:hover {
+  border: 2px solid color(primary50);
+  border-radius: 4px;
+}
+
+#TemplateList .singleTempalteBox.active {
+  border: 2px solid color(primary50);
+  border-radius: 4px;
+}
+
+#TemplateList .templateSection {
+  padding: 0 15px;
+  background-color: color(neutral0);
+  height: 312px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#TemplateList .templateRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#TemplateList .titleSection {
+  padding: 16px;
+  border: 1px solid color(neutral0);
+  border-top: 0px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#TemplateList .footerPart {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 32px 16px 0px;
+  border-top: 0.5px solid color(neutral10) !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  background-color: white;
+}
+/*# sourceMappingURL=templates.css.map */

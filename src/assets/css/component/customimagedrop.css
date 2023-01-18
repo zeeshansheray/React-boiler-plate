@@ -1,0 +1,135 @@
+#CoverImageDrop .inputImageBox {
+  border: 1px solid color(neutral20);
+  border-style: dashed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  height: 147px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#CoverImageDrop .title {
+  color: color(neutral100);
+}
+
+#CoverImageDrop .subHeading {
+  color: color(neutral60);
+}
+
+#CoverImageDrop .dropImageCircle {
+  width: calc(200px * 2.66px);
+  height: 152px;
+  margin: auto;
+  border: 1px solid #E6E6E6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#CoverImageDrop .dropImageCircle:hover.image {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#CoverImageDrop .dropImageCircle:hover .imageUpload {
+  opacity: 1;
+  z-index: 100;
+}
+
+#CoverImageDrop .dropImageCircle:hover .title {
+  color: color(white) !important;
+}
+
+#CoverImageDrop .dropImageCircle:hover .subHeading {
+  color: color(white) !important;
+}
+
+#CoverImageDrop .uploadHover:hover {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: color(white);
+}
+
+#CoverImageDrop .uploadHover:hover .title {
+  color: color(white) !important;
+}
+
+#CoverImageDrop .uploadHover:hover .subHeading {
+  color: color(white) !important;
+}
+
+#CoverImageDrop .dropImageCircle:hover .title {
+  color: color(neutral100) !important;
+}
+
+#CoverImageDrop .dropImageCircle:hover .subHeading {
+  color: color(neutral60) !important;
+}
+
+#CoverImageDrop .imageUpload {
+  -webkit-transition: opacity ease 0.7s;
+  transition: opacity ease 0.7s;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#CoverImageDrop .imageUpload.remove {
+  opacity: 0;
+}
+
+#CoverImageDrop .inputImageBox:hover .title {
+  color: color(white) !important;
+}
+
+#CoverImageDrop .inputImageBox:hover .subHeading {
+  color: color(white) !important;
+}
+
+#CoverImageDrop .insideImage {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 1900px) {
+  #CoverImageDrop .dropImageCircle {
+    height: 204px;
+    width: 533px;
+  }
+}
+/*# sourceMappingURL=customimagedrop.css.map */

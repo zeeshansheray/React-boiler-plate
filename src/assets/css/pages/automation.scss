@@ -1,0 +1,84 @@
+#CreateRule{
+    
+    padding: 16px 40px;
+
+    select {
+        -moz-appearance    : none !important;
+        -webkit-appearance : none !important;
+    }
+
+    select:focus-visible {
+        outline: none !important;
+    }
+
+
+
+    .triggerBox, .actionBox{
+        box-sizing   : border-box;
+        border-radius: 6px;
+        height       : 56px;
+        margin-top   : 13px;
+        width        : 100%;
+    }
+
+    .triggerBox:hover{
+        background-color: #E8EFF7;
+        border:  1px dashed #2F80ED;
+    }
+
+    .triggerBox{
+        color: color(primary50);
+        border:  1px dashed #2F80ED;
+
+
+        .addIcon svg path{
+            fill  : color(primary50);
+            stroke: color(primary50);
+        }
+
+        .addIcon svg{
+            margin-top: -4px;
+        }
+    }
+
+    .actionBox{
+        color: #EDB72F;
+        border:  1px dashed #EDB72F;
+
+
+       .addIcon svg path{
+            fill  : #EDB72F;
+            stroke: #EDB72F;
+        }
+
+        .addIcon svg{
+            margin-top: -4px;
+        }
+    }
+    
+    .actionBox:hover{
+        background-color: #FDF7E8;
+        border: 1px dashed #EDB72F;
+    }
+
+    .triggerBoxDropdown{
+        position     : absolute;
+        left         : 0px;
+        top          : 70px;
+        background   : #FFFFFF;
+        border       : 1px solid #E6E6E6;
+        box-sizing   : border-box;
+        box-shadow   : 0px 0px 12px rgba(128, 128, 128, 0.24);
+        border-radius: 6px;
+        width        : 100%;
+    }
+
+    .singleRowDetail{
+        padding: 10px 12px 10px 12px;
+    }
+    .singleRowDetail :hover{
+        color: color(primary50);
+    }
+
+ 
+}

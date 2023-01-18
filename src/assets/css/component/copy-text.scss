@@ -1,0 +1,20 @@
+#CopyText{
+    .text-wraper{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        max-width: 200px;
+    }
+    .text {
+        width: fit-content;
+        overflow: auto;
+        white-space: nowrap;
+        // text-overflow: ellipsis;
+    }
+
+    .hideText{
+        position: absolute;
+        z-index: -1;
+        color: transparent;
+    }
+}

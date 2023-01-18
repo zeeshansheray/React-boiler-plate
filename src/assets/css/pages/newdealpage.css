@@ -1,0 +1,297 @@
+#NewDealPage, #ManyChatDealPage {
+  height: 100vh;
+  background-color: color(neutral0);
+}
+
+#NewDealPage .logoutButton, #ManyChatDealPage .logoutButton {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  cursor: pointer;
+}
+
+#NewDealPage .desciprtionText, #ManyChatDealPage .desciprtionText {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#NewDealPage .dealOuterCard, #ManyChatDealPage .dealOuterCard {
+  padding: 40px 32px 0px 32px;
+  background: color(white);
+  -webkit-box-shadow: 0px 5px 20px rgba(109, 110, 111, 0.08);
+          box-shadow: 0px 5px 20px rgba(109, 110, 111, 0.08);
+  border-radius: 6px;
+  width: 480px;
+}
+
+#NewDealPage .pointsBox, #ManyChatDealPage .pointsBox {
+  padding: 8px 12px 8px 32px;
+  height: 36px;
+  background: #FCFCFD;
+  -webkit-box-shadow: 0px 0px 4px rgba(33, 43, 54, 0.24);
+          box-shadow: 0px 0px 4px rgba(33, 43, 54, 0.24);
+  border-radius: 100px;
+}
+
+#NewDealPage .giftBoxLogo, #ManyChatDealPage .giftBoxLogo {
+  border-radius: 50%;
+  left: -16px;
+  top: -2px;
+  position: absolute;
+}
+
+#NewDealPage .slider-wrapper .selected, #NewDealPage .slider-wrapper .previous, #ManyChatDealPage .slider-wrapper .selected, #ManyChatDealPage .slider-wrapper .previous {
+  padding: 55px;
+  padding-top: 0px;
+}
+
+#NewDealPage .slider-wrapper img, #ManyChatDealPage .slider-wrapper img {
+  border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#NewDealPage .carousel.carousel-slider .control-arrow, #ManyChatDealPage .carousel.carousel-slider .control-arrow {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.1);
+  top: 100px;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+#NewDealPage .carousel.carousel-slider .control-prev, #ManyChatDealPage .carousel.carousel-slider .control-prev {
+  left: 0px;
+}
+
+#NewDealPage .carousel.carousel-slider .control-next, #ManyChatDealPage .carousel.carousel-slider .control-next {
+  right: 0px;
+}
+
+#NewDealPage .carousel .dot .selected, #ManyChatDealPage .carousel .dot .selected {
+  background-color: color(primary50) !important;
+}
+
+#NewDealPage .carousel .control-dots .selected, #ManyChatDealPage .carousel .control-dots .selected {
+  background-color: color(primary50) !important;
+}
+
+#NewDealPage .carousel .carousel-status, #ManyChatDealPage .carousel .carousel-status {
+  color: color(neutral60);
+  text-shadow: none;
+  margin-top: -4px;
+  bottom: 8px;
+  top: unset;
+  right: unset;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#NewDealPage .carousel .dot, #ManyChatDealPage .carousel .dot {
+  width: 8px;
+  height: 8px;
+  background: #D4D8E2;
+  opacity: 1 !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#NewDealPage .claimButton, #ManyChatDealPage .claimButton {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#NewDealPage .ClaimBtn, #ManyChatDealPage .ClaimBtn {
+  border-radius: 0px 0px 4px 4px;
+}
+
+#DealPageOld {
+  height: 100vh;
+  background-color: #F6F6F9;
+}
+
+#DealPageOld .logoutButton {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  cursor: pointer;
+}
+
+#DealPageOld .installCard {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  cursor: pointer;
+}
+
+#DealPageOld .desciprtionText {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 768px) {
+  #DealPageOld .mobileScreen {
+    display: none;
+  }
+  #DealPageOld .claimBtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #DealPageOld .webScreen {
+    display: none;
+  }
+  #DealPageOld #NewDealPage {
+    display: none;
+  }
+  #DealPageOld .dealOuterCard {
+    width: 100%;
+  }
+}
+
+#DealPageOld .pointsBox {
+  padding: 8px 12px 8px 32px;
+  height: 36px;
+  background: #FCFCFD;
+  -webkit-box-shadow: 0px 0px 4px rgba(33, 43, 54, 0.24);
+          box-shadow: 0px 0px 4px rgba(33, 43, 54, 0.24);
+  border-radius: 100px;
+}
+
+#DealPageOld .giftBoxLogo {
+  border-radius: 50%;
+  left: -16px;
+  top: -2px;
+  position: absolute;
+}
+
+#DealPageOld .topBox {
+  padding: 24px 32px;
+  border-bottom: 1px solid #DFE1E6;
+  background-color: white;
+}
+
+#DealPageOld .lowerBox {
+  padding: 16px 24px;
+  background-color: #F6F6F9;
+}
+
+#DealPageOld .singleDealRow {
+  -webkit-box-shadow: 0px 4px 5px rgba(109, 110, 111, 0.1);
+          box-shadow: 0px 4px 5px rgba(109, 110, 111, 0.1);
+  padding: 12px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#ClaimPointsPage {
+  background: #F8F8FA;
+}
+
+#ClaimPointsPage .webScreen {
+  position: relative;
+  background: #FCFCFD;
+  -webkit-box-shadow: 0px 5px 20px rgba(109, 110, 111, 0.08);
+          box-shadow: 0px 5px 20px rgba(109, 110, 111, 0.08);
+  border-radius: 6px;
+  padding: 40px 32px 0px;
+  height: 380px;
+  width: 400px;
+}
+
+#ClaimPointsPage .ClaimBtn {
+  border-radius: 0px 0px 4px 4px;
+}
+
+#ClaimPointsPage .mobileScreen {
+  position: relative;
+  background: #FCFCFD;
+  -webkit-box-shadow: 0px 5px 20px rgba(109, 110, 111, 0.08);
+          box-shadow: 0px 5px 20px rgba(109, 110, 111, 0.08);
+  border-radius: 6px;
+  height: 100vh;
+  width: 100vw;
+}
+
+#ClaimPointsPage .topBox {
+  padding: 24px 32px 0px 32px;
+  border-bottom: 1px solid #DFE1E6;
+  background-color: white;
+}
+
+#ClaimPointsPage .lowerBox {
+  padding: 32px 24px;
+  height: 100%;
+  background-color: #FCFCFD;
+}
+
+@media screen and (min-width: 768px) {
+  #ClaimPointsPage .mobileScreen {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #ClaimPointsPage .webScreen {
+    display: none;
+  }
+}
+
+#ManyChatDealPage .topBox {
+  padding: 24px 32px;
+  border-bottom: 1px solid #DFE1E6;
+  background-color: white;
+}
+
+#ManyChatDealPage .lowerBox {
+  padding: 16px 24px;
+  background-color: #F6F6F9;
+}
+
+#ManyChatDealPage .singleDealRow {
+  -webkit-box-shadow: 0px 4px 5px rgba(109, 110, 111, 0.1);
+          box-shadow: 0px 4px 5px rgba(109, 110, 111, 0.1);
+  padding: 12px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  #ManyChatDealPage .mobileScreen {
+    display: none;
+  }
+  #ManyChatDealPage .claimBtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #ManyChatDealPage .webScreen {
+    display: none;
+  }
+  #ManyChatDealPage #NewDealPage {
+    display: none;
+  }
+}
+
+#QrCodeScreen .dealOuterCard {
+  padding: 32px;
+}
+
+@media screen and (max-width: 769px) {
+  #QrCodeScreen .dealOuterCard {
+    width: 100%;
+    height: 100vh;
+  }
+}
+/*# sourceMappingURL=newdealpage.css.map */

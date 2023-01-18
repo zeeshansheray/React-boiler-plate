@@ -1,0 +1,114 @@
+#LandingPage {
+  /* circle loaders */
+}
+
+#LandingPage .apiError {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: red;
+}
+
+#LandingPage .body {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+#LandingPage .body, #LandingPage .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#LandingPage .submit {
+  width: 36px !important;
+  padding: 6px 0 !important;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#LandingPage .loaders {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: inherit;
+  border-radius: 50px;
+}
+
+#LandingPage .loader {
+  min-width: 100px;
+}
+
+#LandingPage .circle-loader-1 {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  border-top: 3px solid currentColor;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid currentColor;
+  border-left: 3px solid currentColor;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: circle-loader-spin 1s infinite linear;
+  animation: circle-loader-spin .5s infinite linear;
+}
+
+@-webkit-keyframes circle-loader-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circle-loader-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=landingPage.css.map */

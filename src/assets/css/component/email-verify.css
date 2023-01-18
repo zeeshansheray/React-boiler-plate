@@ -1,0 +1,87 @@
+#Email {
+  padding: 6.67% 0 6.6% 0;
+}
+
+#Email .card {
+  padding: 24px 40px;
+  width: 480px;
+  margin: auto;
+  height: 100%;
+}
+
+#Email .Heading2 {
+  color: color(neutral80);
+}
+
+#Email .subtitle1 {
+  color: color(neutral70);
+}
+
+#Email .numberInput {
+  text-align: center;
+  height: 120px;
+  padding: 0px;
+  font-size: 50px;
+  color: color(neutral80);
+  border: none;
+  border-bottom: 5px solid color(neutral70);
+  width: 20%;
+}
+
+#Email .inputFields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Email .verifyButton {
+  background-color: color(primary50);
+  height: 52px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 12px, 16px, 12px, 16px;
+  font-size: 14px;
+}
+
+#Email .resendLogout {
+  color: color(primary50);
+}
+
+#Email .code-label {
+  margin-bottom: 16px;
+}
+
+#Email .code-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Email .code-inputs input {
+  text-align: center;
+  height: 120px;
+  padding: 0px;
+  font-size: 50px;
+  color: color(neutral80);
+  border: none;
+  border-bottom: 5px solid color(neutral70);
+  width: 20%;
+}
+
+#Email .code-inputs input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=email-verify.css.map */

@@ -1,0 +1,180 @@
+#CardRedeem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+#CardRedeem .PKTextAlignmentLeft {
+  text-align: left;
+}
+
+#CardRedeem .PKTextAlignmentRight {
+  text-align: right;
+}
+
+#CardRedeem .redeemedCoupon {
+  width: 340px;
+  background-color: red;
+  border-radius: 12px;
+  -webkit-box-shadow: '10px 12px 12px rgb(0 0 0 / 30%)';
+          box-shadow: '10px 12px 12px rgb(0 0 0 / 30%)';
+}
+
+#CardRedeem .topLeftSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#CardRedeem .topRightSection {
+  text-align: right;
+  padding-top: 8px;
+}
+
+#CardRedeem .brandName {
+  margin-left: 8px;
+}
+
+#CardRedeem .daysLeft, #CardRedeem .daysLeftLabel, #CardRedeem .discountLabel, #CardRedeem .amount {
+  width: 100%;
+  text-align: right;
+}
+
+#CardRedeem .customerLabel, #CardRedeem .customer {
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+#CardRedeem .coupon {
+  margin: 0px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: white;
+  height: 138px;
+  width: 138px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#CardRedeem .logoIcon {
+  border-radius: 50%;
+}
+
+#CardRedeem .couponBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#CardRedeem .cardCreated {
+  width: 340px;
+  height: 450px;
+  position: relative;
+}
+
+#CardRedeem .cardFront,
+#CardRedeem .cardBack {
+  width: inherit;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  padding: 16px;
+}
+
+#CardRedeem .cardFront {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#CardRedeem .cardBack {
+  -webkit-transform: perspective(600px) rotateY(180deg);
+          transform: perspective(600px) rotateY(180deg);
+  padding: 0px 16px;
+  height: inherit;
+  -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+#CardRedeem .cardBack.flipped {
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+}
+
+#CardRedeem .cardFront {
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+  padding: 16px;
+}
+
+#CardRedeem .cardFront.flipped {
+  -webkit-transform: perspective(600px) rotateY(-180deg);
+          transform: perspective(600px) rotateY(-180deg);
+}
+
+.text-inherit {
+  text-align: inherit !important;
+  color: inherit !important;
+}
+
+.couponBefore {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  width: 100%;
+  height: 10px;
+  background-size: 20px 40px !important;
+}
+
+.couponAfter {
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  width: 100%;
+  height: 10px;
+  background-size: 20px 40px !important;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.store {
+  border-radius: 14px;
+}
+/*# sourceMappingURL=pass.css.map */

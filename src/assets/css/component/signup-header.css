@@ -1,0 +1,90 @@
+#SignupHeader {
+  max-height: 70px;
+  padding: 9px 27px 9px 27px;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+  z-index: 100000;
+  top: 0px;
+  left: 0px;
+  -webkit-box-shadow: 0px 1px 12px 1px rgba(36, 50, 66, 0.08);
+          box-shadow: 0px 1px 12px 1px rgba(36, 50, 66, 0.08);
+}
+
+#SignupHeader .logoBox {
+  text-align: right;
+  border-radius: 50%;
+}
+
+#SignupHeader .buttonBox {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 4px;
+}
+
+#SignupHeader .contents {
+  padding-top: 6px;
+}
+
+#SignupHeader .captions {
+  float: left;
+}
+
+#SignupHeader .caption2 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+#SignupHeader .loginButton:hover {
+  background-color: color(primary60);
+}
+
+#SignupHeader #firstText {
+  color: color(neutral70);
+}
+
+#SignupHeader .loginButton {
+  background-color: color(primary50);
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  padding: 12px 8px;
+  width: 112px;
+  height: 48px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+#SignupHeader #secondText {
+  margin-top: -8px;
+}
+
+#SignupHeader .textButton {
+  padding-right: 0px;
+  margin-right: -40px;
+}
+
+@media screen and (max-width: 812px) {
+  #SignupHeader .logoBox {
+    display: none;
+  }
+  #SignupHeader #firstText {
+    display: none;
+  }
+  #SignupHeader .textButton {
+    margin-right: 0px;
+  }
+  #SignupHeader #cardEnclosed {
+    margin-left: 5px;
+  }
+}
+/*# sourceMappingURL=signup-header.css.map */

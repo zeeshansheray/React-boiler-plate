@@ -1,0 +1,10 @@
+#analytics #referralHeader .campaignDropdown, #participations #referralHeader .campaignDropdown {
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  border-radius: 32px;
+}
+
+#analytics #referralHeader .campaignActions, #participations #referralHeader .campaignActions {
+  color: color(primary50);
+}
+/*# sourceMappingURL=referral-header.css.map */

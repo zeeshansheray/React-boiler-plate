@@ -1,0 +1,9 @@
+#tierCard .card {
+  padding: 40px 16px;
+  border-radius: 16px 16px 0px 40px;
+  width: 290px;
+  max-height: 430px;
+  -webkit-box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+}
+/*# sourceMappingURL=customtiercard.css.map */

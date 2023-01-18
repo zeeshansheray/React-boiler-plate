@@ -1,0 +1,102 @@
+#EditorPane, #Preview {
+  width: calc(100% - 543px);
+  height: calc(100vh - 72px);
+  margin: 0 auto;
+  padding: 44px 8px 0px 8px;
+  overflow: auto;
+}
+
+#EditorPane.preview .hover, #EditorPane.preview .focused, #Preview.preview .hover, #Preview.preview .focused {
+  outline: none !important;
+}
+
+#EditorPane .body.dragover, #Preview .body.dragover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+#EditorPane .dragover, #Preview .dragover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  outline: 2px solid color(primary50);
+  outline-offset: -2px;
+}
+
+#EditorPane .body, #Preview .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  height: 100%;
+  text-align: center;
+  overflow: auto;
+}
+
+#EditorPane .body.hover, #EditorPane .body.focused, #Preview .body.hover, #Preview .body.focused {
+  outline: 2px solid color(primary50);
+}
+
+#EditorPane .body.focused, #Preview .body.focused {
+  cursor: auto;
+}
+
+#EditorPane .block, #Preview .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  color: inherit;
+}
+
+#EditorPane .block.hover, #EditorPane .block.focused, #Preview .block.hover, #Preview .block.focused {
+  outline: 2px solid color(primary50);
+  outline-offset: -2px;
+}
+
+#EditorPane .block.focused, #Preview .block.focused {
+  cursor: auto;
+}
+
+#EditorPane .emptyBlock, #Preview .emptyBlock {
+  width: 100%;
+  height: 100px;
+}
+
+#EditorPane .element, #Preview .element {
+  white-space: pre-wrap;
+}
+
+#EditorPane .element.hover, #EditorPane .element.focused, #Preview .element.hover, #Preview .element.focused {
+  outline: 2px solid color(primary50);
+  outline-offset: -2px;
+}
+
+#EditorPane .element.focused, #Preview .element.focused {
+  cursor: auto;
+}
+
+#EditorPane .divider, #Preview .divider {
+  width: 80%;
+  height: 1px;
+  background: #cacaca;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=editorPane.css.map */

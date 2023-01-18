@@ -1,0 +1,319 @@
+#NewDealPage, #ManyChatDealPage{
+    height: 100vh;
+    background-color: color(neutral0);
+ 
+    .logoutButton{
+        position: absolute;
+        right   : 24px;
+        top     : 24px;
+        cursor  : pointer;
+    }
+
+    .desciprtionText {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }    
+
+    .dealOuterCard{
+        padding      : 40px 32px 0px 32px;
+        background   : color(white);
+        box-shadow   : 0px 5px 20px rgba(109, 110, 111, 0.08);
+        border-radius: 6px;
+        width        : 480px;
+    }
+
+    .pointsBox{
+        padding      : 8px 12px 8px 32px;
+        height       : 36px;
+        background   : #FCFCFD;
+        box-shadow   : 0px 0px 4px rgba(33, 43, 54, 0.24);
+        border-radius: 100px;
+    }
+
+    .giftBoxLogo{
+        border-radius   : 50%;
+        left            : -16px;
+        top             : -2px;
+        position        : absolute;
+    }
+
+    .slider-wrapper {
+        .selected, .previous{
+            padding: 55px;
+            padding-top: 0px;
+        }
+
+        img{
+            border-radius: 4px;
+            object-fit   : cover;
+        }
+
+    }
+
+    .carousel.carousel-slider .control-arrow{
+        width        : 40px;
+        height       : 40px;
+        padding      : 0px;
+        background   : rgba(0, 0, 0, 0.1);
+        top          : 100px;
+        opacity      : 1;
+        border-radius: 4px;
+    }
+
+    .carousel.carousel-slider  .control-prev {
+        left: 0px;
+    }
+
+    .carousel.carousel-slider  .control-next {
+        right: 0px;
+    }
+
+    
+    .carousel{
+        .dot .selected{
+            background-color: color(primary50) !important;
+        }
+
+        .control-dots{
+            .selected{
+                background-color: color(primary50) !important;
+            }
+        }
+
+        .carousel-status{
+            color      : color(neutral60);
+            text-shadow: none;
+            margin-top : -4px;
+            bottom     : 8px;
+            top        : unset;
+            right      : unset;
+            left       : 50%;
+            transform  : translate(-50%,-50%);
+        }
+
+        .dot{
+            width     : 8px;
+            height    : 8px;
+            background: #D4D8E2;
+            opacity   : 1 !important;
+            box-shadow: none;
+        }
+    }
+
+    .claimButton{
+        position: absolute;
+        bottom  : 0px;
+        left    : 0px;
+    }
+
+    .ClaimBtn{
+        border-radius: 0px 0px 4px 4px;
+    }
+
+
+}
+
+#DealPageOld{
+
+    height: 100vh;
+    background-color: #F6F6F9;
+
+    .logoutButton{
+        position : absolute;
+        right    : 24px;
+        top      : 24px;
+        cursor   : pointer;
+    }
+
+    .installCard{
+        position: absolute;
+        left    : 24px;
+        top     : 24px;
+        cursor: pointer;
+    }
+
+    .desciprtionText{
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+    @media screen and (min-width : 768px) {
+        .mobileScreen{
+            display: none;
+        }
+        
+        .claimBtn{
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width : 769px) {
+        .webScreen{
+            display: none;
+        }
+ 
+        #NewDealPage{
+            display: none;
+        }
+
+        .dealOuterCard{
+            width: 100%;
+        }
+    }
+
+    .pointsBox{
+        padding      : 8px 12px 8px 32px;
+        height       : 36px;
+        background   : #FCFCFD;
+        box-shadow   : 0px 0px 4px rgba(33, 43, 54, 0.24);
+        border-radius: 100px;
+    }
+
+    .giftBoxLogo{
+        border-radius   : 50%;
+        left            : -16px;
+        top             : -2px;
+        position        : absolute;
+    }
+
+    .topBox{
+        padding         : 24px 32px;
+        border-bottom   : 1px solid #DFE1E6;
+        background-color: white;
+    }
+
+    .lowerBox{
+        padding         : 16px 24px;
+        background-color: #F6F6F9;
+    }
+
+    .singleDealRow{
+        box-shadow      : 0px 4px 5px rgba(109, 110, 111, 0.1);
+        padding         : 12px;
+        background-color: white;
+        border-radius   : 4px;
+
+    }
+}
+
+#ClaimPointsPage{
+    background: #F8F8FA;
+
+    .webScreen{
+        position     : relative;
+        background   : #FCFCFD;
+        box-shadow   : 0px 5px 20px rgba(109, 110, 111, 0.08);
+        border-radius: 6px;
+        padding      : 40px 32px 0px;
+        height       : 380px;
+        width        : 400px;
+    }
+
+    .ClaimBtn{
+        border-radius: 0px 0px 4px 4px;
+    }
+
+  
+
+
+    .mobileScreen{
+        position     : relative;
+        background   : #FCFCFD;
+        box-shadow   : 0px 5px 20px rgba(109, 110, 111, 0.08);
+        border-radius: 6px;
+        height       : 100vh;
+        width        : 100vw;
+    }
+
+    .topBox{
+        padding         : 24px 32px 0px 32px;
+        border-bottom   : 1px solid #DFE1E6;
+        background-color: white;
+    }
+
+    .lowerBox{
+        padding: 32px 24px;
+        height : 100%;
+        background-color: #FCFCFD;
+    }
+
+    @media screen and (min-width: 768px) {
+        .mobileScreen{
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .webScreen{
+            display: none;
+        }
+
+    }
+
+}
+
+
+#ManyChatDealPage{
+    .topBox{
+        padding         : 24px 32px;
+        border-bottom   : 1px solid #DFE1E6;
+        background-color: white;
+    }
+
+    .lowerBox{
+        padding         : 16px 24px;
+        background-color: #F6F6F9;
+    }
+
+    .singleDealRow{
+        box-shadow      : 0px 4px 5px rgba(109, 110, 111, 0.1);
+        padding         : 12px;
+        background-color: white;
+        border-radius   : 4px;
+
+    }
+
+    @media screen and (min-width : 768px) {
+        .mobileScreen{
+            display: none;
+        }
+        
+        .claimBtn{
+            display: none;
+        }
+
+
+        }
+
+        @media screen and (max-width : 769px) {
+            .webScreen{
+                display: none;
+            }
+    
+            #NewDealPage{
+                display: none;
+            }
+        }
+    }
+
+#QrCodeScreen{
+    .dealOuterCard{
+        padding: 32px;
+    }
+    @media screen and (max-width : 769px) {
+        .dealOuterCard{
+            width: 100%;
+            height: 100vh;
+        }
+
+       
+    }
+}

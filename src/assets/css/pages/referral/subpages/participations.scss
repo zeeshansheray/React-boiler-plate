@@ -1,0 +1,19 @@
+#participations{
+    padding: 24px;  
+
+    .Mui-selected{
+        border: 2px solid color(white);
+        outline: 0px;
+        color: color(primary50);
+        font-size: 16px;
+    }
+    .MuiTabs-indicator{
+        color: color(neutral80);
+        background-color: color(primary50);
+    }
+
+    .tableBox{
+        padding: 16px;
+        border-radius: 16px;
+    }
+}

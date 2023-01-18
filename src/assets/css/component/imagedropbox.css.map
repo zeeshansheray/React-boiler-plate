@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,aAFS,CAET,mBAAmB,CAAA;EACf,MAAM,EAAE,GAAG,CAAC,MAAM,CAAC,gBAAgB;EACnC,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "imagedropbox.scss"
+    ],
+    "names": [],
+    "file": "imagedropbox.css"
+}

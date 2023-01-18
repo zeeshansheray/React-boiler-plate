@@ -1,0 +1,8 @@
+.mentions__mention {
+  position: relative;
+  z-index: 1;
+  padding: 2px 0px;
+  border-radius: 2px;
+  background-color: #2960EC;
+  color: white;
+}

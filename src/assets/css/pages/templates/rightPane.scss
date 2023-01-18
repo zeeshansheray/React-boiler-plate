@@ -1,0 +1,303 @@
+#RightPane{
+    width: 295px;
+    margin-left: auto;
+    background-color: color(white);
+    height: calc(100vh - 72px);
+    overflow: auto;
+    cursor: default;
+    overflow-x: hidden;
+
+    .customfield-block{
+        border-radius: 4px;
+        border: 0.5px solid color(neutral20);
+        display: flex;
+        height: 32px;
+        padding: 6px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .properties{
+        color: color(neutral80);
+        // border-bottom: 0.5px solid color(neutral20);
+        display: flex;
+        background-color: color(neutral10);
+        padding: 2px;
+        position: sticky;
+        top: 0;
+        height: 42px;
+        left: 0;
+        right: 0px;
+        z-index: 10;
+        width: 295px;
+        border-bottom: 0.5px solid color(neutral20);
+        
+        .properties-options{
+            width: 50%;
+            height: 38px;
+            text-align: center;
+            background-color: color(white);
+            border-radius: 4px;
+            cursor: pointer;
+            color:color(neutral90);
+            padding: 2px;
+            &.active{
+                background-color: color(primary50);
+                color: color(white);
+            }
+        }
+    }
+
+    .topBarItems{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .property-section{
+        display: flex;
+        margin: 0px -16px;
+        padding: 8px 16px;
+        border-bottom: 1px solid color(neutral10);
+        font-size: 13px;
+        cursor: pointer;
+        background-color: color(neutral90);
+    }
+
+    .selectItems{
+        padding: 2px;
+        border: 1px solid color(neutral10);
+        border-radius: 4px;
+    }
+
+    .divider{
+        margin: 16px -16px;
+        height: 0.5px;
+        background-color: color(neutral10);   
+    }
+
+    .property-name-divider{
+        margin: 0px -16px;
+        height: 1px;
+        background-color: color(neutral10); 
+    }
+
+    .Tag{
+        position: absolute;
+        top: 12px;
+        right: 8px;
+        font-size: 12px;
+        color: color(neutral40);
+    }
+
+    .dropdown-input-box{
+        border: 0.5px solid color(neutral20);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        height: 32px;
+        >div{
+            overflow: hidden;
+            height: 100%;
+            padding-right: 10px;
+        }
+        >input{
+            height: 100%;
+        }
+        &:hover{
+            border-color: color(primary50);
+        }
+    }
+
+    .sizeInputField::placeholder{
+        opacity: 1;
+        font-size: '12px';
+        color: color(neutral40);
+    }
+
+    .sizeInputField{
+        font-size: 12px;
+    }
+    
+    .predefine-dropdown{
+        background: #fff;
+        border: 1px solid color(neutral20);
+        border-radius: 4px;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+        transition: opacity ease .7s;
+        position: absolute;
+        right: 0;
+        z-index: 100;
+        >div{
+            border-bottom: 0.5px solid color(neutral20);
+            padding: 4px 8px;
+            font-size: 12px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        >div:last-child{
+            border-bottom: none;
+        }
+        >div:hover, >div.selected{
+            background-color: color(neutral10);
+        }
+    }
+
+    #PickColor{
+        .backgroundColorBox{
+            padding: 4px;
+            border-radius: 4px;
+            border: 1px solid color(neutral10);
+            height: 32px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            background-color: color(neutral10);
+        }
+        .colorCircle{
+            height: 24px;
+            min-width: 24px;
+            border-radius: 32px;
+            border: 1px solid color(neutral0);
+            margin-right: 6px;
+            background-color: white;
+        }
+        .pallette{
+            position: absolute;
+            margin-top: 6px;
+            margin-left: -50px;
+            z-index: 100;
+        }
+    }
+
+    #UploadImage{
+        .upload-block{
+            border: 1px dashed #DBDBDB;
+            border-radius: 4px;
+            padding: 4px 6px;
+            text-align: center;
+            height: 32px;
+            >div{
+                height: -webkit-fill-available;
+                overflow: hidden;
+            }
+        }
+    }
+
+    #Fonts{
+        .text-alignment, .text-style{
+            >div{
+                width: 100%;
+                height: 32px;
+                border-radius: 2px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                &.selected{
+                    background: white;
+                    box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+
+    #Margin, #Direction, #Align, #Justify{
+        .horizontalAlignment{
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: auto;
+            border: 1px solid color(neutral10);
+            border-radius: 4px;
+            background-color: color(neutral10);
+            padding: 2px;
+            height: 36px;
+            >div{
+                width: 100%;
+                border-radius: 4px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                &.selected{
+                    background: white;
+                    box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+                    border-radius: 4px;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+
+    #BackgroundProperties{
+        .background-size-options{
+            height: 36px;
+            padding: 2px;
+            border: 1px solid color(neutral10);
+            >div{
+                padding: 6px 8px;
+                border-radius: 8px;
+                font-size: 12px;
+                color: color(neutral80);
+                cursor: pointer;
+            }
+            >div:hover{
+                background-color: color(neutral10);
+            }
+            >div.active{
+                background-color: color(white);
+                box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+                color: color(primary50) !important;
+            }
+        }
+    }
+
+    #Padding, #Margin {
+        .indSpacing{
+            position: relative;
+            width: 19px;
+            height: 19px;
+            .top, .right, .bottom, .left{
+                background-color: color(neutral20);
+            }
+            .top{
+                position: absolute;
+                width: 15px;
+                height: 2px;
+                top: -1;
+                left: 2px;
+            }
+    
+            .right{
+                position: absolute;
+                width: 2px;
+                height: 15px;
+                right: 0;
+                top: 1px;
+            }
+    
+            .bottom{
+                position: absolute;
+                width: 15px;
+                height: 2px;
+                bottom: 0;
+                left: 2px;
+            }
+    
+            .left{
+                position: absolute;
+                width: 2px;
+                height: 15px;
+                left: 0;
+                top: 1px;
+            }
+            .active{
+                background-color: color(neutral60);
+            }
+        }
+    }
+
+
+}

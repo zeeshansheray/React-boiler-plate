@@ -1,0 +1,15 @@
+#ActiveStatus {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+#ActiveStatus.active {
+  background: green;
+}
+
+#ActiveStatus.inactive {
+  background: red;
+}
+/*# sourceMappingURL=active-status.css.map */

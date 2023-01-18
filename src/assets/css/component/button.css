@@ -1,0 +1,48 @@
+.secondary path {
+  fill: color(neutral100);
+}
+
+.secondary:hover path {
+  fill: color(primary50);
+}
+
+.secondary:focus path {
+  fill: color(primary50);
+}
+
+.warning path {
+  fill: color(white);
+}
+
+.warning:hover path {
+  fill: color(white);
+}
+
+.warning:focus path {
+  fill: color(white);
+}
+
+.warningSecondary path {
+  fill: color(danger30);
+}
+
+.warningSecondary:hover path {
+  fill: color(danger30);
+}
+
+.warningSecondary:focus path {
+  fill: color(danger50);
+}
+
+.customButton path {
+  fill: color(white);
+}
+
+.customButton:hover path {
+  fill: color(white);
+}
+
+.customButton:focus path {
+  fill: color(white);
+}
+/*# sourceMappingURL=button.css.map */

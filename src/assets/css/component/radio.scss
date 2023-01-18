@@ -1,0 +1,21 @@
+#CustomRadio{
+    .MuiRadio-colorSecondary.Mui-checked{
+        color: color(primary50) !important;
+        &:hover{
+            background-color: color(neutral20) !important;
+        }
+    }
+    .MuiIconButton-colorSecondary:hover{
+        background-color: color(neutral20) !important;
+    }
+}
+
+#CustomCheckBox{
+    // .MuiIconButton-colorSecondary:hover{background-color: color(neutral20) !important;}
+    .MuiCheckbox-colorSecondary.Mui-checked{
+        color: color(primary50) !important;
+        // &:hover{
+        //     background-color: color(neutral20) !important;
+        // }
+    }
+}

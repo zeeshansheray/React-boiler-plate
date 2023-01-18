@@ -1,0 +1,393 @@
+/* ---------------------------------------------------
+    COLOR VARIABLE
+----------------------------------------------------- */
+/* ---------------------------------------------------
+    COLOR FUCNTION
+----------------------------------------------------- */
+/* ---------------------------------------------------
+    COLOR CLASS LOOP
+----------------------------------------------------- */
+.color-white {
+  color: #fcfcfd !important;
+}
+
+.bg-color-white {
+  background-color: #fcfcfd !important;
+}
+
+.color-black {
+  color: #000000 !important;
+}
+
+.bg-color-black {
+  background-color: #000000 !important;
+}
+
+.color-primary0 {
+  color: #f2f6ff !important;
+}
+
+.bg-color-primary0 {
+  background-color: #f2f6ff !important;
+}
+
+.color-primary10 {
+  color: #c4d5ff !important;
+}
+
+.bg-color-primary10 {
+  background-color: #c4d5ff !important;
+}
+
+.color-primary20 {
+  color: #95b3ff !important;
+}
+
+.bg-color-primary20 {
+  background-color: #95b3ff !important;
+}
+
+.color-primary30 {
+  color: #6a93fc !important;
+}
+
+.bg-color-primary30 {
+  background-color: #6a93fc !important;
+}
+
+.color-primary40 {
+  color: #4678f6 !important;
+}
+
+.bg-color-primary40 {
+  background-color: #4678f6 !important;
+}
+
+.color-primary50 {
+  color: #2960ec !important;
+}
+
+.bg-color-primary50 {
+  background-color: #2960ec !important;
+}
+
+.color-primary60 {
+  color: #164cd4 !important;
+}
+
+.bg-color-primary60 {
+  background-color: #164cd4 !important;
+}
+
+.color-primary70 {
+  color: #0a3bb7 !important;
+}
+
+.bg-color-primary70 {
+  background-color: #0a3bb7 !important;
+}
+
+.color-primary80 {
+  color: #042e98 !important;
+}
+
+.bg-color-primary80 {
+  background-color: #042e98 !important;
+}
+
+.color-primary90 {
+  color: #012278 !important;
+}
+
+.bg-color-primary90 {
+  background-color: #012278 !important;
+}
+
+.color-primary100 {
+  color: #001959 !important;
+}
+
+.bg-color-primary100 {
+  background-color: #001959 !important;
+}
+
+.color-neutral0 {
+  color: #f5f7fc !important;
+}
+
+.bg-color-neutral0 {
+  background-color: #f5f7fc !important;
+}
+
+.color-neutral10 {
+  color: #e5e8f5 !important;
+}
+
+.bg-color-neutral10 {
+  background-color: #e5e8f5 !important;
+}
+
+.color-neutral20 {
+  color: #d6dae9 !important;
+}
+
+.bg-color-neutral20 {
+  background-color: #d6dae9 !important;
+}
+
+.color-neutral30 {
+  color: #c5c9db !important;
+}
+
+.bg-color-neutral30 {
+  background-color: #c5c9db !important;
+}
+
+.color-neutral40 {
+  color: #b2b7ca !important;
+}
+
+.bg-color-neutral40 {
+  background-color: #b2b7ca !important;
+}
+
+.color-neutral50 {
+  color: #9ca1b4 !important;
+}
+
+.bg-color-neutral50 {
+  background-color: #9ca1b4 !important;
+}
+
+.color-neutral60 {
+  color: #84889b !important;
+}
+
+.bg-color-neutral60 {
+  background-color: #84889b !important;
+}
+
+.color-neutral70 {
+  color: #686c7c !important;
+}
+
+.bg-color-neutral70 {
+  background-color: #686c7c !important;
+}
+
+.color-neutral80 {
+  color: #4b4e5b !important;
+}
+
+.bg-color-neutral80 {
+  background-color: #4b4e5b !important;
+}
+
+.color-neutral90 {
+  color: #2e3039 !important;
+}
+
+.bg-color-neutral90 {
+  background-color: #2e3039 !important;
+}
+
+.color-neutral100 {
+  color: #141519 !important;
+}
+
+.bg-color-neutral100 {
+  background-color: #141519 !important;
+}
+
+.color-danger0 {
+  color: #ffebf1 !important;
+}
+
+.bg-color-danger0 {
+  background-color: #ffebf1 !important;
+}
+
+.color-danger10 {
+  color: #ff97b6 !important;
+}
+
+.bg-color-danger10 {
+  background-color: #ff97b6 !important;
+}
+
+.color-danger20 {
+  color: #f75082 !important;
+}
+
+.bg-color-danger20 {
+  background-color: #f75082 !important;
+}
+
+.color-danger30 {
+  color: #de245c !important;
+}
+
+.bg-color-danger30 {
+  background-color: #de245c !important;
+}
+
+.color-danger40 {
+  color: #c72958 !important;
+}
+
+.bg-color-danger40 {
+  background-color: #c72958 !important;
+}
+
+.color-danger50 {
+  color: #ac0135 !important;
+}
+
+.bg-color-danger50 {
+  background-color: #ac0135 !important;
+}
+
+.color-warning0 {
+  color: #fff9f0 !important;
+}
+
+.bg-color-warning0 {
+  background-color: #fff9f0 !important;
+}
+
+.color-warning10 {
+  color: #f6c985 !important;
+}
+
+.bg-color-warning10 {
+  background-color: #f6c985 !important;
+}
+
+.color-warning20 {
+  color: #eda12f !important;
+}
+
+.bg-color-warning20 {
+  background-color: #eda12f !important;
+}
+
+.color-warning30 {
+  color: #bc7b19 !important;
+}
+
+.bg-color-warning30 {
+  background-color: #bc7b19 !important;
+}
+
+.color-warning40 {
+  color: #8b5b13 !important;
+}
+
+.bg-color-warning40 {
+  background-color: #8b5b13 !important;
+}
+
+.color-warning50 {
+  color: #593c10 !important;
+}
+
+.bg-color-warning50 {
+  background-color: #593c10 !important;
+}
+
+.color-success0 {
+  color: #ebfff5 !important;
+}
+
+.bg-color-success0 {
+  background-color: #ebfff5 !important;
+}
+
+.color-success10 {
+  color: #9fface !important;
+}
+
+.bg-color-success10 {
+  background-color: #9fface !important;
+}
+
+.color-success20 {
+  color: #62eba9 !important;
+}
+
+.bg-color-success20 {
+  background-color: #62eba9 !important;
+}
+
+.color-success30 {
+  color: #3dcc87 !important;
+}
+
+.bg-color-success30 {
+  background-color: #3dcc87 !important;
+}
+
+.color-success40 {
+  color: #129455 !important;
+}
+
+.bg-color-success40 {
+  background-color: #129455 !important;
+}
+
+.color-success50 {
+  color: #00592e !important;
+}
+
+.bg-color-success50 {
+  background-color: #00592e !important;
+}
+
+.color-info0 {
+  color: #f0f9ff !important;
+}
+
+.bg-color-info0 {
+  background-color: #f0f9ff !important;
+}
+
+.color-info10 {
+  color: #83caf3 !important;
+}
+
+.bg-color-info10 {
+  background-color: #83caf3 !important;
+}
+
+.color-info20 {
+  color: #2ea2e6 !important;
+}
+
+.bg-color-info20 {
+  background-color: #2ea2e6 !important;
+}
+
+.color-info30 {
+  color: #197db7 !important;
+}
+
+.bg-color-info30 {
+  background-color: #197db7 !important;
+}
+
+.color-info40 {
+  color: #125d88 !important;
+}
+
+.bg-color-info40 {
+  background-color: #125d88 !important;
+}
+
+.color-info50 {
+  color: #103e59 !important;
+}
+
+.bg-color-info50 {
+  background-color: #103e59 !important;
+}
+/*# sourceMappingURL=color-scheme.css.map */

@@ -1,0 +1,454 @@
+.stripeCardLabel{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transform: translate(0, 1.5px) scale(0.75);
+    transform-origin: top left;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 1;
+    letter-spacing: 0.00938em;
+    display: inline-block;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+.stripeCardElement{
+    padding: 10px 16px;
+    border: 1px solid rgb(227, 226, 226);
+    border-radius: 4px;
+    &:hover{
+        border: 1px solid #2F80ED!important;
+        background-color: #ffffff;
+    }
+}
+
+
+#integrationComponent {
+    .imageIcon { 
+        border        : 0.5px solid #D6DAE9;
+        border-radius : 4px;
+        padding       : 8px;
+    }
+
+    .closeIcon {
+        top    : 24px;
+        right  : 24px;
+        cursor : pointer;
+    }
+}
+
+.customDropDownDisconnect {
+    background    : #FCFDFD;
+    position      : absolute;
+    top           : -20px;
+    right         : 35px;
+    width         : 240px;
+    border        : 0.5px solid #D6DAE9;
+    box-shadow    : 0px 3px 6px rgba(15, 15, 15, 0.1), 0px 9px 24px rgba(15, 15, 15, 0.2);
+    border-radius : 6px;
+}
+
+
+
+#setting{
+
+
+    .settingsSections{
+        height: 90vh;
+
+        .section1{
+            overflow: hidden;
+        }
+
+        .section2{
+            overflow: scroll;
+        }
+    }
+    
+    .component{
+        padding: 16px 72px 0px 40px;
+        width: 100%;
+    }
+
+    .brandId{
+        padding : 8px 16px 8px 16px;
+        border-radius: 32px;
+        height: 40px;
+        width: fit-content;
+    }
+
+    .regenrateButton{
+        padding-left: 2px;
+    }
+
+    .copyBox{
+        position: absolute;
+        top: 40px;
+        right: 16px;
+    }
+
+    .mapBox{
+        height: 180px;
+        border-radius: 4px;
+    }
+
+    .imageUploadBox, .brandColorBox{
+        min-width       : 175px;
+        height          : 140px;
+        border-radius   : 4px;
+        background-color: #F5F7FC;
+        border          : 0.3px solid #D6DAE9;
+
+    }
+
+    .imageCover{
+        height    : 104px;
+        min-width : 175px;
+        object-fit: cover;
+    }
+
+    .pallette{
+        right: 0px;
+        top: 70px;
+    }
+
+    .currencyCode{
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+    }
+
+    .timeZone{
+        position: absolute;
+        z-index: 1;
+        bottom: 0px;
+    }
+
+    .brandColor{
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+    }
+
+    .brandColorCircle{
+        width: 48px;
+        height: 48px;
+        background-color: red;
+        border-radius: 50%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .leftTitles{
+        padding: 8px 16px;
+        height : 36px;
+        transition: all ease-in-out 0.2s;
+        text-decoration: none !important;
+
+    }
+
+    a{
+        color: color(neutral90);
+    }
+
+    .leftTitles:hover{
+        background: color(neutral0) !important;
+    }
+
+    .leftBar{
+        height       : 32px;
+        border-radius: 24px;
+        margin       : 2px 0px;
+        width        : 3px;
+        transition: all ease 0.2s;
+    }
+
+    .highlight{
+        background-color: color(primary50);
+    }
+
+    .selected{
+        background-color: color(primary0);
+        color: color(primary50);
+
+        svg{
+          fill: color(primary50) !important;
+          g path, path{
+               fill: color(primary50) !important;
+           } 
+        }
+    }
+
+
+    @media(max-width: 767px){
+        .subHeader{
+            flex-direction: column;
+        }
+        .Heading2{
+            font-size: 32px;
+            font-weight: 600px;
+        }
+        .saveChangesButton{
+            text-align: left !important;
+            margin-top: 24px;
+        }
+
+        .settingTitles{
+            flex-direction: column;
+        }
+
+        .brandId{
+            margin-left: 0px !important;
+            margin-top: 10px;
+        }
+
+        .currencySelectBox{
+            margin-top: 24px;
+        }
+
+    }
+
+    
+    #General{
+        .brandInformation{
+            padding: 0px;
+        }        
+
+        @media(max-width: 767px){
+            .brandInformation{
+                flex-direction: column !important;
+            }
+
+            .brandIcons{
+                flex-direction: column !important;
+            }
+        }    
+    
+    }   
+
+    
+    #Billing{
+
+        .creditCardNumber{
+            width: 6px;
+            height: 6px;
+            background-color: #000;
+            border-radius: 50px;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 2px;
+        }
+
+        .cardOption{
+            padding: 15px 20px;
+            right: 45px;
+            bottom: -45px;
+            color: color(neutral80);
+            &:hover{
+                background-color: color(neutral0);
+            }
+        }
+
+        .billingPlanBox{
+            padding: 16px;
+            border-radius: 8px;
+            justify-content: space-between;
+        }
+
+        .userPlans{
+            justify-content: space-between;
+        }
+
+        .tag{
+            font-size: 16px;
+            border-radius: 8px;
+            padding: 8px;
+        }
+
+        .inputColumns{
+            justify-content: space-between;
+        }
+        
+        .unlimitedCard{
+            padding: 24px;
+            height: 100%;
+            margin-left: 30px;
+            border-radius: 8px;
+            border: none;
+            box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+        }
+
+        @media(max-width: 767px){ 
+                .userPlans{
+                    flex-direction: column !important;
+                }            
+
+                .unlimitedBox{
+                    margin-top: 24px;
+                }
+
+                .card{
+                    margin-left: 0px !important;
+                }
+
+                .unlimitedCard{
+                    margin-top: 24px;
+                }
+
+                .companyName{
+                    margin-top: 24px;
+                }
+    }
+    }
+
+    #integration{
+        margin: -24px 0px;
+
+        .bar{
+            border-bottom: 0.5px solid color(neutral20) !important;
+            // background-color : #E6E6E6;
+            // height: 1px;
+        }
+
+        .icon{
+            height: fit-content;
+        }
+
+        .singleIntegration{
+            margin-top: 16px;
+            margin-left: 24px;
+        }
+
+        .deleteIcon{
+            padding: 4px;
+            border-radius: 50%;
+        }
+
+        .deleteIcon:hover{
+            background-color: #E8EFF7;
+            transition: ease 0.6s;
+        }
+    }
+
+
+
+    #Api{
+
+        .bar{
+            // background-color : #E6E6E6;
+            // height: 1px;
+            border-bottom: 0.5px solid color(neutral20) !important;
+        }
+
+        .detail{
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            white-space: pre-line !important;
+        }
+
+        .planName{
+            height: 32px;
+            padding: 8px 16px;
+            border-radius: 8px;
+        }
+
+
+        @media(max-width: 767px){
+            .apiBox, .apiBoxComponents{
+                flex-direction: column;
+            }
+            
+            .detail, .middleBox{
+                margin-top: 20px;
+                padding: 0px !important;
+            }
+
+            .buttonDelete{
+                text-align: left !important;
+            }
+        }
+
+    }
+
+    #Notification {
+        .card{
+            padding: 24px;
+        }
+
+        .detail{
+            white-space: pre-line;
+        }
+        .bar{
+            // background-color : #E6E6E6;
+            // height: 1px;
+            border-bottom: 0.5px solid color(neutral20) !important;
+        }
+
+
+
+        @media(max-width: 767px){
+            .centerBox, .rightBox{
+                padding-left: 15px !important;
+            }
+
+            .centerBox{
+                margin-top: 10px;
+            }
+            
+        }
+    }
+
+
+    #Venue{
+        
+        padding-right: 16px;
+
+        .singleSection{
+            border-bottom: 1px solid color(neutral90);
+        }
+
+        .discountSection{
+            background: color(neutral0);
+            border: 1px solid color(neutral10);
+            box-sizing: border-box;
+            box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+            border-radius: 4px;
+            padding: 24px;
+        }
+
+        #Imagedropbox .coverImageDropZone{
+            border-color: color(neutral100);
+            border-radius: 4px;
+        }
+    }
+
+
+}
+
+.modal-cutomfield {
+    .customfieldBtn {
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .selectedType{
+        color: color(primary50) !important;
+        transition: ease 0.1s;
+        background-color: color(neutral20);
+    }
+
+    #CoverImageDrop{
+        .insideImage{
+            object-fit:  unset !important;
+        }
+    }
+    // .active {
+    //     border: 1px solid #2F80ED;
+    // }
+}
+
+#Staff{
+    .actionSelect{
+        margin-top: -5px;
+    }
+}

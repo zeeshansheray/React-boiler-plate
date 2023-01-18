@@ -1,0 +1,108 @@
+#EditorPane, #Preview{
+    width: calc(100% - 543px);
+    height: calc(100vh - 72px);
+    margin: 0 auto;
+    padding: 44px 8px 0px 8px;
+    overflow: auto;
+
+    &.preview { 
+        .hover, .focused{
+            outline: none !important;
+        }
+    }
+
+    .body.dragover{
+        transform: scale(1.05, 1.05);
+    }
+
+    .dragover{
+        transform: scale(1.1, 1.1);
+        outline: 2px solid color(primary50);
+        outline-offset: -2px;
+    }
+    
+    .body{
+        display: flex;
+        flex-direction: column;
+        // flex-wrap: wrap;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-color: #FFF;
+        height: 100%;
+        // border: 1px solid color(neutral20);
+        text-align: center;
+        // padding: 4px;
+        // border-radius: 4px;
+        // border: 2px solid transparent;
+        overflow: auto;
+        &.hover, &.focused{
+            // padding: 4px;
+            // border-radius: 4px;
+            // border: 2px solid color(primary50);
+            outline: 2px solid color(primary50);
+        }
+        &.focused{
+            cursor: auto;
+        }
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+        // flex-wrap: wrap;
+        // max-width: 1120px;
+        // margin: auto;
+        // width: fit-content;
+        height: fit-content;
+        background-repeat: no-repeat;
+        transition: all 0.1s ease;
+        // padding: 4px;
+        // border-radius: 4px;
+        // border: 2px solid transparent !important;
+        color: inherit;
+        &.hover, &.focused{
+            // padding: 4px;
+            // border-radius: 4px;
+            // border: 2px solid color(primary50) !important;
+            outline: 2px solid color(primary50);
+            outline-offset: -2px;
+        }
+        &.focused{
+            cursor: auto;
+        }
+    }
+
+    .emptyBlock{
+        width: 100%;
+        height: 100px;
+    }
+
+    .element{
+        white-space: pre-wrap;
+        // padding: 4px;
+        // border-radius: 4px;
+        // border: 2px solid transparent !important;
+        &.hover, &.focused{
+            // padding: 4px;
+            // border-radius: 4px;
+            // border: 2px solid color(primary50) !important;
+            outline: 2px solid color(primary50);
+            outline-offset: -2px;
+        }
+        &.focused{
+            cursor: auto;
+        }
+    }
+
+    .divider{
+        width: 80%;
+        height: 1px;
+        background: #cacaca;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}

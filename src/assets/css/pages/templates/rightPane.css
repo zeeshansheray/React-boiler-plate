@@ -1,0 +1,366 @@
+#RightPane {
+  width: 295px;
+  margin-left: auto;
+  background-color: color(white);
+  height: calc(100vh - 72px);
+  overflow: auto;
+  cursor: default;
+  overflow-x: hidden;
+}
+
+#RightPane .customfield-block {
+  border-radius: 4px;
+  border: 0.5px solid color(neutral20);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 32px;
+  padding: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#RightPane .properties {
+  color: color(neutral80);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: color(neutral10);
+  padding: 2px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 42px;
+  left: 0;
+  right: 0px;
+  z-index: 10;
+  width: 295px;
+  border-bottom: 0.5px solid color(neutral20);
+}
+
+#RightPane .properties .properties-options {
+  width: 50%;
+  height: 38px;
+  text-align: center;
+  background-color: color(white);
+  border-radius: 4px;
+  cursor: pointer;
+  color: color(neutral90);
+  padding: 2px;
+}
+
+#RightPane .properties .properties-options.active {
+  background-color: color(primary50);
+  color: color(white);
+}
+
+#RightPane .topBarItems {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+#RightPane .property-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -16px;
+  padding: 8px 16px;
+  border-bottom: 1px solid color(neutral10);
+  font-size: 13px;
+  cursor: pointer;
+  background-color: color(neutral90);
+}
+
+#RightPane .selectItems {
+  padding: 2px;
+  border: 1px solid color(neutral10);
+  border-radius: 4px;
+}
+
+#RightPane .divider {
+  margin: 16px -16px;
+  height: 0.5px;
+  background-color: color(neutral10);
+}
+
+#RightPane .property-name-divider {
+  margin: 0px -16px;
+  height: 1px;
+  background-color: color(neutral10);
+}
+
+#RightPane .Tag {
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  font-size: 12px;
+  color: color(neutral40);
+}
+
+#RightPane .dropdown-input-box {
+  border: 0.5px solid color(neutral20);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  height: 32px;
+}
+
+#RightPane .dropdown-input-box > div {
+  overflow: hidden;
+  height: 100%;
+  padding-right: 10px;
+}
+
+#RightPane .dropdown-input-box > input {
+  height: 100%;
+}
+
+#RightPane .dropdown-input-box:hover {
+  border-color: color(primary50);
+}
+
+#RightPane .sizeInputField::-webkit-input-placeholder {
+  opacity: 1;
+  font-size: '12px';
+  color: color(neutral40);
+}
+
+#RightPane .sizeInputField:-ms-input-placeholder {
+  opacity: 1;
+  font-size: '12px';
+  color: color(neutral40);
+}
+
+#RightPane .sizeInputField::-ms-input-placeholder {
+  opacity: 1;
+  font-size: '12px';
+  color: color(neutral40);
+}
+
+#RightPane .sizeInputField::placeholder {
+  opacity: 1;
+  font-size: '12px';
+  color: color(neutral40);
+}
+
+#RightPane .sizeInputField {
+  font-size: 12px;
+}
+
+#RightPane .predefine-dropdown {
+  background: #fff;
+  border: 1px solid color(neutral20);
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  -webkit-transition: opacity ease .7s;
+  transition: opacity ease .7s;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+}
+
+#RightPane .predefine-dropdown > div {
+  border-bottom: 0.5px solid color(neutral20);
+  padding: 4px 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#RightPane .predefine-dropdown > div:last-child {
+  border-bottom: none;
+}
+
+#RightPane .predefine-dropdown > div:hover, #RightPane .predefine-dropdown > div.selected {
+  background-color: color(neutral10);
+}
+
+#RightPane #PickColor .backgroundColorBox {
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid color(neutral10);
+  height: 32px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: color(neutral10);
+}
+
+#RightPane #PickColor .colorCircle {
+  height: 24px;
+  min-width: 24px;
+  border-radius: 32px;
+  border: 1px solid color(neutral0);
+  margin-right: 6px;
+  background-color: white;
+}
+
+#RightPane #PickColor .pallette {
+  position: absolute;
+  margin-top: 6px;
+  margin-left: -50px;
+  z-index: 100;
+}
+
+#RightPane #UploadImage .upload-block {
+  border: 1px dashed #DBDBDB;
+  border-radius: 4px;
+  padding: 4px 6px;
+  text-align: center;
+  height: 32px;
+}
+
+#RightPane #UploadImage .upload-block > div {
+  height: -webkit-fill-available;
+  overflow: hidden;
+}
+
+#RightPane #Fonts .text-alignment > div, #RightPane #Fonts .text-style > div {
+  width: 100%;
+  height: 32px;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#RightPane #Fonts .text-alignment > div.selected, #RightPane #Fonts .text-style > div.selected {
+  background: white;
+  -webkit-box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+          box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+  border-radius: 4px;
+}
+
+#RightPane #Margin .horizontalAlignment, #RightPane #Direction .horizontalAlignment, #RightPane #Align .horizontalAlignment, #RightPane #Justify .horizontalAlignment {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: auto;
+  border: 1px solid color(neutral10);
+  border-radius: 4px;
+  background-color: color(neutral10);
+  padding: 2px;
+  height: 36px;
+}
+
+#RightPane #Margin .horizontalAlignment > div, #RightPane #Direction .horizontalAlignment > div, #RightPane #Align .horizontalAlignment > div, #RightPane #Justify .horizontalAlignment > div {
+  width: 100%;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#RightPane #Margin .horizontalAlignment > div.selected, #RightPane #Direction .horizontalAlignment > div.selected, #RightPane #Align .horizontalAlignment > div.selected, #RightPane #Justify .horizontalAlignment > div.selected {
+  background: white;
+  -webkit-box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+          box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+  border-radius: 4px;
+  border-radius: 4px;
+}
+
+#RightPane #BackgroundProperties .background-size-options {
+  height: 36px;
+  padding: 2px;
+  border: 1px solid color(neutral10);
+}
+
+#RightPane #BackgroundProperties .background-size-options > div {
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: color(neutral80);
+  cursor: pointer;
+}
+
+#RightPane #BackgroundProperties .background-size-options > div:hover {
+  background-color: color(neutral10);
+}
+
+#RightPane #BackgroundProperties .background-size-options > div.active {
+  background-color: color(white);
+  -webkit-box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+          box-shadow: 0px 0px 4px rgba(134, 145, 157, 0.4);
+  color: color(primary50) !important;
+}
+
+#RightPane #Padding .indSpacing, #RightPane #Margin .indSpacing {
+  position: relative;
+  width: 19px;
+  height: 19px;
+}
+
+#RightPane #Padding .indSpacing .top, #RightPane #Padding .indSpacing .right, #RightPane #Padding .indSpacing .bottom, #RightPane #Padding .indSpacing .left, #RightPane #Margin .indSpacing .top, #RightPane #Margin .indSpacing .right, #RightPane #Margin .indSpacing .bottom, #RightPane #Margin .indSpacing .left {
+  background-color: color(neutral20);
+}
+
+#RightPane #Padding .indSpacing .top, #RightPane #Margin .indSpacing .top {
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  top: -1;
+  left: 2px;
+}
+
+#RightPane #Padding .indSpacing .right, #RightPane #Margin .indSpacing .right {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  right: 0;
+  top: 1px;
+}
+
+#RightPane #Padding .indSpacing .bottom, #RightPane #Margin .indSpacing .bottom {
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  bottom: 0;
+  left: 2px;
+}
+
+#RightPane #Padding .indSpacing .left, #RightPane #Margin .indSpacing .left {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  left: 0;
+  top: 1px;
+}
+
+#RightPane #Padding .indSpacing .active, #RightPane #Margin .indSpacing .active {
+  background-color: color(neutral60);
+}
+/*# sourceMappingURL=rightPane.css.map */

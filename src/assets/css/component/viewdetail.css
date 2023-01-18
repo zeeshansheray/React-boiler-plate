@@ -1,0 +1,42 @@
+#viewDetailComponent, #Earnpointmodal {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  max-height: 200px;
+  overflow-y: scroll;
+  z-index: 1000;
+  max-width: 200px;
+  background-color: white;
+  border: 0.5px solid #D6DAE9;
+  -webkit-box-shadow: 0px 3px 6px rgba(15, 15, 15, 0.1), 0px 9px 24px rgba(15, 15, 15, 0.2);
+          box-shadow: 0px 3px 6px rgba(15, 15, 15, 0.1), 0px 9px 24px rgba(15, 15, 15, 0.2);
+  border-radius: 4px;
+  padding: 6px 4px;
+}
+
+#viewDetailComponent .singleItem, #Earnpointmodal .singleItem {
+  padding: 8px 12px !important;
+  border-radius: 6px !important;
+}
+
+#viewDetailComponent .wrapper, #Earnpointmodal .wrapper {
+  -webkit-transition: background-color ease 0.2s;
+  transition: background-color ease 0.2s;
+}
+
+#viewDetailComponent .wrapper:hover, #Earnpointmodal .wrapper:hover {
+  background-color: color(primary0);
+  border-radius: 6px;
+}
+
+#viewDetailComponent .wrapper:last-child:hover, #Earnpointmodal .wrapper:last-child:hover {
+  background-color: color(danger0) !important;
+}
+
+#viewDetailComponent .wrapper:last-child:hover .dropdownBody, #Earnpointmodal .wrapper:last-child:hover .dropdownBody {
+  color: color(danger30) !important;
+}
+
+#viewDetailComponent .wrapper:last-child:hover .iconPart svg path, #Earnpointmodal .wrapper:last-child:hover .iconPart svg path {
+  fill: color(danger30);
+}
+/*# sourceMappingURL=viewdetail.css.map */

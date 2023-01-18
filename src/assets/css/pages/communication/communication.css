@@ -1,0 +1,636 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+#communication #communicationList {
+  height: calc(100vh - 60px);
+  padding: 16px 40px;
+  overflow: auto;
+}
+
+#communication .disableCommunication {
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F5F7FC;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  padding: 8px 18px 8px 8px;
+}
+
+#communication .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 24px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+#communication .grid > div {
+  border: 0.5px solid #d6dae9;
+  -webkit-box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.06);
+          box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 20px;
+  background: #FCFDFD;
+}
+
+#communication .tag {
+  padding: 6px 12px;
+  font-size: 13px;
+  height: 32px;
+  background-color: color(primary0);
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#communication .infoTag {
+  cursor: pointer;
+  position: absolute;
+  bottom: -28px;
+  right: 24px;
+  color: #6A778A;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 12px;
+  background: #242426;
+  border-radius: 4px;
+}
+
+#communication .smsInfo {
+  width: 320px;
+  height: 240px;
+  position: absolute;
+  top: 112%;
+  right: -25%;
+  background: #FCFCFD;
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+#communication .component #SMSDetailScreen {
+  overflow: hidden;
+}
+
+#communication .component #SMSDetailScreen #viewDetailComponent {
+  width: 150px !important;
+}
+
+#communication .component #SMSDetailScreen .radiotop .MuiRadio-root {
+  margin-top: -85px;
+}
+
+#communication .component #SMSDetailScreen .btncolorsms .customButton path {
+  fill: color(primary50) !important;
+}
+
+#communication .component #SMSDetailScreen .btncolorsms .viewdetail {
+  width: 100px;
+}
+
+#communication .component #SMSDetailScreen .iphoneBox {
+  -webkit-box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.06);
+          box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  border: 0.5px solid #D6DAE9;
+  width: 368px;
+  height: 600px;
+  margin-top: 16px;
+}
+
+#communication .component #SMSDetailScreen .iphoneBox .topSection {
+  background: #F2F6FF;
+  height: 13.19vh;
+}
+
+#communication .component #SMSDetailScreen .imageBG {
+  background-color: #F0F0F0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#communication .component #SMSDetailScreen .imageUpload {
+  width: 91px;
+  height: 55px;
+}
+
+#communication .component #SMSDetailScreen .leftSection {
+  background-color: color(white);
+  height: calc(100vh - 64px);
+  border-top: 1px solid color(neutral20);
+  border-right: 1px solid color(neutral20);
+  margin-top: -5px;
+  margin-left: -16px;
+}
+
+#communication .component #SMSDetailScreen #myTextarea {
+  width: 100%;
+  height: 150px !important;
+  border-radius: 4px;
+}
+
+#communication .component #SMSDetailScreen .messageDiv {
+  background: #F2F6FF;
+  width: 80% !important;
+  border-radius: 4px;
+  padding: 12px 12px 12px 16px;
+  overflow-wrap: break-word;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  white-space: break-spaces;
+  color: black;
+}
+
+#communication .component #SMSDetailScreen .sendImage {
+  width: 70% !important;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 16px;
+}
+
+#communication .component #SMSDetailScreen .messageDivParent {
+  max-height: 64vh;
+  overflow-y: scroll;
+  padding: 32px 16px;
+}
+
+#communication .component #SMSDetailScreen .rightPhoneBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+#communication .component #SMSDetailScreen .whiteBackground {
+  position: absolute;
+  bottom: 0;
+  height: 555px;
+  width: 100%;
+  padding: 32px 32px 100px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: scroll;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#communication .component #SMSDetailScreen .brandLogo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+#communication .component #SMSDetailScreen .brandDetail {
+  position: absolute;
+  top: 60px;
+  width: inherit;
+}
+
+#communication .component #SMSDetailScreen .mobileImage {
+  z-index: -1;
+  height: 700px;
+  width: 370px;
+  position: relative;
+  background-size: cover;
+}
+
+#communication .component #SMSDetailScreen .saveButtons {
+  min-width: 110px;
+}
+
+#communication .component #SMSDetailScreen .custom-dropdown {
+  max-height: 300px;
+  border: 2px solid pink;
+  overflow: auto;
+  top: -30% !important;
+  left: 73% !important;
+}
+
+#communication .component #SMSDetailScreen .message-box, #communication .component #SMSDetailScreen .message-textarea {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+  text-align: inherit;
+  text-overflow: inherit;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-rendering: optimizeLegibility;
+}
+
+#communication .component #SMSDetailScreen .message-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+#communication .component #SMSDetailScreen .message-textarea {
+  position: relative;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  color: transparent;
+  resize: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  caret-color: #232b39;
+}
+
+#communication .component #SMSDetailScreen .textAreaMessage {
+  min-height: 100px;
+  border: 0.5px solid color(neutral10) !important;
+  border-radius: 8px;
+  padding: 8px;
+  color: color(neutral80);
+}
+
+#communication #SMS .SmsTable, #communication #Notification .SmsTable {
+  padding: 16px;
+  margin-top: 32px;
+}
+
+#communication #SMS ::-webkit-input-placeholder, #communication #Notification ::-webkit-input-placeholder {
+  color: color(neutral50);
+}
+
+#communication #SMS :-ms-input-placeholder, #communication #Notification :-ms-input-placeholder {
+  color: color(neutral50);
+}
+
+#communication #SMS ::-ms-input-placeholder, #communication #Notification ::-ms-input-placeholder {
+  color: color(neutral50);
+}
+
+#communication #SMS ::placeholder, #communication #Notification ::placeholder {
+  color: color(neutral50);
+}
+
+#communication #audienceGraph .card {
+  -webkit-box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+          box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  padding: 8px;
+}
+
+#communication #audienceGraph .audienceTable {
+  padding: 16px;
+  margin-top: 16px;
+}
+
+#communication #audienceGraph .success {
+  background-color: #FCE4E5;
+  font-weight: 600 !important;
+  color: red !important;
+  padding: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#communication #audienceGraph .unsuccessful {
+  background-color: #EBF7DE;
+  font-weight: 600 !important;
+  color: #6FB02B !important;
+  padding: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#communication #audienceGraph .toolIconComponent .toolIcon {
+  border-radius: 50%;
+  background-color: color(neutral0);
+  text-align: center;
+}
+
+#communication #audienceGraph .toolIconComponent .toolName {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
+#communication #Notifications .colDivScroll {
+  height: calc(100vh - 84px);
+  overflow-y: scroll;
+  padding: 16px 0px;
+}
+
+#communication #Notifications .colDiv {
+  border-right: 1px solid #DFE1E6;
+}
+
+#communication #Notifications .CustomTextarea {
+  border: 1px solid #DFE1E6;
+  height: 127px;
+}
+
+#communication #Notifications .colorpicker {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#communication #Notifications .border {
+  border: 1px solid #DFE1E6;
+}
+
+#communication #Notifications .mobView {
+  border: 1px solid #DFE1E6;
+  overflow: hidden;
+  width: 331px;
+  z-index: 1;
+  padding: 14px;
+  height: 716px;
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 1280px) {
+  #communication #Notifications .mobView {
+    height: 600px;
+  }
+}
+
+#communication #Notifications .description {
+  margin: 0px -14px;
+}
+
+#communication #Notifications .CustomTextarea {
+  max-height: 150px;
+  overflow-y: auto !important;
+}
+
+#communication #Notifications .backgroundImage {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+}
+
+#communication #Notifications .circle {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
+
+#communication #Notifications .description {
+  height: 60vh;
+  font-family: 'Roboto';
+  font-size: 24px !important;
+}
+
+#communication #Notifications .activeColor {
+  -webkit-transition: ease 0.4s;
+  transition: ease 0.4s;
+  outline: 4px solid color(primary50);
+}
+
+#communication #Notifications .notiDiv {
+  height: 70vh;
+}
+
+#communication #Notifications .notiDivWidth {
+  width: 336px;
+  padding: 12px 16px;
+}
+
+#communication #Notifications .backgroundColorBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+#communication #Notifications .arrowColor {
+  background-color: #F0F0F0;
+  height: 40px;
+  width: 40px;
+}
+
+#communication #Notifications .imageBG {
+  background-color: #F0F0F0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#communication #Notifications .imageUpload {
+  width: 91px;
+  height: 55px;
+}
+
+#communication #Notifications .imageMobView {
+  width: 100%;
+  height: auto;
+}
+
+#communication #Notifications .overlayCustom {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 40px;
+}
+
+#communication #Notifications .bellIcon {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+}
+
+#communication #Notifications .rightDiv {
+  height: calc(100vh - 82px);
+}
+
+#communication #Notifications .leftHeaderPart {
+  -webkit-box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.12);
+  margin: -20px 0px 0px 0px;
+  padding: 10px 16px 8px 8px;
+  height: 62px;
+}
+
+#communication #Notifications .buttonBox {
+  height: 70px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding-right: 16px;
+  background-color: white;
+  -webkit-box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.12);
+}
+
+#communication #Notifications .autocomplete .css-yk16xz-control {
+  border: none;
+}
+
+#communication #Notifications .autocomplete .css-1pahdxg-control {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#communication #Notifications .autocomplete .css-1pahdxg-control :hover {
+  border: none;
+}
+
+#communication #Notifications .autocomplete .css-1mrhc1i-control {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#communication #Notifications .autocomplete .css-1hb7zxy-IndicatorsContainer {
+  display: none;
+}
+
+#communication #NotificationListing {
+  padding: 16px 40px 16px 40px;
+}
+
+#communication #NotificationListing .listTable {
+  max-height: 75vh;
+  overflow-y: scroll;
+}
+
+#FromModal .crossicon {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background-color: #E3E3E3;
+}
+
+#FromModal .listicon {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+#customerEmail .topHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#customerEmail .customerData {
+  padding: 24px 9px;
+  border-bottom: 1px solid color(neutral90);
+  margin: 0px -24px;
+}
+
+#customerEmail .checkBox {
+  margin-top: -5px;
+}
+
+#customerEmail .image {
+  height: 65px;
+  width: 52px;
+}
+
+#customerEmail .nameDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+#customerEmail .actionBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#CreateEmail {
+  margin: -41px -12px -42px -24px;
+}
+
+#CreateEmail .publish-btn {
+  width: calc(100% - 534px);
+  padding-bottom: 12px;
+  height: 42px;
+  position: absolute;
+  background-color: white;
+  top: 0px;
+  padding-top: 8px;
+  left: 245px;
+  z-index: 2;
+  border-bottom: 0.5px solid color(neutral20);
+}
+
+#CreateEmail .headerLeftStick {
+  left: 0px;
+}
+
+#CreateEmail .properties {
+  border-right: 0px;
+}
+/*# sourceMappingURL=communication.css.map */

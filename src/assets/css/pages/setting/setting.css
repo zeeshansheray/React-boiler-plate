@@ -1,0 +1,442 @@
+.stripeCardLabel {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  -webkit-transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  -webkit-transform: translate(0, 1.5px) scale(0.75);
+          transform: translate(0, 1.5px) scale(0.75);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  color: rgba(0, 0, 0, 0.54);
+  line-height: 1;
+  letter-spacing: 0.00938em;
+  display: inline-block;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.stripeCardElement {
+  padding: 10px 16px;
+  border: 1px solid #e3e2e2;
+  border-radius: 4px;
+}
+
+.stripeCardElement:hover {
+  border: 1px solid #2F80ED !important;
+  background-color: #ffffff;
+}
+
+#integrationComponent .imageIcon {
+  border: 0.5px solid #D6DAE9;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+#integrationComponent .closeIcon {
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.customDropDownDisconnect {
+  background: #FCFDFD;
+  position: absolute;
+  top: -20px;
+  right: 35px;
+  width: 240px;
+  border: 0.5px solid #D6DAE9;
+  -webkit-box-shadow: 0px 3px 6px rgba(15, 15, 15, 0.1), 0px 9px 24px rgba(15, 15, 15, 0.2);
+          box-shadow: 0px 3px 6px rgba(15, 15, 15, 0.1), 0px 9px 24px rgba(15, 15, 15, 0.2);
+  border-radius: 6px;
+}
+
+#setting .settingsSections {
+  height: 90vh;
+}
+
+#setting .settingsSections .section1 {
+  overflow: hidden;
+}
+
+#setting .settingsSections .section2 {
+  overflow: scroll;
+}
+
+#setting .component {
+  padding: 16px 72px 0px 40px;
+  width: 100%;
+}
+
+#setting .brandId {
+  padding: 8px 16px 8px 16px;
+  border-radius: 32px;
+  height: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#setting .regenrateButton {
+  padding-left: 2px;
+}
+
+#setting .copyBox {
+  position: absolute;
+  top: 40px;
+  right: 16px;
+}
+
+#setting .mapBox {
+  height: 180px;
+  border-radius: 4px;
+}
+
+#setting .imageUploadBox, #setting .brandColorBox {
+  min-width: 175px;
+  height: 140px;
+  border-radius: 4px;
+  background-color: #F5F7FC;
+  border: 0.3px solid #D6DAE9;
+}
+
+#setting .imageCover {
+  height: 104px;
+  min-width: 175px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#setting .pallette {
+  right: 0px;
+  top: 70px;
+}
+
+#setting .currencyCode {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+}
+
+#setting .timeZone {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+}
+
+#setting .brandColor {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+
+#setting .brandColorCircle {
+  width: 48px;
+  height: 48px;
+  background-color: red;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+#setting .leftTitles {
+  padding: 8px 16px;
+  height: 36px;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  text-decoration: none !important;
+}
+
+#setting a {
+  color: color(neutral90);
+}
+
+#setting .leftTitles:hover {
+  background: color(neutral0) !important;
+}
+
+#setting .leftBar {
+  height: 32px;
+  border-radius: 24px;
+  margin: 2px 0px;
+  width: 3px;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+#setting .highlight {
+  background-color: color(primary50);
+}
+
+#setting .selected {
+  background-color: color(primary0);
+  color: color(primary50);
+}
+
+#setting .selected svg {
+  fill: color(primary50) !important;
+}
+
+#setting .selected svg g path, #setting .selected svg path {
+  fill: color(primary50) !important;
+}
+
+@media (max-width: 767px) {
+  #setting .subHeader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #setting .Heading2 {
+    font-size: 32px;
+    font-weight: 600px;
+  }
+  #setting .saveChangesButton {
+    text-align: left !important;
+    margin-top: 24px;
+  }
+  #setting .settingTitles {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #setting .brandId {
+    margin-left: 0px !important;
+    margin-top: 10px;
+  }
+  #setting .currencySelectBox {
+    margin-top: 24px;
+  }
+}
+
+#setting #General .brandInformation {
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  #setting #General .brandInformation {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #setting #General .brandIcons {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+
+#setting #Billing .creditCardNumber {
+  width: 6px;
+  height: 6px;
+  background-color: #000;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+#setting #Billing .cardOption {
+  padding: 15px 20px;
+  right: 45px;
+  bottom: -45px;
+  color: color(neutral80);
+}
+
+#setting #Billing .cardOption:hover {
+  background-color: color(neutral0);
+}
+
+#setting #Billing .billingPlanBox {
+  padding: 16px;
+  border-radius: 8px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#setting #Billing .userPlans {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#setting #Billing .tag {
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#setting #Billing .inputColumns {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#setting #Billing .unlimitedCard {
+  padding: 24px;
+  height: 100%;
+  margin-left: 30px;
+  border-radius: 8px;
+  border: none;
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+}
+
+@media (max-width: 767px) {
+  #setting #Billing .userPlans {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #setting #Billing .unlimitedBox {
+    margin-top: 24px;
+  }
+  #setting #Billing .card {
+    margin-left: 0px !important;
+  }
+  #setting #Billing .unlimitedCard {
+    margin-top: 24px;
+  }
+  #setting #Billing .companyName {
+    margin-top: 24px;
+  }
+}
+
+#setting #integration {
+  margin: -24px 0px;
+}
+
+#setting #integration .bar {
+  border-bottom: 0.5px solid color(neutral20) !important;
+}
+
+#setting #integration .icon {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#setting #integration .singleIntegration {
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+#setting #integration .deleteIcon {
+  padding: 4px;
+  border-radius: 50%;
+}
+
+#setting #integration .deleteIcon:hover {
+  background-color: #E8EFF7;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+}
+
+#setting #Api .bar {
+  border-bottom: 0.5px solid color(neutral20) !important;
+}
+
+#setting #Api .detail {
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  white-space: pre-line !important;
+}
+
+#setting #Api .planName {
+  height: 32px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  #setting #Api .apiBox, #setting #Api .apiBoxComponents {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #setting #Api .detail, #setting #Api .middleBox {
+    margin-top: 20px;
+    padding: 0px !important;
+  }
+  #setting #Api .buttonDelete {
+    text-align: left !important;
+  }
+}
+
+#setting #Notification .card {
+  padding: 24px;
+}
+
+#setting #Notification .detail {
+  white-space: pre-line;
+}
+
+#setting #Notification .bar {
+  border-bottom: 0.5px solid color(neutral20) !important;
+}
+
+@media (max-width: 767px) {
+  #setting #Notification .centerBox, #setting #Notification .rightBox {
+    padding-left: 15px !important;
+  }
+  #setting #Notification .centerBox {
+    margin-top: 10px;
+  }
+}
+
+#setting #Venue {
+  padding-right: 16px;
+}
+
+#setting #Venue .singleSection {
+  border-bottom: 1px solid color(neutral90);
+}
+
+#setting #Venue .discountSection {
+  background: color(neutral0);
+  border: 1px solid color(neutral10);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+          box-shadow: -4.08333px -4.08333px 12.25px #F0F1F5, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(240, 241, 245, 0.2);
+  border-radius: 4px;
+  padding: 24px;
+}
+
+#setting #Venue #Imagedropbox .coverImageDropZone {
+  border-color: color(neutral100);
+  border-radius: 4px;
+}
+
+.modal-cutomfield .customfieldBtn {
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-cutomfield .selectedType {
+  color: color(primary50) !important;
+  -webkit-transition: ease 0.1s;
+  transition: ease 0.1s;
+  background-color: color(neutral20);
+}
+
+.modal-cutomfield #CoverImageDrop .insideImage {
+  -o-object-fit: unset !important;
+     object-fit: unset !important;
+}
+
+#Staff .actionSelect {
+  margin-top: -5px;
+}
+/*# sourceMappingURL=setting.css.map */

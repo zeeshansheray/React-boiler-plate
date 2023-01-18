@@ -1,0 +1,25 @@
+.draggable {
+  list-style-type: none;
+  background-color: white;
+  color: #212121;
+  cursor: move;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+}
+
+.draggable:hover:after {
+  opacity: 1;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+
+.over {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+/*# sourceMappingURL=draggable.css.map */

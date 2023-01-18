@@ -1,0 +1,76 @@
+#customPass {
+  position: relative;
+}
+
+#customPass .singleCard {
+  width: 221px;
+  height: 348px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0.58459px solid #E0E0E0;
+  border-radius: 9.33779px;
+  padding-bottom: 16px;
+}
+
+#customPass .cardTop {
+  padding: 8px;
+}
+
+#customPass .cardLogo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+#customPass .cardCover {
+  max-height: 87px;
+  max-width: 219px;
+}
+
+#customPass .cardContent {
+  padding: 8px;
+}
+
+#customPass .hoverShow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  width: 221px;
+  height: 348px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0.58459px solid #E0E0E0;
+  border-radius: 9.33779px;
+  padding-bottom: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#customPass .actionButtons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#customPass .buttonBackground {
+  width: 33px;
+  height: 33px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 3px;
+}
+
+#customPass .hoverText {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 60%;
+  font-size: 16px;
+}
+/*# sourceMappingURL=custompass.css.map */

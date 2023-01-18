@@ -1,0 +1,51 @@
+#AddGiveaway {
+  padding: 16px 24px;
+  height: calc(100vh - 56px);
+  padding-right: 0px;
+}
+
+#AddGiveaway .dealImage {
+  height: 150px;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+#DealPages .overlaySection {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(103, 103, 103, 0)), to(rgba(0, 0, 0, 0.68)));
+  background: linear-gradient(180deg, rgba(103, 103, 103, 0) 0%, rgba(0, 0, 0, 0.68) 100%);
+  width: 100%;
+  color: color(white);
+  padding: 8px 16px;
+  height: 48px;
+  z-index: 100;
+  display: none;
+}
+
+#DealPages .dealListing:hover .dealListing {
+  overflow-y: hidden !important;
+}
+
+#DealPages .dealListing:hover .overlaySection {
+  display: block;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#DealPages .dealDetail:hover .overlaySection {
+  display: block;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#DealPages .dealDashboard:hover .overlaySection {
+  display: block;
+}
+
+#Deal #CustomTableV2 .MuiDataGrid-root .MuiDataGrid-columnHeader {
+  padding: 0px 24px !important;
+}
+/*# sourceMappingURL=giveaway.css.map */

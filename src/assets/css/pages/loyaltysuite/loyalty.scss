@@ -1,0 +1,438 @@
+
+#loyalty{   
+
+    .grid {
+        display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 24px;
+        align-items: stretch;
+      }
+      .grid > div {
+        @include card-style;
+      }
+
+    .tag{
+        padding: 6px 12px;
+        // width: 87px;
+        font-size: 13px;
+        height: 32px;
+        background-color: color(primary0);
+        border-radius: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .settingsModalBtn {
+        background-color: white !important;
+    }
+
+    .customButton path {
+        fill: #2f80ed !important;
+    }
+    
+
+    .spaceEvenly {
+        justify-content: space-evenly;
+    }
+
+    .breadCrumb{
+        padding: 20px 5px 8px 5px;
+    }
+
+    .MuiBreadcrumbs-separator{
+        display: none !important;
+    }
+
+    #Analytics{
+        .statistics{
+            padding-top: 24px;
+        }
+
+        .singleStat{
+            vertical-align: -10;
+        }
+
+        .Heading22R{
+            line-height: 18px;
+        }
+    }   
+
+    #Tier{
+        padding-top: 8px;
+    }
+
+    #LoyaltyCampaign{
+        #AddTier{
+            a {
+                text-decoration: none;
+              }
+              .isCurrent {
+                color: color(neutral100) !important;
+                transition: ease 0.3s;
+        
+              }
+        
+              .animateIcon{
+                  transition: ease-out 0.3s ;
+              }
+              
+              .isCurrent a,
+              h2 {
+                color: color(primary50) !important;
+              }
+
+              #TextfieldUpdated{
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                  -webkit-appearance: none;
+                  margin: 0;
+                }
+              
+                .background-inherit{
+                  background-color: inherit;
+                }
+              
+                /* Firefox */
+                input[type=number] {
+                  -moz-appearance: textfield;
+                }
+
+            }
+            
+        }
+    }
+
+    #EarningWayForm{
+        .earningFormBox{
+            padding: 16px 24px 24px;
+            background: #FCFCFD;
+            box-shadow: 0px 0px 0px 1px rgba(223, 225, 230, 0.5), 0px 1px 4px rgba(223, 225, 230, 0.5);
+            border-radius: 4px;
+            margin: 32px 0px;
+        }
+
+        #CustomScrollComponent{
+            .leftSection{
+                top: 100px !important;
+            }
+        }
+    }
+    #Loyaltymaincomponent {
+        // margin: 32px;
+        padding: 16px 40px 16px 40px;
+
+        .ways{
+            padding-left: 0px !important;
+        }
+
+        .greyscale{
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+    }
+    #Loyaltymaincomponent, #EarningWayForm, #loyaltyCampaign, #RedeemingWayForm{
+        .backDrop{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(0, 0, 0, 0.3);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        .toolName{
+            width: 255px;
+            text-decoration-line: underline;
+        }
+        .imageBox{
+            width: 38px;
+            height: 38px;
+            padding: 8px;
+            border: 0.3px solid color(neutral20);
+            border-radius: 4px;
+            position: relative;
+            // background: #F8F8FA;   
+            // box-shadow: 0px 0px 0px 1px #DFE1E6; 
+        }
+
+        .singleProgram{
+            padding: 20px 16px 20px 16px;
+            // margin-left: 0px !important;
+            // box-shadow: 0px 1px 0px #DFE1E6;
+            // margin-bottom: 1px;
+            // margin-top: 1px;
+
+
+            .MuiSwitch-switchBase{
+                color: #41536C;
+            }
+
+            .Mui-checked {
+                color: #2f80ed;
+            }
+        }
+
+        // .singleProgram:hover{
+        //     background-color: color(neutral0);
+        //     transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        // }
+
+        .active{
+            background-color: color(neutral0);
+        }
+
+        .actionButtons{
+            justify-content: flex-end;
+
+        }
+
+        .activeCircle{
+            border-radius: 50%;
+            border: 1px solid color(white);
+            top: 28px;
+            left: 29px;
+            height: 13px;
+            width: 13px;
+            position: absolute;
+        }
+
+        .imageBorder{
+            border: 0.5px solid #E1E2EA;
+        }
+
+        .Addprograms{
+            align-items: flex-end;
+        }
+
+        // .deleteIconLoyality{display: none;}
+
+
+
+        .communicationBox{
+            position: relative;
+            border: 0.5px solid #E1E2EA;
+            padding: 24px 8px;
+            border-radius: 12px;
+            width: 180px;
+            height: 104px;
+        }
+
+        .selectIcon{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+
+
+        .discountAmount{
+            top: 23px;
+            left: 30px;
+        }
+        
+        .headerBar{
+            // height: 62px;
+            // margin-top: -24px;
+            background-color: #F7F7F7;
+            align-items: center;
+            padding: 16px 32px;
+        }
+
+        .campaignSelect{
+            background-color: color(white);
+            height: 44px;
+            border-radius: 4px;
+            // padding: 16px 16px 16px 24px;
+            font-weight: 500;
+            color: color(neutral80);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: fit-content;
+            border: 1px solid color(neutral90);
+        }
+
+        .campaign-dropdown{
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            background-color: color(white);
+            z-index: 1000;
+            position: absolute;
+            width: 100%;
+            margin-top: 12px;
+            box-shadow: -5px 0px 40px rgba(128, 128, 128, 0.15);
+            .fixed-block{
+                max-height: 220px;
+                overflow-y: scroll;
+                height: '-webkit-fill-available;';
+                // overflowY: 'scroll',
+                transition: 'overflow-y 3s ease-in';
+            }
+        }
+        
+        #EarningWayForm{
+            padding-top: 0px;
+
+
+            .signelEarningRange{
+                border-radius: 4px;
+                margin-top   : 16px;
+                border       : 0.5px solid color(neutral20);
+                width        : 100%;
+                padding      : 24px 32px;
+                box-shadow: 0px 0px 6px rgba(128, 128, 128, 0.1);
+            }
+        }
+
+        .campaign-search{
+            padding: 12px 9px 12px 17px;
+            border-top: 0.5px solid #e5e5e5;
+            border-bottom: 0.5px solid #e5e5e5;
+            input{
+                border: none;
+                margin-left: 12px;
+            }
+        }
+
+        .campaign-list {
+            padding-left: 17px;
+            padding-right: 9px;
+            color: color(neutral100);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                width: 80%;
+                border: 1px solid #e5e5e5;
+            }
+            .edit-name{
+                cursor: pointer;
+                opacity: 0;
+                transition: all 0.3s ease;
+                width: auto;
+                height: auto;
+                padding: 6px;
+                &:hover{
+                    background-color: #E0E0E0;
+                }
+            }
+            &.selected{
+                background-color: color(neutral0);
+            }
+            &:hover{
+                background-color: color(neutral0);
+                .edit-name{
+                    opacity: 1;
+                }
+            }
+            &.active {
+                background-color: color(neutral0);
+                .edit-name{
+                    opacity: 1;
+                }
+            }
+        }
+
+        .earningName{
+            border: none;
+            border-bottom: 1px solid color(neutral80);
+        }
+
+        .earningWayFormSubmitBtn:focus{
+            outline: none;
+        }
+
+        .square-box{
+            width: 8px;
+            height: 8px;
+            background-color: color(primary50);
+            margin-right: 10px;
+        }
+
+    }
+
+    #Redeempoints{
+        .selectedIcon{
+            width: 24px;
+            height: 24px;
+            background-color: color(primary50);
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .singleProgram{
+            padding: 20px 16px 20px 16px;
+            // border-bottom: 0.5px solid color(neutral10) !important;
+        }
+
+        .imageBox{
+            width: 38px;
+            height: 38px;
+            padding: 8px;
+            border: 0.3px solid color(neutral20);
+            border-radius: 4px;
+            position: relative;
+        }
+        
+        // .singleProgram:hover{
+        //     background-color: color(neutral0);
+        // }
+
+        .ruleAccordion{
+            border: 1px solid #E0E0E0;
+        }
+
+        .singleActivityBox{
+            border: 1px dashed #BDBDBD;
+            border-radius: 8px;
+            height: 44px;
+            box-sizing: border-box;
+            max-width: fit-content;
+            padding: 8px 16px;
+            float: left;
+        }
+
+    }
+
+    #Pointsystemsetting{
+        .colorBox{
+            height: 37px;
+        }
+    }
+}
+
+
+
+#Earnpointmodal{
+    max-height: fit-content;
+    .imageBorder{
+        width: 48px;
+        height: 48px;
+        padding: 8px;
+        border: 0.5px solid #E1E2EA;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .activity-list{
+        max-height: 340px;
+        overflow-y: scroll;
+    }
+
+    .singleProgram{
+        padding: 20px 16px 20px 16px;
+        // border-bottom: 0.5px solid color(neutral10) !important;
+    }
+
+    // .singleProgram:hover{
+    //     background-color: color(neutral0);
+    // }
+
+    .element{
+        padding: 24px !important;       
+    }
+}
+
+

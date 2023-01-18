@@ -1,0 +1,64 @@
+#agencyInvite {
+  height: 100vh;
+}
+
+#agencyInvite .cardBox {
+  height: inherit;
+}
+
+#agencyInvite .card {
+  width: 60%;
+  border: 1px solid #F0F0F0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 16px rgba(148, 148, 184, 0.15);
+          box-shadow: 0px 0px 16px rgba(148, 148, 184, 0.15);
+  border-radius: 4px;
+  padding: 32px 64px;
+  min-height: 500px;
+}
+
+#agencyInvite .cardHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#agencyInvite .brandIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#agencyInvite .ConfirmationText {
+  font-size: 18px;
+  font-weight: 480;
+  color: color(white);
+  line-height: 30px;
+  letter-spacing: 0.1;
+  text-align: center;
+}
+
+#agencyInvite .description {
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: color(neutral60);
+  max-height: 70%;
+  overflow-y: scroll;
+}
+
+#agencyInvite .lowerButtons {
+  margin-top: 42%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=agencyInvite.css.map */

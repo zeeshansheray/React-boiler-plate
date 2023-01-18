@@ -1,0 +1,56 @@
+#CustomScrollComponent {
+  padding: 16px 0px;
+  position: relative;
+}
+
+#CustomScrollComponent .leftSection {
+  position: fixed;
+  top: 76px;
+  width: 13%;
+}
+
+#CustomScrollComponent ul {
+  list-style: none;
+}
+
+#CustomScrollComponent li {
+  list-style-type: none;
+}
+
+#CustomScrollComponent .topSpaceDiv {
+  height: 56px;
+  width: 100%;
+  margin-top: -60px;
+}
+
+#CustomScrollComponent .bottomSpaceDiv {
+  height: 56px;
+}
+
+#CustomScrollComponent a {
+  text-decoration: none;
+}
+
+#CustomScrollComponent .scrollspy {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 32px;
+  top: 16px;
+}
+
+#CustomScrollComponent .isCurrent {
+  color: color(neutral100) !important;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+#CustomScrollComponent .animateIcon {
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+#CustomScrollComponent .isCurrent a,
+#CustomScrollComponent h2 {
+  color: color(primary50) !important;
+}
+/*# sourceMappingURL=customscrollcomponent.css.map */

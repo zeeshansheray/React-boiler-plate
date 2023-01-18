@@ -1,0 +1,23 @@
+#profile{
+    .component{
+        padding: 34px 20px 24px 24px;
+        width: 100%;
+    }
+        .inputfile {
+            display: none !important;
+        }
+        
+        .customFileUpload{
+            padding: 8px;
+            color: color(neutral80);
+        }
+
+        .imageUploadBox, .brandColorBox {
+            height: 110px;
+            width: 163px;
+            border-radius: 4px;
+            background-color: #F7F7F7;
+            border: 1px solid #DFE1E6;
+        }
+
+}

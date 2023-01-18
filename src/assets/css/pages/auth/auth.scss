@@ -1,0 +1,637 @@
+// #Auth, #UserOnboard{
+//     overflow-y: hidden;
+
+//     .inputTextField , .makeStyles-root-4 {
+//         width: 100%;
+//         // border-color:  color(neutral60);
+//     }
+
+    
+
+//     #SignupHeader{
+//         box-shadow: 0px 1px 12px 1px rgba(36, 50, 66, 0.08);
+//         border: 0px;
+//     }
+
+//      .caption{
+//          margin-top: 40px;
+//      }
+
+//      .createAccountLink{
+//          color: color(primary50);
+//          font-weight: 400;
+//          text-decoration: underline;
+//      }
+     
+//      .createAccountLink:hover{
+//         color: color(primary50);
+//      }
+
+//      .termsandprivacy{
+//          color: color(primary50) !important;
+//      }
+
+//      .termsandprivacy:hover{
+//         color: color(primary50) !important;
+//     }
+
+//     //New css for other components in loginSignup
+
+//     .Heading2{
+//         color: color(neutral80);
+//         font-size: 32px;
+//         line-height: 40px;
+//         letter-spacing: 0.25px;
+//         font-weight: 400;
+//     }
+
+//     .subtitle1{
+//         color: color(neutral80);
+//     }
+
+//     .Body14R{
+//         color: color(neutral60);
+//     }
+
+//     .footer{
+//         margin-bottom: 0;
+//         padding: 32px 8px 32px 8px;
+//         border-radius: 8px;
+//         width: 100%;
+//     }
+
+//     //step1 page signup css
+
+
+//     .countrycode{
+//         position: absolute;
+//         bottom: 0px;
+//         border-radius: 8px;
+//         height: 56px;
+//         width: 130px;
+//     }
+
+//     input::-webkit-outer-spin-button,
+//     input::-webkit-inner-spin-button {
+//     -webkit-appearance: none;
+//     margin: 0;
+//     }
+
+//     .question{
+//          color: color(neutral60);
+//          font-weight: normal;
+//          font-size: 34px;
+//          line-height: 20px;
+//      }
+
+//      .singleJobType{
+//         height: 40px;
+//         width: 100%;
+//         border-radius: 8px;
+//         padding: 8px 24px 8px 24px;
+//         border-radius: 8px;
+//         border: 1px solid color(neutral20);
+//         font-size: 16px;
+//         line-height: 24px;
+//         margin-bottom: 14px;
+//         box-sizing: border-box;
+//         color: color(neutral60);
+//         background-color: white;
+
+//      }
+
+//      .singleJobType:focus , .singleCompanyPeople:focus, .singleExperience:focus{
+//          outline: none;
+//      }
+
+//      .singleJobType:hover , .singleCompanyPeople:hover , .singleExperience:hover{
+//         border: 1px solid color(primary50);
+//         color: color(primary50);
+//     }
+
+//     .active{
+//         border: 1px solid color(primary50) !important;
+//         color: color(primary50) !important;
+//     }
+
+//     .singleCompnayBox{
+//         display: flex;
+//         gap: 4px;
+//         flex-wrap: wrap;
+//     }
+
+//     .singleCompanyPeople{
+//         height: 40px;
+//         min-width: 100%;
+//         border-radius: 8px;
+//         padding: 8px 24px 8px 24px;
+//         border-radius: 8px;
+//         border: 1px solid color(neutral20);
+//         font-size: 16px;
+//         line-height: 24px;
+//         margin-bottom: 14px;
+//         box-sizing: border-box;
+//         color: color(neutral60);
+//         background-color: white;
+//     }
+
+//     .singleExperience{
+//         height: 50px;
+//         min-width: 100%;
+//         padding: 0;
+//         border-radius: 8px;
+//         border-radius: 8px;
+//         border: 1px solid color(neutral20);
+//         font-size: 16px;
+//         line-height: 24px;
+//         margin-bottom: 14px;
+//         box-sizing: border-box;
+//         color: color(neutral60);
+//         background-color: white;
+//         letter-spacing: 0.15px;
+//         text-align: center;
+//     }
+
+//     .experienceBox{
+//         display: inline;
+//     }
+
+//     .learnMoreLink{
+//         color: color(primary50) !important;
+//         font-weight: 400;
+//     }
+
+//     .signupGif{
+//         width: 242px;
+//         height: 242px;
+//         position: fixed;
+//         right: 24px;
+//         bottom: 0px;
+//     }
+
+//     .uTextField{
+//         padding-top: 8px;
+//     }
+
+//     .onBoardSteps{
+//         padding: 32px !important;
+//         width: 40%;
+//     }
+
+
+//     @media screen and (max-width: 812px) {
+//         .signUpFooter{
+//             padding: 5px;
+//         }
+
+//     }
+
+//     @media screen and (max-width: 1012px) {
+//         .signupGif{
+//             display: none;
+//         }
+        
+//         .singleJobType{
+//             padding: 0px;
+//         }
+//     }
+
+//     .backgroundCircle{
+//         width: calc(100vw - 150px);
+//         background: rgba(47, 128, 237, 0.1);
+//         filter: blur(364px);
+//         height: calc(100vh - 150px);
+//         border-radius: 50%;
+//     }
+    
+//     @media (max-height: 780px)  {
+//         .cardForm{
+//             padding-top: 32px;
+//             height: 95%;
+//         }
+//     }
+
+
+//     #stepOne{
+//         .checkoutType{
+//             background: #FFFFFF;
+//             box-shadow: 0px 6px 16px rgba(47, 128, 237, 0.16);
+//             border-radius: 6px;
+//             padding: 40px 0px;
+//             width: 31%;
+//             outline: 1px solid color(neutral10);
+//         }
+
+//         .redemptionImage{
+//             width: 100%;
+//         }
+
+//         .checkoutType:hover{
+//             outline: 2px solid color(primary50);
+//             transition: ease 0.2s;
+//         }
+
+//         .activeCheckout{
+//             outline: 2px solid color(primary50);
+//         }
+
+//         .contentPart{
+//             padding: 40px 40px 0px 40px;
+//         }
+//     }
+
+
+
+
+
+// }
+
+// #Auth{
+//     height: 100vh;
+//     background-color: #FBFCFF;
+// }
+
+
+// #Email{
+//     background-color: #fbfcff;
+    
+//     .cardForm {
+//         border-radius: 8px;
+//         padding: 64px;
+//         box-shadow: 0px 8px 20px rgba(4, 16, 39, 0.08);
+//         background-color: white;
+//         z-index: 10;
+//         max-width: 468px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         max-height: 720px;
+//     }
+// }
+ 
+// #Auth, #UserOnboard{
+//     overflow-y: hidden;
+
+//     .cardForm {
+//         border-radius: 8px;
+//         padding: 64px;
+//         box-shadow: 0px 8px 20px rgba(4, 16, 39, 0.08);
+//         background-color: white;
+//         z-index: 10;
+//         max-width: 468px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         max-height: 720px;
+//     }
+//     .formBody{
+//         width: 400px;
+//         padding: 0px;
+//         order: 1;
+//         flex-grow: 0;
+//         margin:auto;
+//     }
+
+//     .inputTextField , .makeStyles-root-4 {
+//         width: 100%;
+//         // border-color:  color(neutral60);
+//     }
+
+//      .caption{
+//          margin-top: 40px;
+//      }
+
+//      .createAccountLink{
+//          color: color(primary50);
+//          font-weight: 400;
+//          text-decoration: underline;
+//      }
+     
+//      .createAccountLink:hover{
+//         color: color(primary50);
+//      }
+
+//      .termsandprivacy{
+//          color: color(primary50) !important;
+//      }
+
+//      .termsandprivacy:hover{
+//         color: color(primary50) !important;
+//     }
+
+//     //New css for other components in loginSignup
+
+//     .Heading2{
+//         color: color(neutral80);
+//         font-size: 32px;
+//         line-height: 40px;
+//         letter-spacing: 0.25px;
+//         font-weight: 400;
+//     }
+
+//     .subtitle1{
+//         color: color(neutral80);
+//     }
+
+//     .Body14R{
+//         color: color(neutral60);
+//     }
+
+//     .footer{
+//         margin-bottom: 0;
+//         padding: 32px 8px 32px 8px;
+//         border-radius: 8px;
+//         width: 100%;
+//     }
+
+//     .oldWalletlyButton{
+//         background     : #FEE0FF;
+//         border         : 1px solid #D200D6;
+//         box-sizing     : border-box;
+//         border-radius  : 6px;
+//         width          : 100%;
+//         height         : 48px;
+//         padding        : 16px;
+//         text-decoration: none;
+//     }
+
+//     .oldWalletlyButton:hover{
+//         background: #FECCFF;
+//         border    : 1px solid #D200D6;
+//         transition: ease 0.3s;
+//     }
+
+//     //step1 page signup css
+
+//     #stepOne{
+//         justify-content: center;
+//     }
+
+//     .stepCount{
+//         width: fit-content;
+//         height: 36px;
+//         color: white;
+//         background-color: color(neutral80);
+//         padding: 8px 16px 8px 16px;
+//         border-radius: 56px;
+//         letter-spacing: 0.25px;
+//         font-size: 14px;
+//         line-height: 20px;
+//         margin-top: -50px;
+//     }
+
+//     .countrycode{
+//         position: absolute;
+//         bottom: 0px;
+//         border-radius: 8px;
+//         height: 56px;
+//         width: 130px;
+//     }
+
+//     input::-webkit-outer-spin-button,
+//     input::-webkit-inner-spin-button {
+//     -webkit-appearance: none;
+//     margin: 0;
+//     }
+
+//     .question{
+//          color: color(neutral60);
+//          font-weight: normal;
+//          font-size: 34px;
+//          line-height: 20px;
+//      }
+
+//      .singleJobType{
+//         height: 40px;
+//         width: 100%;
+//         border-radius: 8px;
+//         padding: 8px 24px 8px 24px;
+//         border-radius: 8px;
+//         border: 1px solid color(neutral20);
+//         font-size: 16px;
+//         line-height: 24px;
+//         margin-bottom: 14px;
+//         box-sizing: border-box;
+//         color: color(neutral60);
+//         background-color: white;
+
+//      }
+
+//      .singleJobType:focus , .singleCompanyPeople:focus, .singleExperience:focus{
+//          outline: none;
+//      }
+
+//      .singleJobType:hover , .singleCompanyPeople:hover , .singleExperience:hover{
+//         border: 1px solid color(primary50);
+//         color: color(primary50);
+//     }
+
+//     .active{
+//         border: 1px solid color(primary50) !important;
+//         color: color(primary50) !important;
+//     }
+
+//     .singleCompnayBox{
+//         display: flex;
+//         gap: 4px;
+//         flex-wrap: wrap;
+//     }
+
+//     .singleCompanyPeople{
+//         height: 40px;
+//         min-width: 100%;
+//         border-radius: 8px;
+//         padding: 8px 24px 8px 24px;
+//         border-radius: 8px;
+//         border: 1px solid color(neutral20);
+//         font-size: 16px;
+//         line-height: 24px;
+//         margin-bottom: 14px;
+//         box-sizing: border-box;
+//         color: color(neutral60);
+//         background-color: white;
+//     }
+
+//     .singleExperience{
+//         height: 50px;
+//         min-width: 100%;
+//         padding: 0;
+//         border-radius: 8px;
+//         border-radius: 8px;
+//         border: 1px solid color(neutral20);
+//         font-size: 16px;
+//         line-height: 24px;
+//         margin-bottom: 14px;
+//         box-sizing: border-box;
+//         color: color(neutral60);
+//         background-color: white;
+//         letter-spacing: 0.15px;
+//         text-align: center;
+//     }
+
+//     .experienceBox{
+//         display: inline;
+//     }
+
+//     .learnMoreLink{
+//         color: color(primary50) !important;
+//         font-weight: 400;
+//     }
+
+//     .signupGif{
+//         width: 242px;
+//         height: 242px;
+//         position: fixed;
+//         right: 24px;
+//         bottom: 0px;
+//     }
+
+//     .uTextField{
+//         padding-top: 8px;
+//     }
+
+//     .onBoardSteps{
+//         padding: 32px !important;
+//         width: 40%;
+//     }
+
+
+//     @media screen and (max-width: 812px) {
+//         .signUpFooter{
+//             padding: 5px;
+//         }
+
+//     }
+
+//     @media screen and (max-width: 1012px) {
+//         .signupGif{
+//             display: none;
+//         }
+        
+//         .singleJobType{
+//             padding: 0px;
+//         }
+//     }
+
+//     .backgroundCircle{
+//         width: calc(100vw - 150px);
+//         background: rgba(47, 128, 237, 0.1);
+//         filter: blur(364px);
+//         height: calc(100vh - 150px);
+//         border-radius: 50%;
+//     }
+    
+//     @media (max-height: 780px)  {
+//         .cardForm{
+//             padding-top: 32px;
+//             height: 95%;
+//         }
+//     }
+
+// }
+
+// #Auth{
+//     height: 100vh;
+//     background-color: #FBFCFF;
+// }
+
+#onBoardFooter{
+    background-color: #FFFFFF;
+    box-shadow      : 0px -1px 12px 1px rgba(36, 50, 66, 0.08);
+    padding         : 16px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 76px;
+    position        : fixed;
+    bottom          : 0px;
+    left            : 0px;
+    z-index         : 1000;
+    width           : 30vw;
+}
+
+.cardForm{
+    max-width: 460px;
+    width: calc(100% - 16px);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 8px;
+    justify-content: center;
+    box-shadow: $shadow-auth;
+    background-color: #fff;
+    z-index: 100;
+    gap: 32px;
+}
+
+.LoginCardLayout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff;
+    position: relative;
+}
+.login-gradient{
+    position: absolute;
+    object-fit: contain;
+    // height: 100%;
+    // width: 30%;
+    bottom: 0;
+    left: 0;
+    // background-color: red;
+}
+
+.old-walletly{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+height: 52px;
+border: 1px solid #D6DAE9;
+border-radius: 6px;
+text-decoration: none !important;
+transition: all 0.2s ease;
+}
+
+.old-walletly:hover{
+    background-color: color(neutral0);
+}
+
+.auth-form{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 100%;
+
+    /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+}
+
+
+.top-header-auth{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 24px;
+  align-items: center;
+}
